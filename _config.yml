@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url: https://liyangbit.github.io/
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+title: Lemon的数据之道
+subtitle: "让数据更有价值"
+description: "Lemon的个人博客"
+keywords: Lemon, Lemonbit, Python数据之道, liyangbit
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -16,12 +16,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: zkh360.com
-organization_url: http://www.zkh360.com
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: Lemon
+organization: https://liyangbit.github.io/
+organization_url: https://liyangbit.github.io/
+github_username: liyangbit
+location: Beijing, China
+email: liyangbit@gmail.com
 
 # ---------------- #
 #    Navigation    #
