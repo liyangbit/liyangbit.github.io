@@ -1,24 +1,16 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: Python数据之道
+keywords: Lemon, Lemonbit, Liyangbit, PyDataRoad
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+我是Lemon
 
-仰慕「优雅编码的艺术」。
 
-坚信熟能生巧，努力改变人生。
-
-## 联系
-
-{% for website in site.data.social %}
-* {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
-{% endfor %}
 
 ## Skill Keywords
 
@@ -30,3 +22,14 @@ permalink: /about/
 {% endfor %}
 </div>
 {% endfor %}
+
+
+## 联系
+
+{% for website in site.data.social %}
+* {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
+{% endfor %}
+
+* 微信公众号
+
+<div><img src="../images/foot.jpg" width="350"/></div>
