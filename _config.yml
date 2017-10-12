@@ -11,7 +11,7 @@ keywords: Lemon, Lemonbit, Python数据之道, liyangbit
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
-side_bar_repo_limit: 5
+side_bar_repo_limit: 3
 
 # ---------------- #
 #      Author      #
@@ -78,7 +78,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: liyangbit/liyangbit.github.io
 
 # ---------------- #
 #      Comments    #
@@ -89,20 +89,20 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: mzlogin
+    username: liyangbit
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
+    owner: liyangbit
     repo: blog-comments
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: b3634cd18d6721800472
+        client_secret: 097e900c505d5ccb0dc8e6cffb1cffc1f1de311b
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
+    owner: liyangbit
     repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    clientID: b3634cd18d6721800472
+    clientSecret: 097e900c505d5ccb0dc8e6cffb1cffc1f1de311b
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
 
