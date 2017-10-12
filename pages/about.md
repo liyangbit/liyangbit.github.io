@@ -10,14 +10,6 @@ permalink: /about/
 
 我是Lemon。
 
-## 联系
-
-{% for website in site.data.social %}
-* {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
-{% endfor %}
-
-Github: @[liyangbit](https://github.com/liyangbit)
-
 ## Skill Keywords
 
 {% for category in site.data.skills %}
@@ -28,3 +20,13 @@ Github: @[liyangbit](https://github.com/liyangbit)
 {% endfor %}
 </div>
 {% endfor %}
+
+## 联系
+
+{% for website in site.data.social %}
+* {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
+{% endfor %}
+
+* 微信公众号
+
+<div align="center"><img src="../images/foot.jpg" width="350"/></div>
