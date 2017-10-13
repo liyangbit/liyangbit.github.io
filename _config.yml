@@ -32,6 +32,10 @@ navs:
     label: 首页
 
   -
+    href: /tutorial/
+    label: 教程
+
+  -
     href: /categories/
     label: 分类
 
@@ -44,8 +48,8 @@ navs:
     label: 链接
 
   -
-    href: /tutorial/
-    label: 教程
+    href: /about/
+    label: 关于
 
 # ---------------- #
 #       RSS        #
