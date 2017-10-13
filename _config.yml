@@ -9,7 +9,7 @@ subtitle: " "
 description: "Lemon的个人博客"
 keywords: Lemon, Lemonbit, Python数据之道, liyangbit
 favicon: /favicon.ico
-timezone: Asia/Shanghai
+timezone: Asia/Beijing
 encoding: "utf-8"
 side_bar_repo_limit: 3
 
@@ -17,8 +17,8 @@ side_bar_repo_limit: 3
 #      Author      #
 # ---------------- #
 author: Lemon
-organization: https://liyangbit.github.io/
-organization_url: https://liyangbit.github.io/
+organization: 微信公众号：Python数据之道
+organization_url:
 github_username: liyangbit
 location: Beijing, China
 email: liyangbit@gmail.com
@@ -84,7 +84,7 @@ repository: liyangbit/liyangbit.github.io
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk
-comments_provider: gitalk
+comments_provider: gitment
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
