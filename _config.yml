@@ -40,8 +40,8 @@ navs:
     label: 分类
 
   -
-    href: /wiki/
-    label: 维基
+    href: /case-study/
+    label: 专题
 
   -
     href: /links/
