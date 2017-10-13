@@ -44,8 +44,8 @@ navs:
     label: 链接
 
   -
-    href: /about/
-    label: 关于
+    href: /tutorial/
+    label: 教程
 
 # ---------------- #
 #       RSS        #
@@ -84,7 +84,7 @@ repository: liyangbit/liyangbit.github.io
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk
-comments_provider: gitalk
+comments_provider: gitment
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
