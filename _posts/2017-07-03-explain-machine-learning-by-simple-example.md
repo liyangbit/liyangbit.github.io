@@ -14,7 +14,7 @@ keywords: MachineLearning, Python
 
 **机器学习通常可以分为三个大的步骤，即 输入、整合、输出**，可以用下图来表示大致的意思：
 
-<div><img src="../images/posts/sklearn01.jpg"></div>
+<img src="../images/posts/sklearn01.jpg">
 
 # 2 机器学习示例（scikit-learn）
 
@@ -178,11 +178,11 @@ print('预测值：', random_predict)
 
 最后分享网上的一张图，来看看如何理解Machine Learning。
 
-<div><img src="../images/posts/ML01.jpg"></div>
+<div align="center"><img src="../images/posts/ML01.jpg"></div>
 
 <br>
 
 
 对我的文章感兴趣的朋友，可以关注我的微信公众号，接收我的更新通知。
 
-<div><img src="../images/qrcode.jpg" width="200"/></div>
+<div align="center"><img src="../images/qrcode.jpg" width="200"/></div>
