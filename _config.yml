@@ -18,7 +18,7 @@ side_bar_repo_limit: 3
 # ---------------- #
 author: Lemon
 organization: 微信公众号：Python数据之道
-organization_url:
+organization_url: " "
 github_username: liyangbit
 location: Beijing, China
 email: liyangbit@gmail.com
@@ -84,12 +84,13 @@ repository: liyangbit/liyangbit.github.io
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk
-comments_provider: gitment
+comments_provider: gitalk
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
     username: liyangbit
+
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: liyangbit
