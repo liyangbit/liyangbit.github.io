@@ -8,7 +8,9 @@ menu: 关于
 permalink: /about/
 ---
 
-我是Lemon
+## 关于我
+
+Hi, 我是 Lemon，大家可以通过下面途径联系我。
 
 
 
