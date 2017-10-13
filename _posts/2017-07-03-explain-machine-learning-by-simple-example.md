@@ -14,8 +14,9 @@ keywords: MachineLearning, Python
 
 **机器学习通常可以分为三个大的步骤，即 输入、整合、输出**，可以用下图来表示大致的意思：
 
+<img src="/images/posts/sklearn01.jpg">
 
-![](../images/posts/sklearn01.jpg)
+<!-- ![](../images/posts/sklearn01.jpg) -->
 
 <!-- <img src="../images/posts/sklearn01.jpg"> -->
 
