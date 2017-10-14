@@ -10,15 +10,19 @@ permalink: /case-study/
 
 
 
-
 ### 目录
 
-* [微信公众号资源（公号：Python数据之道）](#wechat)
-* [Python数据科学-项目实战专题](#case-study)
+* [微信公众号资源-Python数据之道](#微信公众号资源-Python数据之道)
+* [Python数据科学-项目实战专题](#python数据科学-项目实战专题)
 
 
 
-### 微信公众号资源（公号：Python数据之道） {#wechat}
+<!-- * [微信公众号资源（公号：Python数据之道）](#wechat)
+* [Python数据科学-项目实战专题](#case-study) -->
+
+
+
+### 微信公众号资源-Python数据之道
 
 1. 部分文章源代码: [源代码链接](https://github.com/liyangbit/PyDataRoad)
 
@@ -30,6 +34,6 @@ permalink: /case-study/
 
 
 
-### Python数据科学-项目实战专题 {#case-study}
+### Python数据科学-项目实战专题
 
 The case-study will be coming soon.
