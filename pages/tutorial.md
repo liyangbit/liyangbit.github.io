@@ -12,3 +12,5 @@ permalink: /tutorial/
 ### Python数据科学教程
 
 The tutorial will be coming soon.
+
+* [通过简单示例来理解什么是机器学习](https://liyangbit.github.io/2017/07/03/explain-machine-learning-by-simple-example/)
