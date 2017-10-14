@@ -4,8 +4,8 @@
 baseurl:
 url: https://liyangbit.github.io/
 date_format: "ordinal"
-title: Lemon的博客
-subtitle: " "
+title: Python数据之道
+subtitle: Making Data More Valuable
 description: "Lemon的个人博客"
 keywords: Lemon, Lemonbit, Python数据之道, liyangbit
 favicon: /favicon.ico

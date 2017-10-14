@@ -1,3 +1,8 @@
+
+- sitename: 微信公众号
+  name: Python数据之道（ID：PyDataRoad）
+  url:
+
 - sitename: GitHub
   name: liyangbit
   url: https://github.com/liyangbit
@@ -7,9 +12,9 @@
 #   url: https://www.linkedin.com/in/liyangbit/
 
 - sitename: 博客
-  name: Lemon的博客
+  name: Python数据之道
   url: https://liyangbit.github.io
 
 - sitename: 知乎
-  name: lemon的知乎专栏
+  name: 知乎专栏-Python数据之道
   url: https://zhuanlan.zhihu.com/lemonbit
