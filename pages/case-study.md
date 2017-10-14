@@ -18,7 +18,7 @@ permalink: /case-study/
 
 
 
-### 微信公众号资源（公号：Python数据之道）{#wechat}
+### 微信公众号资源（公号：Python数据之道） {#wechat}
 
 1. 部分文章源代码: [源代码链接](https://github.com/liyangbit/PyDataRoad)
 
