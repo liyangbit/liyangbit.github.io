@@ -34,6 +34,7 @@ navs:
   -
     href: /tutorial/
     label: 教程
+    side: left
     dropdown:
     - href: /about/
       label: 关于
