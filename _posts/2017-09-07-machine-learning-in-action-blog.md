@@ -25,7 +25,7 @@ keywords: Python, MachineLearning
 过去一个月时间里，我主要在看《机器学习实战》（Machine Learning in Action）这本书，作者为 Peter Harrington。
 
 <div align="center">
-    <img src="/images/posts/machine-learning-in-action/1.jpg" width=450>
+    <img src="/images/posts/machine-learning-in-action/1.jpg" width="50%">
 </div>
 
 
@@ -160,13 +160,13 @@ Anyway，计划制定之时，可能不会考虑那么全面，关键是个人�
 
 各位同学在学习的时候，可以把自己想分享的内容以 Issues 或 Pull requests的形式，发送到项目仓库。
 
-**机器学习实战-Github地址：** https://github.com/liyangbit/pydataroad-machine-learning
+**机器学习实战-Github地址：** [https://github.com/liyangbit/pydataroad-machine-learning](https://github.com/liyangbit/pydataroad-machine-learning)
 
 由于微信群比较碎片化，有些内容查看起来不方便，觉得还是在github上记录和总结会比较方便。
 
 当然，微信群的优点是能够便捷、及时的进行交流，确实是一个很好的沟通的途径。
 
-关于Github的使用，如果不熟悉，个人觉得可以百度一下，或者看下慕课网的视频：版本控制入门 – 搬进 Github，http://www.imooc.com/learn/390
+关于Github的使用，如果不熟悉，个人觉得可以百度一下，或者看下慕课网的视频：版本控制入门 – 搬进 Github，[http://www.imooc.com/learn/390](http://www.imooc.com/learn/390)
 
 
 在微信公众号中，也会考虑发布相关内容。
@@ -180,5 +180,5 @@ Anyway，计划制定之时，可能不会考虑那么全面，关键是个人�
 对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataRoad），接收我的更新通知。
 
 <div align="center">
-    <img src="/images/foot.jpg" width=350>
+    <img src="/images/foot.jpg" width="350">
 </div>
