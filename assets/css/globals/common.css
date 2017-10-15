@@ -149,14 +149,14 @@
 
 .site-header-nav {
     float: right;
-    margin-bottom: -20px
+    margin-bottom: -10px
 }
 
 .site-header-nav-item {
     display: inline-block;
     padding: 6px 10px 15px;
     margin-left: 1.25rem;
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* 修改导航字体大小*/
     color: #777
 }
 
