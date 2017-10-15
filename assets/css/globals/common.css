@@ -37,7 +37,7 @@
 }
 
 .site-header {
-    padding-top: 20px;
+    padding-top: 5px; /* 原来20px*/
     padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 1px solid #eee
@@ -149,7 +149,7 @@
 
 .site-header-nav {
     float: right;
-    margin-bottom: 1px
+    margin-bottom: -20px
 	/* margin-top: 5px */
 }
 
