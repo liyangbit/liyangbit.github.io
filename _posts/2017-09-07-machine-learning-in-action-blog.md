@@ -25,7 +25,7 @@ keywords: Python, MachineLearning
 过去一个月时间里，我主要在看《机器学习实战》（Machine Learning in Action）这本书，作者为 Peter Harrington。
 
 <div align="center">
-    <img src="/images/posts/machine-learning-in-action/1.jpg" width=50%>
+    <img src="/images/posts/machine-learning-in-action/1.jpg" width=450>
 </div>
 
 
@@ -46,7 +46,7 @@ keywords: Python, MachineLearning
 图3：
 
 <div align="center">
-    <img src="/images/posts/machine-learning-in-action/3.png" width=50%>
+    <img src="/images/posts/machine-learning-in-action/3.png">
 </div>
 
 
@@ -90,7 +90,7 @@ Anyway，计划制定之时，可能不会考虑那么全面，关键是个人�
 由于人的懒惰心理，会很容易坚持不下去。
 
 <div align="center">
-    <img src="/images/posts/machine-learning-in-action/6.jpg" width=50%>
+    <img src="/images/posts/machine-learning-in-action/6.jpg">
 </div>
 
 
@@ -127,7 +127,7 @@ Anyway，计划制定之时，可能不会考虑那么全面，关键是个人�
 欢迎大家参与，长按识别下面小程序，就可以参与到打卡活动中(扫描下图二维码也可以) 。
 
 <div align="center">
-    <img src="/images/posts/machine-learning-in-action/7.jpg" width=80%>
+    <img src="/images/posts/machine-learning-in-action/7.jpg">
 </div>
 
 
@@ -180,5 +180,5 @@ Anyway，计划制定之时，可能不会考虑那么全面，关键是个人�
 对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataRoad），接收我的更新通知。
 
 <div align="center">
-    <img src="/images/foot.jpg" width=50%>
+    <img src="/images/foot.jpg" width=350>
 </div>
