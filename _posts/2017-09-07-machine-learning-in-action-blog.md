@@ -180,5 +180,5 @@ Anyway，计划制定之时，可能不会考虑那么全面，关键是个人�
 对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataRoad），接收我的更新通知。
 
 <div align="center">
-    <img src="/images/foot.jpg" width="350">
+    <img src="/images/qrcode.jpg" width="20%">
 </div>
