@@ -9,7 +9,7 @@ header:
 permalink: "/categories/"
 ---
 
-<section class="container posts-content">
+<!-- <section class="container posts-content">
 {% assign sorted_categories = site.categories | sort %}
 {% for category in sorted_categories %}
 <h3>{{ category | first }}</h3>
@@ -22,5 +22,57 @@ permalink: "/categories/"
 {% endfor %}
 </ol>
 {% endfor %}
-</section>
-<!-- /section.content -->
+</section> -->
+
+
+
+
+
+<!-- ---
+layout: default
+title: 分类
+header: Posts By Category
+permalink: categories.html
+--- -->
+
+<div class="container docs-container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="sidebar hidden-print" role="complementary">
+        <div id="navigation">
+        	<h1>目录</h1>
+      		<ul class="nav sidenav">
+				{% if site.categories.first[0] == null %}
+					{% for category in site.categories %}
+				    	<li><a href="#{{ category }}-ref">
+				    		{{ category | join: "/" }} <span style="color: #999999;" >({{ site.categories[category].size }})</span>
+				    	</a></li>
+			    	{% endfor %}
+			  	{% else %}
+			    	{% for category in site.categories %}
+				    	<li><a href="#{{ category[0] }}-ref">
+				    		{{ category[0] | join: "/" }} <span style="color: #999999;" >({{ category[1].size }})</span>
+				    	</a></li>
+			    	{% endfor %}
+			  	{% endif %}
+          	</ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <div class="home">
+			{% for category in site.categories %}
+			  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
+			  <ul>
+			    {% assign pages_list = category[1] %}  
+			    {% include LessOrMore/pages_list %}
+			  </ul>
+			{% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
