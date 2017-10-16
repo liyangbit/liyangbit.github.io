@@ -6,8 +6,8 @@
   url: "/about/"
   side: left
   dropdown:
-  - title: "Mission & Vision"
-    url: "/mission/"
+  - title: "关于我"
+    url: "/about/"
   - title: "Media"
     url: "/media/"
   # - title: "Our Team"
@@ -19,7 +19,7 @@
   # - title: "Assessment"
   #   url: "/assessment/"
 
-- title: "Sponsors"
+- title: "赞助"
   url: "/sponsors/"
   side: left
 
