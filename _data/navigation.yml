@@ -73,8 +73,10 @@
   dropdown:
   - title: Blog
     url: "/blog/"
-  - title: 分类
+  - title: Categories
     url: "/categories/"
+  - title: Tag
+    url: "/tag/"
   - title: "Blog Archive"
     url: "/blog/archive/"
 
