@@ -1,11 +1,12 @@
 ---
 layout: categories
-title: Categories
-description: 哈哈，你找到了我的文章基因库
-keywords: 分类
-comments: false
-menu: 分类
-permalink: /categories/
+title: "Categories"
+meta_title: "Categories"
+show_meta: false
+teaser:
+header:
+   image_fullwidth: "wood_plank.jpg"
+permalink: "/categories/"
 ---
 
 <section class="container posts-content">
