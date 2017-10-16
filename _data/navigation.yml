@@ -1,0 +1,92 @@
+- title: Home
+  url: "/"
+  side: left
+
+- title: About
+  url: "/about/"
+  side: left
+  dropdown:
+  - title: "Mission & Vision"
+    url: "/mission/"
+  - title: "Media"
+    url: "/media/"
+  - title: "Our Team"
+    url: "/people/"
+  - title: "Code of Conduct"
+    url: "/code-of-conduct/"
+  - title: "Governance"
+    url: "/governance/"
+  - title: "Assessment"
+    url: "/assessment/"
+
+- title: "Workshops"
+  url: "/workshops/"
+  side: left
+  dropdown:
+  - title: "About our Workshops"
+    url: /workshops/
+  - title: "Request a Workshop"
+    url: "/workshops-host/"
+  - title: "Attend a Workshop"
+    url: "/workshops-attend/"
+  - title: "Past Workshops"
+    url: "/workshops-past"
+  - title: "Upcoming Workshops"
+    url: "/workshops-upcoming"
+
+
+- title: "Get Involved"
+  url: "/involved/"
+  side: left
+  dropdown:
+  - title: "Become a Member Organization"
+    url: "/partnerships/"
+  - title: "Become an Instructor"
+    url: "/involved-instructor/"
+  - title: "Newsletter"
+    url: "/newsletter/"
+  - title: "Discussion Forum"
+    url: "http://discuss.datacarpentry.org"
+  - title: "Help Develop Lessons"
+    url: "/involved-lessons/"
+  - title: "Jobs"
+    url: "/jobs/"
+  - title: "Donate"
+    url: "/involved-donate/"
+
+- title: Lessons
+  url: "/lessons/"
+  side: left
+  dropdown:
+  - title: "Overview of Lessons"
+    url: "/lessons/"
+  - title: "Roadmap for Lesson Development"
+    url: "/lessons-incubation/"
+
+- title: Blog
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: Blog
+    url: "/blog/"
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+
+- title: For instructors
+  url: "/for-instructors/"
+  side: left
+  dropdown:
+  - title: Instructor training checkout
+    url: "/checkout/"
+  - title: Workshop Checklists
+    url: "/checklists/"
+  - title: Self-organized Workshops
+    url: "/self-organized-workshops/"
+
+- title: "Sponsors"
+  url: "/sponsors/"
+  side: right
+
+- title: "Contact"
+  url: "/contact/"
+  side: right
