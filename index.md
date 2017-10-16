@@ -20,9 +20,8 @@ widget-2:
 is a workshop in your area or how to attend one.'
     image: learners3.jpg
 widget-3:
-    title: "Get Involved"
-    url: '/involved/'
-    text: '<em>Data Carpentry</em> is a volunteer effort. Find out how you
-can be an instructor, help develop content, or support us.'
-    image: involved2.jpg
+    title: "About"
+    url: '/about/'
+    text: '关于博主的介绍'
+    image: '/images/posts/sklearn01.jpg'
 ---
