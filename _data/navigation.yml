@@ -2,7 +2,7 @@
   url: "/"
   side: left
 
-- title: About
+- title: 关于
   url: "/about/"
   side: left
   dropdown:
@@ -45,27 +45,27 @@
     url: "/involved-instructor/"
   - title: "Newsletter"
     url: "/newsletter/"
-  - title: "Discussion Forum"
-    url: "http://discuss.datacarpentry.org"
-  - title: "Help Develop Lessons"
-    url: "/involved-lessons/"
-  - title: "Jobs"
-    url: "/jobs/"
+  # - title: "Discussion Forum"
+  #   url: "http://discuss.datacarpentry.org"
+  # - title: "Help Develop Lessons"
+  #   url: "/involved-lessons/"
+  # - title: "Jobs"
+  #   url: "/jobs/"
   - title: "Donate"
     url: "/involved-donate/"
 
-- title: Lessons
-  url: "/lessons/"
-  side: left
-  dropdown:
-  - title: "Overview of Lessons"
-    url: "/lessons/"
-  - title: "Roadmap for Lesson Development"
-    url: "/lessons-incubation/"
+# - title: Lessons
+#   url: "/lessons/"
+#   side: left
+#   dropdown:
+#   - title: "Overview of Lessons"
+#     url: "/lessons/"
+#   - title: "Roadmap for Lesson Development"
+#     url: "/lessons-incubation/"
 
 - title: Blog
   url: "/blog/"
-  side: left
+  side: right
   dropdown:
   - title: Blog
     url: "/blog/"
@@ -85,7 +85,7 @@
 
 - title: "Sponsors"
   url: "/sponsors/"
-  side: right
+  side: left
 
 - title: "Contact"
   url: "/contact/"
