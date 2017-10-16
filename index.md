@@ -23,5 +23,5 @@ widget-3:
     title: "About"
     url: '/about/'
     text: '关于博主的介绍'
-    image: '/images/posts/sklearn01.jpg'
+    image: sklearn01.jpg
 ---
