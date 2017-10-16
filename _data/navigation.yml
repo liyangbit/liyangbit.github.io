@@ -73,8 +73,11 @@
   dropdown:
   - title: Blog
     url: "/blog/"
+  - title: 分类
+    url: "/categories/"
   - title: "Blog Archive"
     url: "/blog/archive/"
+
 
 - title: For instructors
   url: "/for-instructors/"
