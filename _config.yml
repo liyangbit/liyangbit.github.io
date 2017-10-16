@@ -1,35 +1,35 @@
 # ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
 #
-#      _____ _ __          _____      __  __  _                 
+#      _____ _ __          _____      __  __  _
 #     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
 #     \__ \/ / __/ _ \    \__ \/ _ \/ __/ __/ / __ \/ __ `/ ___/
-#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  ) 
-#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/  
-#                                                 /____/        
+#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  )
+#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/
+#                                                 /____/
 #
 # Title of your website
-title: "Data Carpentry"
+title: "Python数据之道"
 
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: "Making data science more efficient"
+slogan: "Making data more valuable"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "»Data Carpentry« is non-profit organization that develops and provides data skills training to researchers."
+description: "»Python数据之道« Making data more valuable."
 
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-url: "http://www.datacarpentry.org"
+url: "https://liyangbit.github.io/"
 #url: "http://0.0.0.0:4000/"
 baseurl: ""
 
-twitter_name: "@datacarpentry"
+twitter_name: ""
 
 # This is for the editing function in _/includes/improve_content.html
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/datacarpentry/datacarpentry.github.io/edit/gh-pages
+improve_content: https://github.com/liyangbit/liyangbit.github.io/edit/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash.
@@ -37,7 +37,7 @@ improve_content: https://github.com/datacarpentry/datacarpentry.github.io/edit/g
 # Example: <img src="{{ site.urlimg }}/{{ post.image.title }}">
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
 #
-urlimg: "http://datacarpentry.github.io/images/"
+urlimg: "http://liyangbit.github.io/images/"
 
 
 # Logo size is 600x80 pixels
@@ -56,9 +56,9 @@ paginate_path: "blog/page:num"
 
 
 # Lesson URLs
-dc_github_repo_url: "https://github.com/datacarpentry"
-dc_github_site_url: "http://datacarpentry.github.io"
-dc_website_url: "http://www.datacarpentry.org"
+dc_github_repo_url: "https://github.com/liyangbit"
+dc_github_site_url: "http://liyangbit.github.io"
+dc_website_url: "http://liyangbit.github.io"
 
 
 # Theme works best with Kramdown (using the table of contents function)
@@ -82,12 +82,12 @@ exclude:
 
 
 #
-#       ____       ____            ____ 
+#       ____       ____            ____
 #      / __ \___  / __/___ ___  __/ / /_
 #     / / / / _ \/ /_/ __ `/ / / / / __/
-#    / /_/ /  __/ __/ /_/ / /_/ / / /_  
-#   /_____/\___/_/  \__,_/\__,_/_/\__/  
-#                                       
+#    / /_/ /  __/ __/ /_/ / /_/ / / /_
+#   /_____/\___/_/  \__,_/\__,_/_/\__/
+#
 # Default Settings
 
 defaults:
@@ -99,34 +99,34 @@ defaults:
       show_meta: true 	# Show metadata beneath all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: "your_author_name"
+      author: "Lemon"
   -
     scope:
-      path: ""        
+      path: ""
       type: "posts"
     values:
       show_meta: true   # Show metadata beneath all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: "your_author_name"
+      author: "Lemon"
 
 
-#       _   __            _             __  _           
-#      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____ 
+#       _   __            _             __  _
+#      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
 #     /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
 #    / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
-#   /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/ 
-#                       /____/                          
+#   /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/
+#                       /____/
 #
 #  Open _data/navigation.yml to adjust the left and right topbar navigation
 #
 
 
 
-#     _____ __________ 
+#     _____ __________
 #    / ___// ____/ __ \
 #    \__ \/ __/ / / / /
-#   ___/ / /___/ /_/ / 
+#   ___/ / /___/ /_/ /
 #  /____/_____/\____/    Verify Website to Webmaster Tools
 
 google_author:             "https://plus.google.com/u/0/118311555303973066167"
@@ -136,10 +136,10 @@ bing_webmastertools_id:    "0FB4C028ABCF07C908C54386ABD2D97F"
 
 
 
-#       ______            _                      
+#       ______            _
 #      / ____/___ __   __(_)________  ____  _____
 #     / /_  / __ `/ | / / / ___/ __ \/ __ \/ ___/
-#    / __/ / /_/ /| |/ / / /__/ /_/ / / / (__  ) 
+#    / __/ / /_/ /| |/ / / /__/ /_/ / / / (__  )
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
 
@@ -157,49 +157,49 @@ msapplication_tileimage:                "msapplication_tileimage.png"           
 msapplication_tilecolor:                "#fabb00"
 
 
-#       ______                __                __  
+#       ______                __                __
 #      / ____/___ _________  / /_  ____  ____  / /__
 #     / /_  / __ `/ ___/ _ \/ __ \/ __ \/ __ \/ //_/
-#    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<   
+#    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
 og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
 og_locale:                          "en_EN"
 og_type:                            "website"
-og_title:                           "Data Carpentry"
-og_description:                     "Data Carpentry trains researchers in data skills"
+og_title:                           "Python数据之道"
+og_description:                     "Making Data More valuable"
 # og_url:                           ""
 # og_site_name:                     ""
 
 
-#      _____            _       __   __  ___         ___      
+#      _____            _       __   __  ___         ___
 #     / ___/____  _____(_)___ _/ /  /  |/  /__  ____/ (_)___ _
 #     \__ \/ __ \/ ___/ / __ `/ /  / /|_/ / _ \/ __  / / __ `/
-#    ___/ / /_/ / /__/ / /_/ / /  / /  / /  __/ /_/ / / /_/ / 
-#   /____/\____/\___/_/\__,_/_/  /_/  /_/\___/\__,_/_/\__,_/  
+#    ___/ / /_/ / /__/ / /_/ / /  / /  / /  __/ /_/ / / /_/ /
+#   /____/\____/\___/_/\__,_/_/  /_/  /_/\___/\__,_/_/\__,_/
 #
 #  Open _data/socialmedia.yml to adjust the left and right topbar navigation
 #
 
 
-#        ____  _                      
+#        ____  _
 #       / __ \(_)________ ___  _______
 #      / / / / / ___/ __ `/ / / / ___/
-#     / /_/ / (__  ) /_/ / /_/ (__  ) 
-#    /_____/_/____/\__, /\__,_/____/  
-#                    /_/              
+#     / /_/ / (__  ) /_/ / /_/ (__  )
+#    /_____/_/____/\__, /\__,_/____/
+#                    /_/
 #
 # used in _includes/comments.html
 
-disqus_shortname: datacarpentry
+disqus_shortname: Lemon
 
 
-#      _____                
+#      _____
 #     / ___/____ ___________
 #     \__ \/ __ `/ ___/ ___/
-#    ___/ / /_/ (__  |__  )     More › http://sass-lang.com/ 
+#    ___/ / /_/ (__  |__  )     More › http://sass-lang.com/
 #   /____/\__,_/____/____/      More › http://jekyllrb.com/docs/assets/#sassscss
-#                           
+#
 
 sass:
     sass_dir: _sass
@@ -207,12 +207,12 @@ sass:
 
 #exclude: [assets]
 
-#       ___                __      __  _          
+#       ___                __      __  _
 #      /   |  ____  ____ _/ /_  __/ /_(_)_________
 #     / /| | / __ \/ __ `/ / / / / __/ / ___/ ___/
-#    / ___ |/ / / / /_/ / / /_/ / /_/ / /__(__  ) 
+#    / ___ |/ / / / /_/ / / /_/ / /_/ / /__(__  )
 #   /_/  |_/_/ /_/\__,_/_/\__, /\__/_/\___/____/      https://www.google.com/analytics/
-#                        /____/                   
+#                        /____/
 #
 # used in _includes/footer_scripts.html
 

@@ -5,7 +5,7 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
-title: "Data Carpentry"
+title: "Python数据之道"
 header:
    image_fullwidth: "wood_plank.jpg"
 widget-1:
@@ -22,8 +22,7 @@ is a workshop in your area or how to attend one.'
 widget-3:
     title: "Get Involved"
     url: '/involved/'
-    text: '<em>Data Carpentry</em> is a volunteer effort. Find out how you 
+    text: '<em>Data Carpentry</em> is a volunteer effort. Find out how you
 can be an instructor, help develop content, or support us.'
     image: involved2.jpg
 ---
-
