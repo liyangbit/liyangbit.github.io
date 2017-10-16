@@ -79,16 +79,16 @@
     url: "/blog/archive/"
 
 
-- title: For instructors
-  url: "/for-instructors/"
-  side: left
-  dropdown:
-  - title: Instructor training checkout
-    url: "/checkout/"
-  - title: Workshop Checklists
-    url: "/checklists/"
-  - title: Self-organized Workshops
-    url: "/self-organized-workshops/"
+# - title: For instructors
+#   url: "/for-instructors/"
+#   side: left
+#   dropdown:
+#   - title: Instructor training checkout
+#     url: "/checkout/"
+#   - title: Workshop Checklists
+#     url: "/checklists/"
+#   - title: Self-organized Workshops
+#     url: "/self-organized-workshops/"
 
 
 

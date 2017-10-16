@@ -8,7 +8,21 @@ header:
    image_fullwidth: "wood_plank.jpg"
 permalink: "/contact/"
 ---
-If you have any questions or comments, or would like more information
-about Data Carpentry, please get in touch!
 
-We are [info@datacarpentry.org](mailto:info@datacarpentry.org)
+## 关于我
+
+Hi, 我是 Lemon，大家可以通过下面途径联系我。
+
+## 联系
+
+{% for website in site.data.social %}
+* {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
+{% endfor %}
+
+
+## 赞助支持
+
+
+| <center>遇见，是缘</center> | <center>欢迎关注</center> |
+| ---------------------------------------- | ---------------------------------------- |
+| <img src="/images/wechat-pay.png" width="300"/> | <img src="/images/foot.jpg" width="300"/> |
