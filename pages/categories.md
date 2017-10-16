@@ -1,5 +1,5 @@
 ---
-layout: categories
+layout: page
 title: "Categories"
 meta_title: "Categories"
 show_meta: false
