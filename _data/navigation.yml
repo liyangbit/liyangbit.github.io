@@ -67,17 +67,17 @@
 #   - title: "Roadmap for Lesson Development"
 #     url: "/lessons-incubation/"
 
-- title: Blog
+- title: 博客文章
   url: "/blog/"
   side: right
   dropdown:
-  - title: Blog
+  - title: 最新文章
     url: "/blog/"
-  - title: Categories
+  - title: 文章分类
     url: "/categories/"
-  - title: Tag
+  - title: 文章标签
     url: "/tag/"
-  - title: "Blog Archive"
+  - title: "文章存档"
     url: "/blog/archive/"
 
 
@@ -94,6 +94,6 @@
 
 
 
-- title: "Contact"
+- title: "联系"
   url: "/contact/"
   side: right
