@@ -6,6 +6,8 @@ date: 2017-07-28
 header:
    image_fullwidth: "light-blue-wood-texture.jpg"
 categories:
+   - PythonVisualization
+tags:
    - PythonVisualization, Python
 comments: true
 show_meta: true
