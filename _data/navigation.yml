@@ -27,14 +27,14 @@
   url: "/workshops/"
   side: left
   dropdown:
-  - title: "About our Workshops"
-    url: /workshops/
-  - title: "Request a Workshop"
-    url: "/workshops-host/"
-  - title: "Attend a Workshop"
-    url: "/workshops-attend/"
-  - title: "Past Workshops"
-    url: "/workshops-past"
+  # - title: "About our Workshops"
+  #   url: /workshops/
+  # - title: "Request a Workshop"
+  #   url: "/workshops-host/"
+  # - title: "Attend a Workshop"
+  #   url: "/workshops-attend/"
+  # - title: "Past Workshops"
+  #   url: "/workshops-past"
   - title: "Upcoming Workshops"
     url: "/workshops-upcoming"
 
@@ -45,8 +45,8 @@
   dropdown:
   # - title: "Become a Member Organization"
   #   url: "/partnerships/"
-  - title: "Become an Instructor"
-    url: "/involved-instructor/"
+  # - title: "Become an Instructor"
+  #   url: "/involved-instructor/"
   - title: "Newsletter"
     url: "/newsletter/"
   # - title: "Discussion Forum"
@@ -55,8 +55,8 @@
   #   url: "/involved-lessons/"
   # - title: "Jobs"
   #   url: "/jobs/"
-  - title: "Donate"
-    url: "/involved-donate/"
+  # - title: "Donate"
+  #   url: "/involved-donate/"
 
 # - title: Lessons
 #   url: "/lessons/"
