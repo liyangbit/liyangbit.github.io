@@ -3,10 +3,10 @@
 #  class: icon-youtube
 #  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
 
-- name: Twitter
-  url: http://twitter.com/datacarpentry
-  class: icon-twitter
-  title: "Data Carpentry on Twitter"
+# - name: Twitter
+#   url: http://twitter.com/datacarpentry
+#   class: icon-twitter
+#   title: "Data Carpentry on Twitter"
 
 #- name: Facebook
 #  url: http://www.facebook.com/phlow.media
@@ -19,7 +19,7 @@
 #  title: "Sounds und Downloads und mehr"
 
 - name: GitHub
-  url: http://github.com/datacarpentry
+  url: http://github.com/liyangbit
   class: icon-github
   title: Code und mehr...
 
