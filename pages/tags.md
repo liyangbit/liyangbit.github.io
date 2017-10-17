@@ -9,49 +9,17 @@ header:
 permalink: "/tags/"
 ---
 
-<!-- ---
-layout: default
-title: Tags
-header: Posts By Tag
-permalink: tag.html
---- -->
-
-<div class="container docs-container">
-  <div class="row">
-    <div class="col-md-3">
-      <div class="sidebar hidden-print" role="complementary">
-        <div id="navigation">
-        	<h1>目录</h1>
-      		<ul class="nav sidenav">
-			  	{% if site.tags.first[0] == null %}
-				  	{% for tag in site.tags %}
-				  	<li><a href="{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }} <span >({{ site.tags[tag].size }})</span></a></li>
-				  	{% endfor %}
-				{% else %}
-				  	{% for tag in site.tags %}
-				  	<li><a href="{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }} <span style="color: #999999;" >({{ tag[1].size }})</span></a></li>
-				  	{% endfor %}
-				{% endif %}
-          	</ul>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-9" role="main">
-      <div class="panel docs-content">
-        <div class="wrapper">
-          <div class="home">
-
-          	{% for tag in site.tags %}
-			  <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
-			  <ul>
-			    {% assign pages_list = tag[1] %}  
-			    {% include LessOrMore/pages_list %}
-			  </ul>
-			{% endfor %}
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<section class="container posts-content">
+{% assign sorted_tags = site.tags | sort %}
+{% for tag in sorted_tags %}
+<h3>{{ tag | first }}</h3>
+<ol class="posts-list" id="{{ tag[0] }}">
+{% for post in tag.last %}
+<li class="posts-list-item">
+<span class="posts-list-meta">{{ post.date | date:"%Y-%m-%d" }}</span>
+<a class="posts-list-name" href="{{ post.url }}">{{ post.title }}</a>
+</li>
+{% endfor %}
+</ol>
+{% endfor %}
+</section>
