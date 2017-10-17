@@ -9,7 +9,7 @@ header:
 permalink: "/categories/"
 ---
 
-<!-- <section class="container posts-content">
+<section class="container posts-content">
 {% assign sorted_categories = site.categories | sort %}
 {% for category in sorted_categories %}
 <h3>{{ category | first }}</h3>
@@ -22,7 +22,7 @@ permalink: "/categories/"
 {% endfor %}
 </ol>
 {% endfor %}
-</section> -->
+</section>
 
 
 
@@ -35,7 +35,7 @@ header: Posts By Category
 permalink: categories.html
 --- -->
 
-<div class="container docs-container">
+<!-- <div class="container docs-container">
   <div class="row">
     <div class="col-md-3">
       <div class="sidebar hidden-print" role="complementary">
@@ -75,4 +75,4 @@ permalink: categories.html
       </div>
     </div>
   </div>
-</div>
+</div> -->
