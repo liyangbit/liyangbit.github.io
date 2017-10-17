@@ -6,7 +6,7 @@ show_meta: false
 teaser:
 header:
    image_fullwidth: "wood_plank.jpg"
-permalink: "/tag/"
+permalink: "/tags/"
 ---
 
 ---

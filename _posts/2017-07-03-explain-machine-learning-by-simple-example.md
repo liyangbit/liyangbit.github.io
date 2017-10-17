@@ -6,7 +6,8 @@ date: 2017-07-03
 header:
    image_fullwidth: "light-blue-wood-texture.jpg"
 categories:
-   - MachineLearning, Python
+   - MachineLearning
+tags: MachineLearning, Python
 comments: true
 show_meta: true
 authors: ["Lemon"]
