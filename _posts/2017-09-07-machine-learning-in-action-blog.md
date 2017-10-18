@@ -14,13 +14,7 @@ show_meta: true
 authors: ["Lemon"]
 ---
 
-<!-- ---
-layout: post
-title: 机器学习很枯燥，不想继续学了怎么办？或许，这些建议值得一看
-categories: MachineLearning
-description: 本文介绍的是我在机器学习方面的实际经历，想以此给大家提供些建议与思路，供各位参考
-keywords: Python, MachineLearning
---- -->
+
 
 
 本文首发于我的微信公众号（ID：PyDataRoad）。

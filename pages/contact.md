@@ -3,7 +3,7 @@ layout: page
 title: "Contact Us"
 meta_title: "Contact us"
 show_meta: false
-teaser: "Get in touch"
+teaser: 
 header:
    image_fullwidth: "wood_plank.jpg"
 permalink: "/contact/"

@@ -1,7 +1,8 @@
 ---
 layout: page
+sidebar: "right"
 show_meta: false
-title: "Data Carpentry Blog"
+title: "Python数据之道"
 header:
    image_fullwidth: "wood_plank.jpg"
 permalink: "/blog/"
