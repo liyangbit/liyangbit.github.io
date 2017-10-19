@@ -23,14 +23,14 @@
   url: "/sponsors/"
   side: left
 
-- title: "Workshops"
-  url: "/workshops/"
+- title: "Python教程"
+  url: "/tutorial/"
   side: left
   dropdown:
-  # - title: "About our Workshops"
-  #   url: /workshops/
-  # - title: "Request a Workshop"
-  #   url: "/workshops-host/"
+  - title: "Python教程1"
+    url: “/tutorial01/”
+  - title: "1 智联求职实战"
+    url: "/zhaopin01/"
   # - title: "Attend a Workshop"
   #   url: "/workshops-attend/"
   # - title: "Past Workshops"
@@ -39,14 +39,14 @@
     url: "/workshops-upcoming"
 
 
-- title: "Get Involved"
-  url: "/involved/"
+- title: "项目实战专题"
+  url: "/casestudy/"
   side: left
   dropdown:
-  # - title: "Become a Member Organization"
-  #   url: "/partnerships/"
-  # - title: "Become an Instructor"
-  #   url: "/involved-instructor/"
+  - title: "智联求职实战"
+    url: “/zhaopin/”
+  - title: "1 智联求职实战"
+    url: "/zhaopin01/"
   - title: "Newsletter"
     url: "/newsletter/"
   # - title: "Discussion Forum"

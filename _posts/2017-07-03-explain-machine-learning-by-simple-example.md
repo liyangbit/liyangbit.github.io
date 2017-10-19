@@ -7,7 +7,8 @@ header:
    image_fullwidth: "light-blue-wood-texture.jpg"
 categories:
    - MachineLearning
-tags: MachineLearning, Python
+tags:
+   - MachineLearning, Python
 comments: true
 show_meta: true
 authors: ["Lemon"]
@@ -33,9 +34,7 @@ keywords: MachineLearning, Python
 
 <img src="/images/posts/sklearn01.jpg">
 
-<!-- ![](../images/posts/sklearn01.jpg) -->
 
-<!-- <img src="../images/posts/sklearn01.jpg"> -->
 
 # 2 机器学习示例（scikit-learn）
 

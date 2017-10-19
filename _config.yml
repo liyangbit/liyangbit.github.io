@@ -62,9 +62,20 @@ dc_website_url: "http://liyangbit.github.io"
 
 
 # Theme works best with Kramdown (using the table of contents function)
+
+highlighter: rouge
+# library used for syntax highlighting
+
 markdown: kramdown
+kramdown:
+ input: GFM
+ # auto_ids: true
+ # hard_wrap: false
+ syntax_highlighter: rouge
+
+# markdown: kramdown
 permalink: /:categories/:title/
-highlight: pygments
+# highlight: pygments
 excerpt_separator: "\n\n"
 exclude: []
 include: ['.htaccess']
