@@ -14,8 +14,9 @@ comments: true
 show_meta: true
 authors: ["Lemon"]
 ---
-<div class="panel radius" markdown="1">
 **Table of Contents**
+
+<div class="panel radius" markdown="1">
 {: #toc }
 *  TOC
 {:toc}
@@ -206,4 +207,6 @@ print('预测值：', random_predict)
 
 <div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
 
-{% include comments.html %}
+<div class="comment">
+  {% include comments.html %}
+</div>
