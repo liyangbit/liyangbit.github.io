@@ -8,7 +8,8 @@ header:
 categories:
    - PythonVisualization
 tags:
-   - PythonVisualization, Python
+   - PythonVisualization
+   - Seaborn
 comments: true
 show_meta: true
 authors: ["Lemon"]

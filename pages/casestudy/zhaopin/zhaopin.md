@@ -20,3 +20,15 @@ folder: casestudy
 ### 本系列文章如下：
 * python求职Top10城市，来看看是否有你所在的城市
 * 5分钟掌握智联招聘网站爬取并保存到MongoDB数据库
+
+
+```python
+f, ax= plt.subplots(figsize = (14, 10))
+
+sns.heatmap(corr,cmap='RdBu', linewidths = 0.05, ax = ax)
+
+# 设置Axes的标题
+ax.set_title('Correlation between features')
+
+f.savefig('sns_style_origin.jpg', dpi=100, bbox_inches='tight')
+```
