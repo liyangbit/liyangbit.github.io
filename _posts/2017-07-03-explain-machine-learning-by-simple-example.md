@@ -207,6 +207,5 @@ print('预测值：', random_predict)
 
 <div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
 
-<div class="comment">
-  {% include comments.html %}
-</div>
+
+  {% include comments-my.html %}
