@@ -9,7 +9,7 @@ permalink: /open-source/
 
 <section class="container">
     <header class="text-center">
-        <h1>Open Source Projects</h1>
+        <h1>Lemon 的 Github 开源项目</h1>
         <p class="lead">I have <span class="repo-count">{{ sorted_repos.size }}</span> projects on Github</p>
     </header>
     <div class="repo-list">
