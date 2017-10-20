@@ -10,11 +10,12 @@ format: blog-index
 </div><!-- /#header-home -->
 
 
-{% comment %}
+<!-- {% comment %}
 *
 * First check, if widget is empty or not by checking if there is a title
 *
-{% endcomment %}
+{% endcomment %} -->
+
 <div class="row t60">
 <div class="medium-20">
 <!-- 『Python数据之道』秉承“让数据更有价值”的理念，主要分享数据相关的内容，包括数据分析，挖掘，可视化，机器学习，深度学习等。
@@ -28,11 +29,11 @@ format: blog-index
 <strong>最新文章： >></strong> {% include list-front.html entries='1' %}
 <br>
 </div>
-
+<br>
     {% if page.widget-1.title %}
     <div class="medium-4 columns">
         <h2 class="font-size-h3 t10">{{ page.widget-1.title }}</h2>
-        <a href="{{ page.widget-1.url }}">{% if page.widget-1.image %}<img src="{{ site.urlimg }}/{{ page.widget-1.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-1.video %}{{ page.widget-1.video }}{% endif %}</a>
+        <a href="{{ page.widget-1.url }}">{% if page.widget-1.image %}<img src="{{ page.widget-1.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-1.video %}{{ page.widget-1.video }}{% endif %}</a>
         <p>{{ page.widget-1.text }}</p>
         <p><a class="button tiny radius" href="{{ page.widget-1.url }}">{{ site.data.language.more }}</a></p>
     </div><!-- /.medium-4.columns -->
@@ -42,7 +43,7 @@ format: blog-index
     {% if page.widget-2.title %}
     <div class="medium-4 columns">
         <h2 class="font-size-h3 t10">{{ page.widget-2.title }}</h2>
-        <a href="{{ page.widget-2.url }}">{% if page.widget-2.image %}<img src="{{ site.urlimg }}/{{ page.widget-2.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-2.video %}{{ page.widget-2.video }}{% endif %}</a>
+        <a href="{{ page.widget-2.url }}">{% if page.widget-2.image %}<img src="{{ page.widget-2.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-2.video %}{{ page.widget-2.video }}{% endif %}</a>
 
         <p>{{ page.widget-2.text }}</p>
         <p><a class="button tiny radius" href="{{ page.widget-2.url }}">{{ site.data.language.more }}</a></p>
@@ -53,7 +54,7 @@ format: blog-index
     {% if page.widget-3.title %}
     <div class="medium-4 columns">
         <h2 class="font-size-h3 t10">{{ page.widget-3.title }}</h2>
-        <a href="{{ page.widget-3.url }}">{% if page.widget-3.image %}<img src="{{ site.urlimg }}/{{ page.widget-3.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-3.video %}{{ page.widget-3.video }}{% endif %}</a>
+        <a href="{{ page.widget-3.url }}">{% if page.widget-3.image %}<img src="{{ page.widget-3.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-3.video %}{{ page.widget-3.video }}{% endif %}</a>
 
         <p>{{ page.widget-3.text }}</p>
         <p><a class="button tiny radius" href="{{ page.widget-3.url }}">{{ site.data.language.more }}</a></p>
@@ -92,7 +93,7 @@ format: blog-index
 
     <div class="row">
 
-        <div class="medium-6 columns">
+        <!-- <div class="medium-6 columns">
 	  <p><strong>{{ site.data.language.upcoming_workshops }}</strong></p>
 	  <table class="table table-striped workshops">
 	    {% for w in site.data.amy.workshops_current reversed %}
@@ -107,10 +108,10 @@ format: blog-index
 	    </tr>
 	    {% endfor %}
 	  </table>
-	</div>
+	</div> -->
 
 
-        <div class="medium-6 columns">
+        <div class="medium-12 columns">
             <p><strong>{{ site.data.language.more_articles }}</strong></p>
             {% include list-posts.html entries='3' offset='1' %}
         </div><!-- /.medium-7.columns -->
@@ -124,6 +125,7 @@ format: blog-index
 *
 {% endcomment %}
 
-<div class="row">
+<!-- <div class="row">
     {{ content }}
-</div><!-- /.row -->
+</div> -->
+<!-- /.row -->

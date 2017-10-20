@@ -35,8 +35,8 @@
   #   url: "/workshops-attend/"
   # - title: "Past Workshops"
   #   url: "/workshops-past"
-  - title: "Upcoming Workshops"
-    url: "/workshops-upcoming"
+  # - title: "Upcoming Workshops"
+  #   url: "/workshops-upcoming"
 
 
 - title: "项目实战专题"

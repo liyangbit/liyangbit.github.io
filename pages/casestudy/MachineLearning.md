@@ -1,10 +1,10 @@
 ---
 layout: page
 show_meta: false
-title: "机器学习"
-subheadline: "博客文章分类：机器学习"
+title: "鏈哄櫒瀛︿範"
+subheadline: "鍗氬鏂囩珷鍒嗙被"
 header:
-   image_fullwidth: "header_unsplash_5.jpg"
+   image_fullwidth: "wood_plank.jpg"
 permalink: "/MachineLearning/"
 ---
 <ul>

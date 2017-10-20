@@ -25,7 +25,7 @@ url: "https://liyangbit.github.io/"
 #url: "http://0.0.0.0:4000/"
 baseurl: ""
 
-twitter_name: ""
+# twitter_name: ""
 
 # This is for the editing function in _/includes/improve_content.html
 # Leave it empty if your site is not on GitHub/GitHub Pages
@@ -63,19 +63,19 @@ dc_website_url: "http://liyangbit.github.io"
 
 # Theme works best with Kramdown (using the table of contents function)
 
-highlighter: rouge
-# library used for syntax highlighting
+# highlighter: rouge
+# # library used for syntax highlighting
+#
+# markdown: kramdown
+# kramdown:
+#  input: GFM
+#  # auto_ids: true
+#  # hard_wrap: false
+#  syntax_highlighter: rouge
 
 markdown: kramdown
-kramdown:
- input: GFM
- # auto_ids: true
- # hard_wrap: false
- syntax_highlighter: rouge
-
-# markdown: kramdown
 permalink: /:categories/:title/
-# highlight: pygments
+highlight: rouge
 excerpt_separator: "\n\n"
 exclude: []
 include: ['.htaccess']
