@@ -10,7 +10,7 @@ format: page-fullwidth
         <figure>
           <img src="{{ site.filesurl }}{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}" itemprop="image">
 
-          {% if page.image.caption_url && page.image.caption %}
+          {% if page.image.caption_url and page.image.caption %}
           <figcaption class="text-right">
             <a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
           </figcaption>
@@ -49,12 +49,12 @@ format: page-fullwidth
         <a class="radius button small" href="{{ page.previous.url }}"
         title="{{ site.data.language.previous.posts }}">&laquo; {{ site.data.language.previous }}</a>
     {% endif %}
-    
+
     {% if page.next %}
         <a class="radius button small" href="{{ page.next.url }}"
             title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
     {% endif %}
-      
+
     {% if page.comments == true %}
       {% include comments.html %}
       {% endif %}
