@@ -10,7 +10,6 @@ categories:
 tags:
    - PythonVisualization
    - Seaborn
-comments: true
 show_meta: true
 authors: ["Lemon"]
 ---
