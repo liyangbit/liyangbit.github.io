@@ -15,15 +15,14 @@ show_meta: true
 authors: ["Lemon"]
 ---
 
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
 
 
-<!-- ---
-layout: post
-title: 通过简单示例来理解什么是机器学习
-categories: MachineLearning
-description: test desc
-keywords: MachineLearning, Python
---- -->
 
 # 1 什么是机器学习
 
@@ -207,3 +206,5 @@ print('预测值：', random_predict)
 对我的文章感兴趣的朋友，可以关注我的微信公众号"Python数据之道"，接收我的更新通知。
 
 <div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
+
+｛% include comments.html %｝
