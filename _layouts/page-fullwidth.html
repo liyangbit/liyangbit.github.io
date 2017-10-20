@@ -6,7 +6,7 @@ format: page-fullwidth
 <div class="row t30">
 	<div class="small-12 columns">
 		<img src="{{ site.url }}/images/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">
-		{% if page.image.caption_url && page.image.caption %}
+		{% if page.image.caption_url and page.image.caption %}
 		<p class="text-right caption">
 			<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
 		</p>
@@ -30,13 +30,13 @@ format: page-fullwidth
 				{{ page.teaser }}
 			</p>
 			{% endif %}
-			
+
             <div class="post-content markdown-body" itemprop="articleBody">
-            
+
             <style>
             li.a {list-style-type: none;}
             </style>
-            
+
             {{ content | replace: '<li>[ ]',
             '<li class="a">
             <input type="checkbox" class="task-list-item-checkbox" disabled>' |
@@ -55,4 +55,3 @@ format: page-fullwidth
 
 	</div><!-- /.medium-12.columns -->
 </div><!-- /.row -->
-
