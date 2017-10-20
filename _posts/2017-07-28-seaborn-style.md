@@ -26,7 +26,7 @@ keywords: Python, PythonVisualization,Seaborn
     <img src="/images/posts/seaborn-style/sns-cover.jpg">
 </div>
 
-> 本文首发于我的微信公众号（ID：PyDataRoad）。
+{% include alert info='本文首发于我的微信公众号（ID：PyDataRoad）。' %}
 
 # 1 概述
 

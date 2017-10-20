@@ -9,19 +9,19 @@ title: "Python数据之道"
 header:
    image_fullwidth: "wood_plank.jpg"
 widget-1:
-    title: "About"
-    url: '/about/'
-    text: '本文介绍的是'
-    image: sklearn01.jpg
+    title: "Python教程"
+    url: '/tutorial/'
+    text: '本文介绍的是Python数据科学相关的教程，包括：(a)Python基础；(b)数据分析：Numpy & Pandas进阶; (c)数据可视化：Matplotlib; (4)机器学习等'
+    image: "sklearn01.jpg"
 widget-2:
-    title: "Attend a Workshop"
-    url: '/workshops-attend/'
-    text: 'Most workshops are coordinated by local hosts. Find out if there
-is a workshop in your area or how to attend one.'
-    image: sklearn01.jpg
+    title: "项目实战专题"
+    url: '/casestudy/'
+    text: '通过项目实战来将灵活运用学到的技能，以此提升自己的水平。
+    包括：(a) 求职系列项目实战；（b）福布斯系列项目实战；等等'
+    image: "forbes_cover1.jpg"
 widget-3:
     title: "About"
     url: '/about/'
-    text: '关于博主的介绍'
-    image: sklearn01.jpg
+    text: '『Python数据之道』秉承“让数据更有价值”的理念，主要分享数据相关的内容，包括数据分析，挖掘，可视化，机器学习，深度学习等'
+    image: "about-pydataroad.jpg"
 ---

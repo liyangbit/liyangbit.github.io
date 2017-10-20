@@ -27,8 +27,8 @@
   url: "/tutorial/"
   side: left
   dropdown:
-  - title: "Python教程1"
-    url: “/tutorial01/”
+  - title: "所有教程目录"
+    url: "/tutorial/"
   - title: "1 智联求职实战"
     url: "/zhaopin01/"
   # - title: "Attend a Workshop"
@@ -43,8 +43,10 @@
   url: "/casestudy/"
   side: left
   dropdown:
-  - title: "智联求职实战"
-    url: “/zhaopin/”
+  - title: "所有专题目录"
+    url: "/casestudy/"
+  - title: "机器学习"
+    url: "/MachineLearning/"
   - title: "1 智联求职实战"
     url: "/zhaopin01/"
   - title: "Newsletter"
@@ -77,6 +79,8 @@
     url: "/categories/"
   - title: 文章标签
     url: "/tag/"
+  - title: "机器学习"
+    url: "/MachineLearning/"
   - title: "文章存档"
     url: "/blog/archive/"
 

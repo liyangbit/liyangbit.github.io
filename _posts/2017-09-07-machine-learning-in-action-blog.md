@@ -8,27 +8,24 @@ header:
 categories:
    - MachineLearning
 tags:
-   - MachineLearning, Python
+   - MachineLearning
+   - Python
 comments: true
 show_meta: true
 authors: ["Lemon"]
 ---
 
+本文介绍的是我在机器学习方面的 **实际经历**，想以此给大家提供些建议与思路，供各位参考。
 
+希望通过一些途径，来提高机器学习的兴趣：
 
+* 参与打卡活动：45天机器学习实战
 
-本文首发于我的微信公众号（ID：PyDataRoad）。
+* 加入专门的微信群
 
->本文介绍的是我在机器学习方面的 **实际经历**，想以此给大家提供些建议与思路，供各位参考。
->
->希望通过一些途径，来提高机器学习的兴趣：
->
->* 参与打卡活动：45天机器学习实战
->
->* 加入专门的微信群
->
->* 建立机器学习的Github项目仓库
+* 建立机器学习的Github项目仓库
 
+{% include alert info='本文首发于我的微信公众号（ID：PyDataRoad）。' %}
 
 # 1 书籍阅读
 
