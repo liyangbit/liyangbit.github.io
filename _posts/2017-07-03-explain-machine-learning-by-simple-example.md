@@ -8,7 +8,8 @@ header:
 categories:
    - MachineLearning
 tags:
-   - MachineLearning, Python
+   - MachineLearning
+   - Python
 comments: true
 show_meta: true
 authors: ["Lemon"]

@@ -74,6 +74,7 @@ dc_website_url: "http://liyangbit.github.io"
 #  syntax_highlighter: rouge
 
 markdown: kramdown
+    input: GFM
 permalink: /:categories/:title/
 highlight: rouge
 excerpt_separator: "\n\n"

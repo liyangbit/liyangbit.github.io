@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "博客文章分类"
+title: "博客文章分类 (Categories)"
 meta_title: "Categories"
 show_meta: false
 teaser:

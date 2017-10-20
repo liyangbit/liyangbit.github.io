@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "博客文章标签"
+title: "博客文章标签 (Tags)"
 meta_title: "Tag"
 show_meta: false
 teaser:
