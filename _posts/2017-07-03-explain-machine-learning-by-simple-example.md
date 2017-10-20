@@ -206,6 +206,3 @@ print('预测值：', random_predict)
 对我的文章感兴趣的朋友，可以关注我的微信公众号"Python数据之道"，接收我的更新通知。
 
 <div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
-
-
-{% include comments-my.html %}

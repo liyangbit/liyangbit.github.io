@@ -189,5 +189,3 @@ Anyway，计划制定之时，可能不会考虑那么全面，关键是个人�
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">
 </div>
-
-{% include comments-my.html %}
