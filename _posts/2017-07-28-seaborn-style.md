@@ -15,17 +15,21 @@ show_meta: true
 authors: ["Lemon"]
 ---
 
-<!-- ---
-layout: post
-title: Seaborn可视化：图形个性化设置的几个小技巧
-categories: PythonVisualization
-description: 本文介绍的是我在机器学习方面的实际经历，想以此给大家提供些建议与思路，供各位参考
-keywords: Python, PythonVisualization,Seaborn
---- -->
+
 
 <div align="center">
     <img src="/images/posts/seaborn-style/sns-cover.jpg">
 </div>
+
+<br>
+
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+
 
 {% include alert info='本文首发于我的微信公众号（ID：PyDataRoad）。' %}
 
