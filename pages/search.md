@@ -1,13 +1,13 @@
 ---
 layout: page
 show_meta: false
-title: "Õ¾ÄÚËÑË÷"
+title: "ç«™å†…æœç´¢"
 header:
    image_fullwidth: "wood_plank.jpg"
 permalink: "/search/"
 ---
 
-** Çë°´ÎÄÕÂ±êÌâËÑË÷£º**
+** è¯·æŒ‰æ–‡ç« æ ‡é¢˜æœç´¢ï¼š**
 
 {% include sidebar-search.html %}
 
