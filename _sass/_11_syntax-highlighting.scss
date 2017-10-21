@@ -1,4 +1,8 @@
-pre[class='highlight'] {background-color:#e3f1c7;}
+pre[class='highlight'] {background-color:#DDEAF7;}
+/*
+此处整体代码高亮框的背景颜色必须与 文件 _01_settings_colors.scss 中
+“Code” 部分的 代码高亮的字体背景颜色 保持一致
+*/
 
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
