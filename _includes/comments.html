@@ -1,17 +1,16 @@
 
-
-	<div id="gitalk-container"></div>
-	 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-   <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-	 <script type="text/javascript">
-		 var gitalk = new Gitalk({
-			   clientID: 'b3634cd18d6721800472',
-			   clientSecret: '097e900c505d5ccb0dc8e6cffb1cffc1f1de311b',
-			   repo: 'blog-comments',
-			   owner: 'liyangbit',
-			   admin: ['liyangbit'],
-				 perPage: 50
-		 });
-		 gitalk.render('gitalk-container');
-	 </script>
+		<div id="container"></div>
+		<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+		<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+		<script type="text/javascript">
+			var gitment = new Gitment({
+			  id: 'http://liyangbit.github.io', // 可选。默认为 location.href
+			  owner: 'liyangbit',
+			  repo: 'blog-comments',
+			  oauth: {
+			    client_id: 'b3634cd18d6721800472',
+			    client_secret: '097e900c505d5ccb0dc8e6cffb1cffc1f1de311b',
+			  },
+		})
+		gitment.render('container')
+		</script>
