@@ -3,6 +3,7 @@ layout: page
 sidebar: "right"
 show_meta: false
 title: "智联求职实战"
+comments: true
 header:
    image_fullwidth: "image-head.jpg"
 permalink: "/zhaopin01/"

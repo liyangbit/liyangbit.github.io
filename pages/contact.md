@@ -3,6 +3,7 @@ layout: page
 title: "Contact Us"
 meta_title: "Contact us"
 show_meta: false
+comments: true
 teaser:
 header:
    image_fullwidth: "image-head.jpg"
