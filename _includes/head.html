@@ -2,13 +2,13 @@
 <html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
 <head>
 	<meta charset="utf-8" />
-	<meta name="google-site-verification" content="hx4CI-AKLcJlsw_QRyv43VnQec61JqgxXVJk60uBDEY" />
+	<!-- <meta name="google-site-verification" content="hx4CI-AKLcJlsw_QRyv43VnQec61JqgxXVJk60uBDEY" /> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>{% if page.meta_title %}{{ page.meta_title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 	<link rel="stylesheet" href="{{ site.url }}/assets/css/styles_feeling_responsive.css">
 	<script src="{{ site.url }}/assets/js/modernizr.min.js"></script>
 
-  <script>
+  <!-- <script>
     WebFontConfig = {
       google: { families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ] }
     };
@@ -22,11 +22,11 @@
       var s = document.getElementsByTagName('script')[0];
       s.parentNode.insertBefore(wf, s);
     })();
-  </script>
+  </script> -->
 
-  <noscript>
+  <!-- <noscript>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7cVolkhov' rel='stylesheet' type='text/css'>
-  </noscript>
+  </noscript> -->
 
 	<!-- <meta name="twitter:card" content="summary">
 	<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
@@ -45,7 +45,7 @@
 	{% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" />{% endif %} -->
 	{% if page.meta_description %}<meta name="description" content="{{ page.meta_description | strip_html | escape }}"/>{% elsif page.teaser %}<meta name="description" content="{{ page.teaser | strip_html | escape }}"/>{% elsif site.description %}<meta name="description" content="{{ site.description | strip_html | escape }}"/>{% endif %}
 
-	{% if site.google_author %}<link rel="author" href="{{ site.google_author }}"/>{% endif %}
+	<!-- {% if site.google_author %}<link rel="author" href="{{ site.google_author }}"/>{% endif %} -->
 
 	{% include favicon %}
 
@@ -58,7 +58,7 @@
 	{% if site.title %}<meta property="og:site_name" content="{{ site.title }}" />{% endif %}
 	{% if page.image.thumb %}<meta property="og:image" content="{{ site.url }}/images/{{ page.image.thumb }}" />{% endif %}
 
-	{% if site.alexa_verify_id %}<meta name="alexaVerifyID" content="{{ site.alexa_verify_id }}" />{% endif %}
+	<!-- {% if site.alexa_verify_id %}<meta name="alexaVerifyID" content="{{ site.alexa_verify_id }}" />{% endif %} -->
 
 	<!-- Search Engine Optimization -->
 	{% if page.noindex == true %}<meta name="robots" content="noindex">{% endif %}
