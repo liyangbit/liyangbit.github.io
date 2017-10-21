@@ -32,7 +32,7 @@
 {% include breadcrumb.html %}
 {% endif %}
 
-{% if page.header.caption_url && page.header.caption %}
+{% if page.header.caption_url and page.header.caption %}
 <div class="masthead-caption">
 	<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
 </div>
@@ -48,21 +48,24 @@
 
 {% elsif page.header.image_fullwidth %}
 
-<div id="masthead">
+<!-- <div id="masthead">
 	<div class="row">
 		<div class="small-12 columns" align="center">
 			<a id="logo" href="{{ site.url }}" title="{{ site.title }} – {{ site.slogan }}">
 				<img src="{{ site.url }}/assets/img/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
 			</a>
-		</div><!-- /.small-12.columns -->
-	</div><!-- /.row -->
-</div><!-- /#masthead -->
+		</div>
+
+	</div>
+
+</div> -->
+
 
 {% if page.breadcrumb == true %}
 {% include breadcrumb.html %}
 {% endif %}
 
-{% if page.header.caption_url && page.header.caption %}
+{% if page.header.caption_url and page.header.caption %}
 <div class="masthead-caption">
 	<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
 </div>
@@ -90,7 +93,7 @@
 {% include breadcrumb.html %}
 {% endif %}
 
-{% if page.header.caption_url && page.header.caption %}
+{% if page.header.caption_url and page.header.caption %}
 <div class="masthead-caption">
 	<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
 </div>
@@ -118,7 +121,7 @@
 {% include breadcrumb.html %}
 {% endif %}
 
-{% if page.header.caption_url && page.header.caption %}
+{% if page.header.caption_url and page.header.caption %}
 <div class="masthead-caption">
 	<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
 </div>
