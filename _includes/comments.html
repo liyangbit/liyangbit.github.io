@@ -2,21 +2,19 @@
 	<h3 id="comments" class="t60">{{ site.data.language.comments_headline }}</h3>
 
 
-	<div id="gitalk-container"></div>
-
-	 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+	 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 	 <script type="text/javascript">
-		 var gitalk = new Gitalk({
-			   clientID: 'b3634cd18d6721800472',
-			   clientSecret: '097e900c505d5ccb0dc8e6cffb1cffc1f1de311b',
-			   repo: 'blog-comments',
-			   owner: 'liyangbit',
-			   admin: ['liyangbit'],
-			   id: 'http://liyangbit.github.io',
-			   distractionFreeMode: true
-		 });
-		 gitalk.render('gitalk-container');
+	 const gitment = new Gitment({
+			 id: 'http://liyangbit.github.io',
+			 owner: 'liyangbit',
+			 repo: 'blog-comments',
+			 oauth: {
+					 client_id: 'b3634cd18d6721800472',
+					 client_secret: '097e900c505d5ccb0dc8e6cffb1cffc1f1de311b',
+			 },
+	 })
+	 gitment.render('comments')
 	 </script>
-
 
 {% endif %}
