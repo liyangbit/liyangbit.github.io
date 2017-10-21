@@ -2,7 +2,7 @@
 	<h3 id="comments" class="t60">{{ site.data.language.comments_headline }}</h3>
 
 
-	<div id="container"></div>
+	<div id="gitment-container"></div>
 	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 	<script type="text/javascript">
@@ -15,7 +15,7 @@
 				    client_secret: '{{ site.gitment.oauth.client_secret }}',
 			  },
 	  })
-	  gitment.render('container')
+	  gitment.render('gitment-container')
 	  // gitment.render('comments')
     // or
     // gitment.render(document.getElementById('comments'))
