@@ -73,14 +73,14 @@ $grey-16: #0B0B0B;
 /* Topbar-Navigation
 ------------------------------------------------------------------- */
 
-$topbar-bg-color: #fff;
+$topbar-bg-color: #0071C1; // #fff
 
 $topbar-dropdown-toggle-color: $ci-1;
 
-$topbar-link-color: #000;
-$topbar-link-color-hover: #000;
-$topbar-link-color-active: #000;
-$topbar-link-color-active-hover: #000;
+$topbar-link-color: #fff; // #000
+$topbar-link-color-hover: #000; // #000
+$topbar-link-color-active: #000; // #000
+$topbar-link-color-active-hover: #000; // #000
 
 $topbar-dropdown-label-color: $grey-4;
 $topbar-dropdown-link-bg-hover: $ci-8;
