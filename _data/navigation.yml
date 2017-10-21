@@ -103,3 +103,7 @@
 - title: "联系"
   url: "/contact/"
   side: right
+
+- title: "Search"
+  url: "/search/"
+  side: right
