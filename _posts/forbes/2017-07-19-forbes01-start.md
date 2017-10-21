@@ -6,7 +6,7 @@ date: 2017-07-19
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-   - 项目实战
+   - CaseStudy
 tags:
    - Pandas
    - Requests
