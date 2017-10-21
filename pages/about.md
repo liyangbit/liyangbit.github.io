@@ -1,6 +1,7 @@
 ---
 layout: page
 sidebar: "right"
+comments: true
 show_meta: false
 title: "About Us"
 header:
