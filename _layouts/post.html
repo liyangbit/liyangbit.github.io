@@ -55,11 +55,12 @@ format: page-fullwidth
             title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
     {% endif %}
 
-    {% if page.comments %}
-    <!-- <div class="comment"> -->
+    {% if page.comments == true %}
+
         {% include comments.html %}
-    <!-- </div> -->
+
     {% endif %}
+
     <!-- {% if page.comments == true %}
       {% include comments.html %}
     {% endif %} -->

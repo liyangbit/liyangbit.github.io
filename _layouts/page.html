@@ -43,10 +43,10 @@ format: post
 			{% include meta_information.html %}
 			{% endif %}
 
+			<!-- {% include comments.html %} -->
+			{% if page.comments == true %}
 			{% include comments.html %}
-			<!-- {% if page.comments == true %}
-			{% include comments.html %}
-			{% endif %} -->
+			{% endif %}
 		</article>
 	</div><!-- /.medium-8.columns -->
 

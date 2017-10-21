@@ -113,7 +113,7 @@ defaults:
     values:
       show_meta: true 	# Show metadata beneath all pages
       sidebar: right    		# Possible values › left, right › by default there will be no sidebar
-      # comments: true
+      comments: true
       author: "Lemon"
   -
     scope:
@@ -122,7 +122,7 @@ defaults:
     values:
       show_meta: true   # Show metadata beneath all posts
       sidebar: right        # Possible values › left, right › by default there will be no sidebar
-      # comments: true
+      comments: true
       author: "Lemon"
 
 
@@ -205,36 +205,34 @@ og_description:                     "Making Data More valuable"
 #                    /_/
 #
 # used in _includes/comments.html
-
-
-# disqus_shortname: Lemon
+disqus_shortname: Lemon
 
 # ---------------- #
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk
-comments_provider: gitalk
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
-# https://disqus.com
-# disqus:
-#     username: liyangbit
-
-# https://imsun.net/posts/gitment-introduction/
-gitment:
-  owner: liyangbit
-  repo: blog-comments
-  oauth:
-    client_id: b3634cd18d6721800472
-    client_secret: 097e900c505d5ccb0dc8e6cffb1cffc1f1de311b
-# https://github.com/gitalk/gitalk#install
-gitalk:
-  owner: liyangbit
-  repo: blog-comments
-  clientID: b3634cd18d6721800472
-  clientSecret: 097e900c505d5ccb0dc8e6cffb1cffc1f1de311b
-# 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : false
+# comments_provider: gitalk
+# # !!!重要!!! 请修改下面这些信息为你自己申请的
+# # !!!Important!!! Please modify infos below to yours
+# # https://disqus.com
+# # disqus:
+# #     username: liyangbit
+#
+# # https://imsun.net/posts/gitment-introduction/
+# gitment:
+#   owner: liyangbit
+#   repo: blog-comments
+#   oauth:
+#     client_id: b3634cd18d6721800472
+#     client_secret: 097e900c505d5ccb0dc8e6cffb1cffc1f1de311b
+# # https://github.com/gitalk/gitalk#install
+# gitalk:
+#   owner: liyangbit
+#   repo: blog-comments
+#   clientID: b3634cd18d6721800472
+#   clientSecret: 097e900c505d5ccb0dc8e6cffb1cffc1f1de311b
+# # 在使用其它评论组件时可点击显示 Disqus
+# lazy_load_disqus : false
 
 #      _____
 #     / ___/____ ___________
