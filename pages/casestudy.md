@@ -1,6 +1,7 @@
 ---
 layout: page
 sidebar: "right"
+comments: true
 show_meta: false
 title: "项目实战"
 header:
