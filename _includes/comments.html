@@ -2,19 +2,20 @@
 	<h3 id="comments" class="t60">{{ site.data.language.comments_headline }}</h3>
 
 
-	 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-	 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-	 <script type="text/javascript">
-	 const gitment = new Gitment({
-			 id: 'http://liyangbit.github.io',
-			 owner: 'liyangbit',
-			 repo: 'blog-comments',
-			 oauth: {
-					 client_id: 'b3634cd18d6721800472',
-					 client_secret: '097e900c505d5ccb0dc8e6cffb1cffc1f1de311b',
-			 },
-	 })
-	 gitment.render('comments')
-	 </script>
+	<div id="container"></div>
+	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	<script type="text/javascript">
+	var gitment = new Gitment({
+			id: '{{ page.url }}',
+			owner: '{{ site.gitment.owner }}',
+			repo: '{{ site.gitment.repo }}',
+			oauth: {
+					client_id: '{{ site.gitment.oauth.client_id }}',
+					client_secret: '{{ site.gitment.oauth.client_secret }}',
+			},
+	})
+	gitment.render('container')
+	</script>
 
 {% endif %}
