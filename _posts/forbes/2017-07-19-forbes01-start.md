@@ -4,7 +4,7 @@ title: "福布斯系列之数据分析思路篇"
 teaser:
 date: 2017-07-19
 header:
-   image_fullwidth: "/images/posts/forbes/forbes_cover1.jpg"
+   image_fullwidth: "forbes_cover1.jpg"
 categories:
    - 项目实战
 tags:
