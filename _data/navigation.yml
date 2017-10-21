@@ -98,12 +98,10 @@
 #   - title: Self-organized Workshops
 #     url: "/self-organized-workshops/"
 
-
+- title: "站内搜索"
+  url: "/search/"
+  side: right
 
 - title: "联系"
   url: "/contact/"
-  side: right
-
-- title: "Search"
-  url: "/search/"
   side: right
