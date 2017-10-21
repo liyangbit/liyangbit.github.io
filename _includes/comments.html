@@ -6,19 +6,19 @@
 	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 	<script type="text/javascript">
-	  const gitment = new Gitment({
-			id: '{{ page.url }}',
-			owner: '{{ site.gitment.owner }}',
-			repo: '{{ site.gitment.repo }}',
-			oauth: {
-				client_id: '{{ site.gitment.oauth.client_id }}',
-				client_secret: '{{ site.gitment.oauth.client_secret }}',
-			},
+	  var gitment = new Gitment({
+			  id: '{{ page.url }}',
+			  owner: '{{ site.gitment.owner }}',
+			  repo: '{{ site.gitment.repo }}',
+			  oauth: {
+				    client_id: '{{ site.gitment.oauth.client_id }}',
+				    client_secret: '{{ site.gitment.oauth.client_secret }}',
+			  },
 	  })
-	  // gitment.render('container')
+	  gitment.render('container')
 	  // gitment.render('comments')
     // or
-    gitment.render(document.getElementById('comments'))
+    // gitment.render(document.getElementById('comments'))
     // or
     // document.body.appendChild(gitment.render())
 	</script>
