@@ -4,7 +4,7 @@ show_meta: false
 title: "机器学习"
 subheadline: "博客文章分类"
 header:
-   image_fullwidth: "wood_plank.jpg"
+   image_fullwidth: "image-head.jpg"
 permalink: "/MachineLearning/"
 ---
 <ul>

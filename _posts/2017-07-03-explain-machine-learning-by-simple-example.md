@@ -4,12 +4,11 @@ title: "通过简单示例来理解什么是机器学习"
 teaser:
 date: 2017-07-03
 header:
-   image_fullwidth: "light-blue-wood-texture.jpg"
+   image_fullwidth: "image-head.jpg"
 categories:
    - MachineLearning
 tags:
    - MachineLearning
-   - Python
 comments: true
 show_meta: true
 authors: ["Lemon"]

@@ -4,7 +4,7 @@ sidebar: "right"
 show_meta: false
 title: "Support"
 header:
-   image_fullwidth: "wood_plank.jpg"
+   image_fullwidth: "image-head.jpg"
 permalink: "/sponsors/"
 ---
 

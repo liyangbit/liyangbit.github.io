@@ -4,7 +4,7 @@ sidebar: "right"
 show_meta: false
 title: "Python数据之道"
 header:
-   image_fullwidth: "wood_plank.jpg"
+   image_fullwidth: "image-head.jpg"
 permalink: "/blog/"
 ---
 <ul>

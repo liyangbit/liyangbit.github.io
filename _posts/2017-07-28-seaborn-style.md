@@ -4,7 +4,7 @@ title: "Seaborn可视化：图形个性化设置的几个小技巧"
 teaser:
 date: 2017-07-28
 header:
-   image_fullwidth: "light-blue-wood-texture.jpg"
+   image_fullwidth: "image-head.jpg"
 categories:
    - PythonVisualization
 tags:

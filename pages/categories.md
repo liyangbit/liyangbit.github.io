@@ -5,7 +5,7 @@ meta_title: "Categories"
 show_meta: false
 teaser:
 header:
-   image_fullwidth: "wood_plank.jpg"
+   image_fullwidth: "image-head.jpg"
 permalink: "/categories/"
 ---
 

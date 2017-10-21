@@ -3,9 +3,9 @@ layout: page
 title: "Contact Us"
 meta_title: "Contact us"
 show_meta: false
-teaser: 
+teaser:
 header:
-   image_fullwidth: "wood_plank.jpg"
+   image_fullwidth: "image-head.jpg"
 permalink: "/contact/"
 ---
 

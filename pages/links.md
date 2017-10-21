@@ -4,7 +4,7 @@ sidebar: "right"
 show_meta: false
 title: "友情链接"
 header:
-   image_fullwidth: "wood_plank.jpg"
+   image_fullwidth: "image-head.jpg"
 permalink: "/links/"
 comments: true
 ---

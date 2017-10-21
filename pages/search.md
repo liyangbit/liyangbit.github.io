@@ -3,7 +3,7 @@ layout: page
 show_meta: false
 title: "站内搜索"
 header:
-   image_fullwidth: "wood_plank.jpg"
+   image_fullwidth: "image-head.jpg"
 permalink: "/search/"
 ---
 
