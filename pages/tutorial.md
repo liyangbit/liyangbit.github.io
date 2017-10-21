@@ -1,10 +1,15 @@
 ---
-layout: page-fullwidth
+layout: page
 sidebar: "right"
+comments: true
 show_meta: false
 title: "Python教程"
+header:
+   image_fullwidth: "image-head.jpg"
 permalink: "/tutorial/"
 ---
+
+
 {% include alert info='Python数据科学教程，由浅入深。' %}
 
 <div class="panel radius" markdown="1">
