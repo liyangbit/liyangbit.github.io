@@ -7,5 +7,5 @@ header:
 permalink: "/search/"
 ---
 
-{% include sidebar_search.html %}
+{% include sidebar-search.html %}
 
