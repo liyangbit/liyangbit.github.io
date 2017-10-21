@@ -7,7 +7,6 @@ header:
 permalink: "/search/"
 ---
 
-** 请按文章标题搜索：**
+**请按文章标题搜索：**
 
 {% include sidebar-search.html %}
-
