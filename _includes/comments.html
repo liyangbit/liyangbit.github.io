@@ -15,7 +15,12 @@
 					client_secret: '{{ site.gitment.oauth.client_secret }}',
 			},
 	})
-	gitment.render('container')
+	// gitment.render('container')
+	// gitment.render('comments')
+  // or
+  gitment.render(document.getElementById('comments'))
+  // or
+  // document.body.appendChild(gitment.render())
 	</script>
 
 {% endif %}
