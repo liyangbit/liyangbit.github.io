@@ -10,6 +10,8 @@ permalink: "/casestudy/"
 ---
 {% include alert info='通过项目实战来将灵活运用学到的技能，以此提升自己的水平。' %}
 
+{% include callout.html content="通过项目实战来将灵活运用学到的技能，以此提升自己的水平。 " type="primary" %} 
+
 <div class="panel radius" markdown="1">
 **Table of Contents**
 {: #toc }
