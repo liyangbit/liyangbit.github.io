@@ -113,7 +113,7 @@ defaults:
       type: "pages"
     values:
       show_meta: true 	# Show metadata beneath all pages
-      sidebar: right    		# Possible values › left, right › by default there will be no sidebar
+      sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
       author: "Lemon"
   -
@@ -122,7 +122,7 @@ defaults:
       type: "posts"
     values:
       show_meta: true   # Show metadata beneath all posts
-      sidebar: right        # Possible values › left, right › by default there will be no sidebar
+      sidebar:         # Possible values › left, right › by default there will be no sidebar
       comments: false
       author: "Lemon"
 
@@ -221,7 +221,7 @@ og_description:                     "Making Data More valuable"
 # # https://disqus.com
 # # disqus:
 # #     username: liyangbit
-# 
+#
 # # https://imsun.net/posts/gitment-introduction/
 # gitment:
 #   owner: liyangbit
