@@ -13,9 +13,8 @@ comments: true
 show_meta: true
 authors: ["Lemon"]
 ---
-
-<div class="panel radius" markdown="1">
 **Table of Contents**
+<div class="panel radius" markdown="1">
 {: #toc }
 *  TOC
 {:toc}
@@ -63,7 +62,7 @@ X, Y = np.meshgrid(x, y)
 ```
 注：数据初始化过程中用到了 Numpy 的 meshgrid 函数，有兴趣的同学可以了解下这个函数的使用，链接如下：
 
-[Numpy中Meshgrid函数介绍及2种应用场景](http://mp.weixin.qq.com/s?__biz=MzI2NjY5NzI0NA==&mid=2247484206&idx=1&sn=f10690c085b504123e9c526947e7e4c1&chksm=ea8b6c5dddfce54b7cd3ade5d1076572da560b8d47dcdeae190c1c9b9794623cf6a9b6e292b4&scene=21#wechat_redirect)
+* [Numpy中Meshgrid函数介绍及2种应用场景](http://mp.weixin.qq.com/s?__biz=MzI2NjY5NzI0NA==&mid=2247484206&idx=1&sn=f10690c085b504123e9c526947e7e4c1&chksm=ea8b6c5dddfce54b7cd3ade5d1076572da560b8d47dcdeae190c1c9b9794623cf6a9b6e292b4&scene=21#wechat_redirect)
 
 ## 仅绘制等高线
 
@@ -126,3 +125,11 @@ plt.show()
 </div>
 
 是不是很容易实现啊，赶快动手来试试吧。
+
+<br>
+
+对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataRoad），接收我的更新通知。
+
+<div align="center">
+    <img src="/images/qrcode.jpg" width="192">
+</div>
