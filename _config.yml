@@ -43,7 +43,7 @@ urlimg: "http://liyangbit.github.io/images/"
 
 # Logo size is 600x80 pixels
 # logo: "DC_logo_vision.png"
-logo: 
+logo:
 
 # Flag size for workshop display is 16x16 pixels
 flag_size       : 16
@@ -179,7 +179,8 @@ msapplication_tilecolor:                "#fabb00"
 #    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
-og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
+og_image:                           "touch-icon-192x192.png"
+# http://images.phlow.de/phlow/phlow_de-logo-512x.png
 og_locale:                          "en_EN"
 og_type:                            "website"
 og_title:                           "Python数据之道"
@@ -211,29 +212,31 @@ og_description:                     "Making Data More valuable"
 # ---------------- #
 #      Comments    #
 # ---------------- #
-# support provider: disqus, gitment, gitalk
-comments_provider: gitalk
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
-# https://disqus.com
-# disqus:
-#     username: liyangbit
 
-# https://imsun.net/posts/gitment-introduction/
-gitment:
-  owner: liyangbit
-  repo: blog-comments
-  oauth:
-    client_id: b3634cd18d6721800472
-    client_secret: 097e900c505d5ccb0dc8e6cffb1cffc1f1de311b
-# https://github.com/gitalk/gitalk#install
-gitalk:
-  owner: liyangbit
-  repo: blog-comments
-  clientID: b3634cd18d6721800472
-  clientSecret: 097e900c505d5ccb0dc8e6cffb1cffc1f1de311b
-# 在使用其它评论组件时可点击显示 Disqus
-# lazy_load_disqus : false
+
+# # support provider: disqus, gitment, gitalk
+# comments_provider: gitalk
+# # !!!重要!!! 请修改下面这些信息为你自己申请的
+# # !!!Important!!! Please modify infos below to yours
+# # https://disqus.com
+# # disqus:
+# #     username: liyangbit
+# 
+# # https://imsun.net/posts/gitment-introduction/
+# gitment:
+#   owner: liyangbit
+#   repo: blog-comments
+#   oauth:
+#     client_id: b3634cd18d6721800472
+#     client_secret: 097e900c505d5ccb0dc8e6cffb1cffc1f1de311b
+# # https://github.com/gitalk/gitalk#install
+# gitalk:
+#   owner: liyangbit
+#   repo: blog-comments
+#   clientID: b3634cd18d6721800472
+#   clientSecret: 097e900c505d5ccb0dc8e6cffb1cffc1f1de311b
+# # 在使用其它评论组件时可点击显示 Disqus
+# # lazy_load_disqus : false
 
 #      _____
 #     / ___/____ ___________
