@@ -8,7 +8,6 @@ header:
 categories:
    - PythonVisualization
 tags:
-   - PythonVisualization
    - Seaborn
 comments: true
 show_meta: true
