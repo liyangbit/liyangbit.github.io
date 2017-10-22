@@ -9,8 +9,8 @@ header:
 permalink: "/wechat/"
 ---
 
+{% include alert info='当前，微信公众号的主要栏目/活动如下：' %}
 
-当前，微信公众号的主要栏目/活动如下：
 
 <div class="panel radius" markdown="1">
 **Table of Contents**
@@ -19,14 +19,6 @@ permalink: "/wechat/"
 {:toc}
 </div>
 
-当前，微信公众号的主要栏目/活动如下：
-
-<div class="panel radius" markdown="1">
-**Table of Contents**
-{: #toc }
-1. TOC
-{:toc}
-</div>
 
 ## 微信公众号简介
 **名称**： Python数据之道（ID：PyDataRoad）
