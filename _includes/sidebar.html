@@ -15,10 +15,11 @@
 			This is an advertisment with a crazy cat! <a href="http://placekitten.com/">More cats, please!</a>
 		</p>
 	</div> -->
-	<div>
+	<div class="panel radius">
 		<ul>
-		    {% for post in site.categories.MachineLearning %}
-		    <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+			<!-- ｛% if page.tags ==  %｝ -->
+		    {% for item in site.categories.MachineLearning %}
+		    <li><a href="{{ site.url }}{{ item.url }}">{{ item.title }}</a></li>
 		    {% endfor %}
 		</ul>
 	</div>

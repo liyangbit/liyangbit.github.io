@@ -9,6 +9,7 @@ categories:
    - PythonVisualization
 tags:
    - Matplotlib
+sidebar: right
 comments: true
 show_meta: true
 authors: ["Lemon"]

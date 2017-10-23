@@ -122,7 +122,7 @@ defaults:
       type: "posts"
     values:
       show_meta: true   # Show metadata beneath all posts
-      sidebar:         # Possible values › left, right › by default there will be no sidebar
+      sidebar: right        # Possible values › left, right › by default there will be no sidebar
       comments: true
       author: "Lemon"
 

@@ -13,11 +13,11 @@ permalink: "/about/"
 
 这是我的个人官方网站， **Python数据之道** 秉承“让数据更有价值”的理念，主要分享数据相关的内容，包括数据分析，挖掘，可视化，机器学习，深度学习等。
 
-<i class="icon-github 72"></i> icon-github
+<!-- <i class="icon-github 72"></i> icon-github -->
 
 ## 关于我
 
-Hi, 我是 Lemon，对数据科学有很大的兴趣，主要使用Python语言来实现。对、HTML、CSS 以及 ACCESS、MongDB、MySQL等数据库知识有过一定的了解，以前学过Java语言、C语言。喜欢鼓捣些东西，平时也喜欢看看书、跑跑步啥的，大家可以通过以下途径联系我。
+Hi, 我是 Lemon，对数据科学有浓厚的兴趣，主要使用 Python语言来实现。对 ACCESS、MongDB、MySQL 等数据库知识以及 HTML、CSS 有过一定的了解，以前学过 Java语言、C语言。喜欢鼓捣些东西，平时也喜欢看看书、跑跑步啥的，大家可以通过以下途径联系我。
 
 ## 联系
 
