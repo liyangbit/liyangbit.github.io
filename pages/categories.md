@@ -9,18 +9,37 @@ header:
 permalink: "/categories/"
 ---
 
+<div class="row">
+  <div class="medium-8 columns">
 
-<section class="container posts-content">
-{% assign sorted_categories = site.categories | sort %}
-{% for category in sorted_categories %}
-<h3>{{ category | first }}</h3>
-<ol class="posts-list" id="{{ category[0] }}">
-{% for post in category.last %}
-<li class="posts-list-item">
-<span class="posts-list-meta">{{ post.date | date:"%Y-%m-%d" }}</span>
-<a class="posts-list-name" href="{{ post.url }}">{{ post.title }}</a>
-</li>
-{% endfor %}
-</ol>
-{% endfor %}
-</section>
+    <section class="container posts-content">
+    {% assign sorted_categories = site.categories | sort %}
+    {% for category in sorted_categories %}
+    <h3>{{ category | first }}</h3>
+    <ol class="posts-list" id="{{ category[0] }}">
+    {% for post in category.last %}
+    <li class="posts-list-item">
+    <span class="posts-list-meta">{{ post.date | date:"%Y-%m-%d" }}</span>
+    <a class="posts-list-name" href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+    </ol>
+    {% endfor %}
+    </section>
+
+  </div>
+
+
+  <div class="medium-4 columns">
+
+    <div>
+      <ul>
+          {% for post in site.categories.MachineLearning %}
+          <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+
+</div>

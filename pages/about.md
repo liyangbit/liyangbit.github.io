@@ -13,7 +13,7 @@ permalink: "/about/"
 
 这是我的个人官方网站， **Python数据之道** 秉承“让数据更有价值”的理念，主要分享数据相关的内容，包括数据分析，挖掘，可视化，机器学习，深度学习等。
 
-<i class="icon-github"></i> icon-github
+<i class="icon-github 72"></i> icon-github
 
 ## 关于我
 
