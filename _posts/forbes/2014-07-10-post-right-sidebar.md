@@ -8,6 +8,7 @@ breadcrumb: true
 tags:
     - post format
     - Matplotlib
+    - forbes
 categories:
     - forbes
 comments: false

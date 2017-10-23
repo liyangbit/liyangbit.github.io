@@ -7,11 +7,12 @@ header:
    image_fullwidth: "image-head.jpg"
 categories:
    - CaseStudy
+   - forbes
 tags:
    - Pandas
    - Requests
    - BeautifulSoup
-   - Forbes
+   - forbes
 comments: true
 show_meta: true
 authors: ["Lemon"]
