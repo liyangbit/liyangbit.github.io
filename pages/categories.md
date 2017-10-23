@@ -9,9 +9,9 @@ header:
 permalink: "/categories/"
 ---
 
-<div class="row">
+<!-- <div class="row">
 
-  <div "medium-8 columns">
+  <div "medium-8 columns"> -->
 
     <section class="container posts-content">
     {% assign sorted_categories = site.categories | sort %}
@@ -28,7 +28,7 @@ permalink: "/categories/"
     {% endfor %}
     </section>
 
-  </div>
+  <!-- </div>
 
   <div class="medium-4 columns">
 
@@ -42,4 +42,4 @@ permalink: "/categories/"
     </div>
   </div>
 
-</div>
+</div> -->
