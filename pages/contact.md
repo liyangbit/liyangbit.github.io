@@ -12,18 +12,10 @@ permalink: "/contact/"
 
 ## 关于我
 
-Hi, 我是 Lemon，大家可以通过下面途径联系我。
+Hi, 我是 Lemon，对数据科学有很大的兴趣，主要使用Python语言来实现。对、HTML、CSS 以及 ACCESS、MongDB、MySQL等数据库知识有过一定的了解，以前学过Java语言、C语言。喜欢鼓捣些东西，平时也喜欢看看书、跑跑步啥的，大家可以通过以下途径联系我，也可以在本站留言。
 
 ## 联系
 
 {% for website in site.data.social %}
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
 {% endfor %}
-
-
-## 赞助支持
-
-
-| <center>遇见，是缘</center> | <center>欢迎关注</center> |
-| ---------------------------------------- | ---------------------------------------- |
-| <img src="/images/wechat-pay.png" width="300"/> | <img src="/images/foot.jpg" width="300"/> |

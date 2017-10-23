@@ -8,9 +8,16 @@ header:
    image_fullwidth: "image-head.jpg"
 permalink: "/about/"
 ---
+
+## 关于本站
+
+这是我的个人官方网站， **Python数据之道** 秉承“让数据更有价值”的理念，主要分享数据相关的内容，包括数据分析，挖掘，可视化，机器学习，深度学习等。
+
+<i class="icon-github"></i> icon-github
+
 ## 关于我
 
-Hi, 我是 Lemon，大家可以通过下面途径联系我。
+Hi, 我是 Lemon，对数据科学有很大的兴趣，主要使用Python语言来实现。对、HTML、CSS 以及 ACCESS、MongDB、MySQL等数据库知识有过一定的了解，以前学过Java语言、C语言。喜欢鼓捣些东西，平时也喜欢看看书、跑跑步啥的，大家可以通过以下途径联系我。
 
 ## 联系
 

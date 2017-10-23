@@ -10,7 +10,7 @@ permalink: "/tutorial/"
 ---
 
 
-{% include alert info='Python数据科学教程，由浅入深。' %}
+{% include alert info='The tutorials will be coming soon ...' %}
 
 <div class="panel radius" markdown="1">
 **Table of Contents**
