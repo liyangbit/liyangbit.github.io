@@ -32,8 +32,8 @@ permalink: "/categories/"
 
   <div class="medium-4 columns">
 
-    <div class="panel radius" markdown="1">
-     **Table of Contents**
+    <div class="panel radius">
+     Table of Contents
       <ul>
           {% for post in site.categories.MachineLearning %}
           <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
