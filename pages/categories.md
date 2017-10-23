@@ -9,6 +9,10 @@ header:
 permalink: "/categories/"
 ---
 
+<div class="row">
+
+<div class="medium-8 columns">
+
 <section class="container posts-content">
 {% assign sorted_categories = site.categories | sort %}
 {% for category in sorted_categories %}
@@ -23,3 +27,21 @@ permalink: "/categories/"
 </ol>
 {% endfor %}
 </section>
+
+</div>
+
+
+
+<div class="medium-4 columns">
+
+<div class="panel radius">
+<ul>
+    {% for post in site.categories.MachineLearning %}
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+</div>
+
+</div>
+
+</div>
