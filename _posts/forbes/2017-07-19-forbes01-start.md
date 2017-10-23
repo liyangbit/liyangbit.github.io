@@ -15,6 +15,7 @@ tags:
    - forbes
 comments: true
 show_meta: true
+sidebar: right
 authors: ["Lemon"]
 ---
 

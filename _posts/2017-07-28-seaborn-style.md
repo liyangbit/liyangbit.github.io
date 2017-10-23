@@ -11,6 +11,7 @@ tags:
    - Seaborn
 comments: true
 show_meta: true
+sidebar: right
 authors: ["Lemon"]
 ---
 
