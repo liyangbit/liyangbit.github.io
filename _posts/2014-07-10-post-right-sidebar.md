@@ -10,11 +10,8 @@ tags:
     - Matplotlib
 categories:
     - design
-image:
-    thumb: gallery-example-2-thumb.jpg
-    title: gallery-example-2.jpg
-    caption: Unsplash.com
-    caption_url: http://unsplash.com
+header:
+   image_fullwidth: "image-head.jpg"
 ---
 *Feeling Responsive* shows metadata by default. The default behaviour can be changed via `config.yml`. To show metadata at the end of a page/post just add the following to front matter:
 <!--more-->
@@ -31,5 +28,5 @@ show_meta: false
 
 
 ## Other Post Formats
-{: .t60 }
+<!-- {: .t60 } -->
 {% include list-posts.html tag='Matplotlib' %}
