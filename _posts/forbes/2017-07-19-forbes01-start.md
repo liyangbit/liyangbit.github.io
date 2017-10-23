@@ -11,6 +11,7 @@ tags:
    - Pandas
    - Requests
    - BeautifulSoup
+   - Forbes
 comments: true
 show_meta: true
 authors: ["Lemon"]

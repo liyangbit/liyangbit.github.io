@@ -9,7 +9,8 @@ tags:
     - post format
     - Matplotlib
 categories:
-    - design
+    - forbes
+comments: false
 header:
    image_fullwidth: "image-head.jpg"
 ---
