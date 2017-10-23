@@ -11,20 +11,7 @@ permalink: "/categories/"
 
 <div class="row">
 
-  <div class="medium-4 columns" markdown="1">
-
-    <div class="panel radius" markdown="1">
-    **Table of Contents**
-      <ul>
-          {% for post in site.categories.MachineLearning %}
-          <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-      </ul>
-    </div>
-  </div>
-
-
-  <div "medium-8 columns" markdown="1">
+  <div "medium-8 columns">
 
     <section class="container posts-content">
     {% assign sorted_categories = site.categories | sort %}
@@ -41,6 +28,18 @@ permalink: "/categories/"
     {% endfor %}
     </section>
 
+  </div>
+
+  <div class="medium-4 columns">
+
+    <div class="panel radius">
+    **Table of Contents**
+      <ul>
+          {% for post in site.categories.MachineLearning %}
+          <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+      </ul>
+    </div>
   </div>
 
 </div>
