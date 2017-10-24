@@ -5,6 +5,7 @@ format: page-fullwidth
 <div class="row">
   <div class="medium-8 columns">
     <article itemscope itemtype="http://schema.org/Article">
+      <div>
       <header>
         {% if page.image.title %}
         <figure>
@@ -28,22 +29,30 @@ format: page-fullwidth
         </span>
 
       </header>
+    </div>
 
+  <div>
 	<span itemprop="meta">
 	  {% if page.show_meta == true %}
 	  {% include meta_information.html %}
 	  {% endif %}
 	</span>
+  </div>
 
+
+      <div>
       {% if page.teaser %}
       <p class="teaser" itemprop="description">
         {{ page.teaser }}
       </p>
       {% endif %}
+    </div>
 
+      <div>
       <span itemprop="articleSection">
       {{ content }}
       </span>
+      </div>
 
     {% if page.previous %}
         <a class="radius button small" href="{{ page.previous.url }}"
@@ -55,11 +64,11 @@ format: page-fullwidth
             title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
     {% endif %}
 
+    <div>
     {% if page.comments == true %}
-
         {% include comments.html %}
-
     {% endif %}
+    </div>
 
     </article>
   </div>
@@ -67,7 +76,7 @@ format: page-fullwidth
   <div class="medium-4 columns">
     <div>
     {% include sidebar.html %}
-  </div>
+    </div>
   </div>
 
 
