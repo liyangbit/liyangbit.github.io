@@ -6,13 +6,12 @@ date: 2017-07-19
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-   - CaseStudy
-   - forbes
+  - case-study-forbes
 tags:
-   - Pandas
-   - Requests
-   - BeautifulSoup
-   - forbes
+  - Pandas
+  - Requests
+  - BeautifulSoup
+  - forbes
 comments: true
 show_meta: true
 sidebar: right
