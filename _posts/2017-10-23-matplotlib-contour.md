@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Matplotlib 中等高线图（contour）的绘制"
 teaser:
 date: 2017-10-23

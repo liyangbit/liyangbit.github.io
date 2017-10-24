@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "通过简单示例来理解什么是机器学习"
 teaser:
 date: 2017-07-03

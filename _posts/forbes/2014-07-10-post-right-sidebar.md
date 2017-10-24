@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: posts
 subheadline: Templates
 title:  "Page/Post Right Sidebar"
 teaser: "This is an example of page/post with a sidebar on the right."
@@ -30,5 +30,5 @@ show_meta: false
 
 
 ## Other Post Formats
-<!-- {: .t60 } -->
-<!-- {% include list-posts.html tag='Matplotlib' %} -->
+{: .t60 }
+{% include list-posts.html tag='Matplotlib' %}

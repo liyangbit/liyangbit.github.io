@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "机器学习很枯燥，不想继续学了怎么办？或许，这些建议值得一看"
 teaser:
 date: 2017-09-07
