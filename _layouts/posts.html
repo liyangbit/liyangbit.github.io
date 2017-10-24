@@ -24,7 +24,7 @@ layout: page-fullwidth
 
         <span itemprop="name">
           {% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
-          <h1>{{ page.title }}</h1>
+          <!-- <h1>{{ page.title }}</h1> -->
         </span>
 
       </header>
@@ -39,7 +39,7 @@ layout: page-fullwidth
   </div>
 
 
-      <div>
+    <div>
       {% if page.teaser %}
       <p class="teaser" itemprop="description">
         {{ page.teaser }}
@@ -47,16 +47,14 @@ layout: page-fullwidth
       {% endif %}
     </div>
 
-      <div class="medium-8 columns">
+    <div class="medium-8 columns">
       <span itemprop="articleSection">
       {{ content }}
       </span>
-      </div>
 
-    <div class="medium-8 columns">
     {% if page.previous %}
         <a class="radius button small" href="{{ page.previous.url }}"
-        title="{{ site.data.language.previous.posts }}">&laquo; {{ site.data.language.previous }}</a>
+            title="{{ site.data.language.previous.posts }}">&laquo; {{ site.data.language.previous }}</a>
     {% endif %}
 
     {% if page.next %}
