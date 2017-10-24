@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "福布斯系列之数据分析思路篇"
 teaser:
 date: 2017-07-19
