@@ -16,7 +16,7 @@ format: page-fullwidth
           </figcaption>
           {% elsif page.image.caption %}
           <figcaption class="text-right">
-            {{ page.image.caption }}
+          {{ page.image.caption }}
           </figcaption>
           {% endif %}
         </figure>
@@ -29,36 +29,34 @@ format: page-fullwidth
 
       </header>
 
-	<span itemprop="meta">
+	  <span itemprop="meta">
 	  {% if page.show_meta == true %}
 	  {% include meta_information.html %}
 	  {% endif %}
-	</span>
+	  </span>
 
-      {% if page.teaser %}
-      <p class="teaser" itemprop="description">
-        {{ page.teaser }}
-      </p>
-      {% endif %}
+    {% if page.teaser %}
+    <p class="teaser" itemprop="description">
+    {{ page.teaser }}
+    </p>
+    {% endif %}
 
-      <span itemprop="articleSection">
-      {{ content }}
-      </span>
+    <span itemprop="articleSection">
+    {{ content }}
+    </span>
 
     {% if page.previous %}
-        <a class="radius button small" href="{{ page.previous.url }}"
+      <a class="radius button small" href="{{ page.previous.url }}"
         title="{{ site.data.language.previous.posts }}">&laquo; {{ site.data.language.previous }}</a>
     {% endif %}
 
     {% if page.next %}
-        <a class="radius button small" href="{{ page.next.url }}"
-            title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
+      <a class="radius button small" href="{{ page.next.url }}"
+          title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
     {% endif %}
 
     {% if page.comments == true %}
-
-        {% include comments.html %}
-
+    {% include comments.html %}
     {% endif %}
 
     </article>
@@ -66,14 +64,14 @@ format: page-fullwidth
 
   {% if page.sidebar == "left" %}
   <div class="medium-4 columns medium-pull-8">
-    {% include sidebar.html %}
+  {% include sidebar.html %}
   </div><!-- /.medium-4.columns -->
   {% endif %}
 
 
   {% if page.sidebar == "right" %}
   <div class="medium-4 columns">
-    {% include sidebar.html %}
+  {% include sidebar.html %}
   </div><!-- /.medium-4.columns -->
   {% endif %}
 
