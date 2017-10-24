@@ -4,7 +4,7 @@ layout: default
 <div class="row t30">
 
 	<div>
-		<div class="medium-8 columns">
+		<div class="medium-10 columns">
 			<div>
 				<article itemscope itemtype="http://schema.org/Article">
 					<header>
@@ -29,22 +29,22 @@ layout: default
 						  <h1>{{ page.title }}</h1>
 						</span>
 					</header>
-					
+
 
 					<span itemprop="meta">
 					  {% if page.show_meta == true %}
 					  {% include meta_information.html %}
 					  {% endif %}
 					</span>
-					
 
-					
+
+
 					 {% if page.teaser %}
 					 <p class="teaser" itemprop="description">
 					 {{ page.teaser }}
 					 </p>
 					 {% endif %}
-					
+
 
 					<span itemprop="articleSection">
 					{{ content }}
@@ -63,7 +63,7 @@ layout: default
 					{% if page.comments == true %}
 					{% include comments.html %}
 					{% endif %}
-					
+
 				</article>
 			</div>
 		</div>
