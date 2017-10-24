@@ -42,7 +42,7 @@ layout: page-fullwidth
     <div>
       {% if page.teaser %}
       <p class="teaser" itemprop="description">
-        {{ page.teaser }}
+      {{ page.teaser }}
       </p>
       {% endif %}
     </div>
@@ -63,7 +63,7 @@ layout: page-fullwidth
     {% endif %}
 
     {% if page.comments == true %}
-        {% include comments.html %}
+    {% include comments.html %}
     {% endif %}
     </div>
 
@@ -73,9 +73,9 @@ layout: page-fullwidth
 
 	{% if page.sidebar == "right" %}
   <div class="medium-4 columns">
-    <div>
-    {% include sidebar.html %}
-    </div>
+  <div>
+  {% include sidebar.html %}
+  </div>
   </div>
   {% endif %}
 
