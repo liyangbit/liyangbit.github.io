@@ -33,7 +33,7 @@ header:
 </div>
 <br>
     {% if page.widget-1.title %}
-    <div class="medium-4 columns">
+    <div class="medium-5 columns">
         <h2 class="font-size-h3 t10">{{ page.widget-1.title }}</h2>
         <a href="{{ page.widget-1.url }}">{% if page.widget-1.image %}<img src="{{ page.widget-1.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-1.video %}{{ page.widget-1.video }}{% endif %}</a>
         <p>{{ page.widget-1.text }}</p>
@@ -43,7 +43,7 @@ header:
 
 
     {% if page.widget-2.title %}
-    <div class="medium-4 columns">
+    <div class="medium-5 columns">
         <h2 class="font-size-h3 t10">{{ page.widget-2.title }}</h2>
         <a href="{{ page.widget-2.url }}">{% if page.widget-2.image %}<img src="{{ page.widget-2.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-2.video %}{{ page.widget-2.video }}{% endif %}</a>
 
@@ -54,7 +54,7 @@ header:
 
 
     {% if page.widget-3.title %}
-    <div class="medium-4 columns">
+    <div class="medium-5 columns">
         <h2 class="font-size-h3 t10">{{ page.widget-3.title }}</h2>
         <a href="{{ page.widget-3.url }}">{% if page.widget-3.image %}<img src="{{ page.widget-3.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-3.video %}{{ page.widget-3.video }}{% endif %}</a>
 
@@ -113,7 +113,7 @@ header:
 	</div> -->
 
 
-        <div class="medium-12 columns">
+        <div class="medium-15 columns">
             <p><strong>{{ site.data.language.more_articles }}</strong></p>
             {% include list-posts.html entries='3' offset='1' %}
         </div><!-- /.medium-7.columns -->
