@@ -516,4 +516,4 @@ print(type(brief_str_cs))
 
 ## 相关文章
 {: .t60 }
-{% include list-posts.html category=page.categories %}
+{% include list-posts.html category='projects-zhilian' %}

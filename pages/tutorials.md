@@ -6,7 +6,7 @@ show_meta: false
 title: "Python教程"
 header:
    image_fullwidth: "image-head.jpg"
-permalink: "/tutorial/"
+permalink: "/tutorials/"
 ---
 
 

@@ -6,7 +6,7 @@ show_meta: false
 title: "项目实战"
 header:
    image_fullwidth: "image-head.jpg"
-permalink: "/casestudy/"
+permalink: "/projects/"
 ---
 {% include alert info='通过项目实战来将灵活运用学到的技能，以此提升自己的水平。' %}
 

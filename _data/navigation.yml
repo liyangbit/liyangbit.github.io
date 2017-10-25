@@ -26,13 +26,13 @@
   side: left
 
 - title: "Python教程"
-  url: "/tutorial/"
+  url: "/tutorials/"
   side: left
   dropdown:
   - title: "所有教程目录"
-    url: "/tutorial/"
-  - title: "1 智联求职实战"
-    url: "/zhaopin01/"
+    url: "/tutorials/"
+  # - title: "1 智联求职实战"
+  #   url: "/zhaopin01/"
   # - title: "Attend a Workshop"
   #   url: "/workshops-attend/"
   # - title: "Past Workshops"
@@ -42,15 +42,15 @@
 
 
 - title: "项目实战专题"
-  url: "/casestudy/"
+  url: "/projects/"
   side: left
   dropdown:
   - title: "所有专题目录"
-    url: "/casestudy/"
+    url: "/projects/"
   # - title: "机器学习"
   #   url: "/MachineLearning/"
-  - title: "1 智联求职实战"
-    url: "/zhaopin01/"
+  - title: "1-智联求职实战"
+    url: "/projects-zhilian-page/"
   # - title: "Newsletter"
   #   url: "/newsletter/"
   # - title: "Discussion Forum"
