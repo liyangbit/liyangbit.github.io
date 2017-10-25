@@ -39,17 +39,15 @@ format: post
 			</p>
 			{% endif %}
 
-			{% if page.show_meta == true %}
-			{% include meta_information.html %}
-			{% endif %}
+			<span itemprop="meta">
+				{% if page.show_meta == true %}
+				{% include meta_information.html %}
+				{% endif %}
+			</span>
 
 			<span itemprop="articleSection">
 			{{ content }}
 			</span>
-
-			<!-- {% if page.show_meta == true %}
-			{% include meta_information.html %}
-			{% endif %} -->
 
 			<!-- {% include comments.html %} -->
 			{% if page.comments == true %}
