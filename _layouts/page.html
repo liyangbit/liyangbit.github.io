@@ -3,7 +3,11 @@ layout: default
 format: post
 ---
 <div class="row t30">
+
+	<div>
 	<div class="medium-11 columns{% if page.sidebar == NULL %} medium-offset-2 end{% endif %}{% if page.sidebar == "left" %} medium-push-4{% endif %}">
+
+    <div>
 		<article itemscope itemtype="http://schema.org/Article">
 			<header>
 				{% if page.image.title %}
@@ -48,6 +52,7 @@ format: post
 			{% include comments.html %}
 			{% endif %}
 		</article>
+	  </div>
 	</div><!-- /.medium-8.columns -->
 
 
@@ -63,4 +68,6 @@ format: post
 		{% include sidebar.html %}
 	</div><!-- /.medium-4.columns -->
 	{% endif %}
+
+</div>
 </div><!-- /.row -->
