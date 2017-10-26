@@ -1,10 +1,10 @@
 ---
 layout: posts
-title: "求职系列(1)-5分钟掌握智联招聘网站爬取并保存到MongoDB数据库"
+title: "5分钟掌握智联招聘网站爬取并保存到MongoDB数据库"
 teaser:
 date: 2017-05-22
 header:
-image_fullwidth: "image-head.jpg"
+   image_fullwidth: "image-head.jpg"
 categories:
   - projects-zhilian
 tags:
@@ -187,14 +187,11 @@ if __name__ == '__main__':
 ```
 
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号"Python数据之道"，接收我的更新通知.......
 
+对我的文章感兴趣的朋友，可以关注我的微信公众号"Python数据之道"，接收我的更新通知.......
 
 <div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
 
-
-
-<!-- ## 相关文章
+## 相关文章
 {: .t60 }
-{% assign mycategory = {{ page.categories }} %}
-{% include list-posts.html category=mycategory %} -->
+{% include list-posts.html category='projects-zhilian' %}
