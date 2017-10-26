@@ -192,6 +192,8 @@ if __name__ == '__main__':
 
 <div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
 
+{{ page.categories }}
+
 ## 相关文章
 {: .t60 }
 {% include list-posts.html category='projects-zhilian' %}
