@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "5分钟掌握智联招聘网站爬取并保存到MongoDB数据库"
-teaser: "智联求职实战(1)"
+teaser: 
 date: 2017-05-22
 header:
    image_fullwidth: "image-head.jpg"
