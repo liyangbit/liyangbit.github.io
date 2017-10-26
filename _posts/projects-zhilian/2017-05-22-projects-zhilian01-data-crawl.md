@@ -196,4 +196,5 @@ if __name__ == '__main__':
 
 ## 相关文章
 {: .t60 }
-{% include list-posts.html category='{{ page.categories }}' %}
+{% assign mycategory = {{ page.categories }} %}
+{% include list-posts.html category=mycategory %}

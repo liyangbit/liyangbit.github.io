@@ -514,6 +514,6 @@ print(type(brief_str_cs))
 
 <div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
 
-## 相关文章
+<!-- ## 相关文章
 {: .t60 }
-{% include list-posts.html category='{{ page.categories }}' %}
+{% include list-posts.html category='{{ page.categories }}' %} -->
