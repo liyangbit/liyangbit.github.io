@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "5分钟掌握智联招聘网站爬取并保存到MongoDB数据库"
+title: "智联求职实战(1)-5分钟掌握智联招聘网站爬取并保存到MongoDB数据库"
 teaser:
 date: 2017-05-22
 header:
@@ -192,8 +192,8 @@ if __name__ == '__main__':
 
 <div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
 
-{{ page.categories }}
+
 
 ## 相关文章
 {: .t60 }
-{% include list-posts.html category='projects-zhilian' %}
+{% include list-posts.html category='{{ page.categories }}' %}
