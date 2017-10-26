@@ -1,7 +1,7 @@
 ---
 layout: posts
-title: "python求职Top10城市，来看看是否有你所在的城市"
-teaser: 
+title: "求职系列(2)-python求职Top10城市，来看看是否有你所在的城市"
+teaser:
 date: 2017-05-23
 header:
    image_fullwidth: "image-head.jpg"
