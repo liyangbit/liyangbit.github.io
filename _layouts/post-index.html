@@ -1,0 +1,54 @@
+---
+layout: page-fullwidth
+---
+<div class="row">
+  <div class="medium-11 columns">
+    <h2>page.title</h2>
+
+    <span itemprop="meta">
+      {% if page.show_meta == true %}
+      {% include meta_information.html %}
+      {% endif %}
+    </span>
+
+    {% if page.teaser %}
+    <p class="teaser" itemprop="description">
+      {{ page.teaser }}
+    </p>
+    {% endif %}
+
+    <span itemprop="articleSection">
+    {{ content }}
+    </span>
+
+    {% if page.previous %}
+        <a class="radius button small" href="{{ page.previous.url }}"
+        title="{{ site.data.language.previous.posts }}">&laquo; {{ site.data.language.previous }}</a>
+    {% endif %}
+
+    {% if page.next %}
+        <a class="radius button small" href="{{ page.next.url }}"
+            title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
+    {% endif %}
+
+    {% if page.comments == true %}
+        {% include comments.html %}
+    {% endif %}
+
+  </div>
+
+  <div class="medium-4 columns">
+
+      <h3>欢迎关注我的微信公众号</h3>
+
+      <div align="center">
+          <img class="b30" src="/images/qrcode.jpg" width="192" alt="Python数据之道">
+          <!-- <img style="border:1px solid #dddddd;height:192px;width:192px" src="/images/qrcode.jpg" alt="Python数据之道" /> -->
+      </div>
+
+      <div>
+        {% include sidebar.html %}
+      </div>
+  </div>
+
+</div>

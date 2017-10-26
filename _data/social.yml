@@ -1,0 +1,19 @@
+- sitename: Lemon 的个人官方网站
+  name: Python数据之道
+  url: https://liyangbit.github.io
+
+- sitename: 微信公众号
+  name: Python数据之道（ID：PyDataRoad）
+  url: http://weixin.sogou.com/weixin?type=1&s_from=input&query=%22python%E6%95%B0%E6%8D%AE%E4%B9%8B%E9%81%93%22&ie=utf8&_sug_=n&_sug_type_=&w=01019900&sut=7317&sst0=1508512668787&lkt=2%2C1508512663537%2C1508512667055
+
+- sitename: GitHub
+  name: liyangbit
+  url: https://github.com/liyangbit
+
+# - sitename: LinkedIn
+#   name: liyang
+#   url: https://www.linkedin.com/in/liyangbit/
+
+- sitename: 知乎
+  name: 知乎专栏-Python数据之道
+  url: https://zhuanlan.zhihu.com/lemonbit

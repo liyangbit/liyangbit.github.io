@@ -1,0 +1,17 @@
+
+	<div id="container"></div>
+	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	<script>
+	  var gitment = new Gitment({
+			// id: 'http://liyangbit.github.io',
+			owner: 'liyangbit',
+			repo: 'blog-comments',
+			oauth: {
+					client_id: 'b3634cd18d6721800472',
+					client_secret: '097e900c505d5ccb0dc8e6cffb1cffc1f1de311b',
+			},
+			// perPage: 50
+	})
+	gitment.render('container')
+	</script>
