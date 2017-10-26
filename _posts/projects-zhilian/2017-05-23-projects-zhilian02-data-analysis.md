@@ -1,7 +1,7 @@
 ---
 layout: posts
-title: "智联求职实战(2)-python求职Top10城市，来看看是否有你所在的城市"
-teaser:
+title: "python求职Top10城市，来看看是否有你所在的城市"
+teaser: "智联求职实战(2)"
 date: 2017-05-23
 header:
    image_fullwidth: "image-head.jpg"
