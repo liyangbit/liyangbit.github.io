@@ -21,18 +21,14 @@
 		</p>
 	</div> -->
 	<div class="panel radius">
-		{{% for entry in site.data.sidebar-navigation.entries %}}
 		<ul>
+			{{% for entry in site.data.sidebar-navigation.entries %}}
 			<li><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
 
-			<ul>
-				{{% for item in entry.dropdown %}}
-				<li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
-				{{% endfor %}}
-			</ul>
 
-		</ul>
-		{{% endfor %}}
+
+		  {{% endfor %}}
+	  </ul>
 	</div>
 
 </aside>
