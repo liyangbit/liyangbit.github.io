@@ -21,7 +21,7 @@
 		</p>
 	</div> -->
 	<div class="panel radius">
-		{{% if page.categories[0] == "projects" %}}
+		{{% if page.categories[0] == site.data.mycategories.entries.categories[0] %}}
 		<h3>项目实战专题</h3>
 		<ul>
 		    {% for post in site.categories.projects %}
