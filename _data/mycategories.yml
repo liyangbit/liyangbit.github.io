@@ -3,7 +3,7 @@
 #   - projects-zhilian
 #   - tutorials
 entries:
-  - type: projects
+  - types: projects
     - mycategoryname: forbes
       mycategory: projects-forbes
 
@@ -11,6 +11,6 @@ entries:
       mycategory: projects-zhilian
 
 
-  - type: toturials
+  - types: toturials
     - mycategoryname: python basic
       mycategory: tutorials-python-basic

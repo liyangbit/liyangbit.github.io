@@ -515,13 +515,3 @@ print(type(brief_str_cs))
 <div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
 
 ## 相关文章
-{: .t60 }
-
-{% for entry in site.data.mycategories.entries %}
-{% assign categoryitem = entry.type.mycategory %}
-
-{% if categoryitem == page.categories[0] %}
-{% include list-posts.html category=categoryitem %}
-
-{% endif %}
-{% endfor %}
