@@ -55,7 +55,6 @@ authors: ["Lemon"]
 
 ## 相关文章
 
-{: .t60 }
 
 {% for entry in site.data.mycategories.entries %}
 {% assign tagitem = entry.tags %}
