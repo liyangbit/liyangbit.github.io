@@ -1,5 +1,13 @@
+# mycategories:
+#   - projects-forbes
+#   - projects-zhilian
+#   - tutorials
 
-mycategories:
-  - projects-forbes
-  - projects-zhilian
-  - tutorials
+- mycategoryname: forbes
+  mycategory: projects-forbes
+
+- mycategoryname: zhilian
+  mycategory: projects-zhilian
+
+- mycategoryname: python basic
+  mycategory: tutorials-python-basic
