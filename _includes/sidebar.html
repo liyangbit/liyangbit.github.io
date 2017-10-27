@@ -23,7 +23,7 @@
 	<div class="panel radius">
 		<ul>
 			{{% for entry in site.data.sidebar-navigation.entries %}}
-			<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+			<li><a href="{{ site.url }}{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
 		  {{% endfor %}}
 	  </ul>
 	</div>

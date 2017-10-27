@@ -9,6 +9,6 @@ permalink: "/MachineLearning/"
 ---
 <ul>
     {% for post in site.categories.MachineLearning %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url | remove: "/" }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
