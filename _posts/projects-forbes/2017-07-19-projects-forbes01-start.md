@@ -6,12 +6,12 @@ date: 2017-07-19
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-  - projects-forbes
+  - projects
 tags:
   - Pandas
   - Requests
   - BeautifulSoup
-  - forbes
+  - projects-forbes
 comments: true
 show_meta: true
 sidebar: right
@@ -52,3 +52,18 @@ authors: ["Lemon"]
 对我的文章感兴趣的朋友，可以关注我的微信公众号"Python数据之道"，接收我的更新通知.......
 
 <div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
+
+## 相关文章
+
+{: .t60 }
+
+{% for entry in site.data.mycategories.entries %}
+{% assign tagitem = entry.tags %}
+
+{% for tag in page.tags %}
+{% if tagitem == tag %}
+{% include list-posts.html tag=tagitem %}
+
+{% endif %}
+{% endfor %}
+{% endfor %}

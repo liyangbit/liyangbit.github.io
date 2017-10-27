@@ -6,12 +6,13 @@ date: 2017-05-22
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-  - projects-zhilian
+  - projects
 tags:
   - Requests
   - BeautifulSoup
   - MongoDB
   - pymongo
+  - projects-zhilian
 comments: true
 show_meta: true
 sidebar: right
@@ -193,3 +194,16 @@ if __name__ == '__main__':
 <div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
 
 ## 相关文章
+
+{: .t60 }
+
+{% for entry in site.data.mycategories.entries %}
+{% assign tagitem = entry.tags %}
+
+{% for tag in page.tags %}
+{% if tagitem == tag %}
+{% include list-posts.html tag=tagitem %}
+
+{% endif %}
+{% endfor %}
+{% endfor %}

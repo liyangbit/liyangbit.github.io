@@ -6,12 +6,13 @@ date: 2017-05-23
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-  - projects-zhilian
+  - projects
 tags:
   - Pandas
   - Numpy
   - Matplotlib
   - pymongo
+  - projects-zhilian
 comments: true
 show_meta: true
 sidebar: right
@@ -515,3 +516,16 @@ print(type(brief_str_cs))
 <div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
 
 ## 相关文章
+
+{: .t60 }
+
+{% for entry in site.data.mycategories.entries %}
+{% assign tagitem = entry.tags %}
+
+{% for tag in page.tags %}
+{% if tagitem == tag %}
+{% include list-posts.html tag=tagitem %}
+
+{% endif %}
+{% endfor %}
+{% endfor %}
