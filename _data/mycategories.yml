@@ -2,17 +2,13 @@
 #   - projects-forbes
 #   - projects-zhilian
 #   - tutorials
+
 entries:
-  - types: projects
-  - mycatitems:
-    - mycategoryname: forbes
-      mycategory: projects-forbes
+  - categories: projects
+    tags: projects-forbes
 
-    - mycategoryname: zhilian
-      mycategory: projects-zhilian
+  - categories: projects
+    tags: projects-zhilian
 
-
-  - types: toturials
-  - mycatitems:
-    - mycategoryname: python basic
-      mycategory: tutorials-python-basic
+  - categories: tutorials
+    tags: tutorials-python-basic
