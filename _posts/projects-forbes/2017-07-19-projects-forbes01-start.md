@@ -57,12 +57,13 @@ authors: ["Lemon"]
 
 
 {% for entry in site.data.mycategories.entries %}
-{% assign tagitem = entry.tags %}
+{% for mytag in entry.tags %}
 
 {% for tag in page.tags %}
-{% if tagitem == tag %}
-{% include list-posts.html tag=tagitem %}
-
+{% if mytag == tag %}
+{% include list-posts.html tag=mytag %}
 {% endif %}
+{% endfor %}
+
 {% endfor %}
 {% endfor %}
