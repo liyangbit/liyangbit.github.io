@@ -2,12 +2,12 @@
 #   - projects-forbes
 #   - projects-zhilian
 #   - tutorials
+entries:
+  - mycategoryname: forbes
+    mycategory: projects-forbes
 
-- mycategoryname: forbes
-  mycategory: projects-forbes
+  - mycategoryname: zhilian
+    mycategory: projects-zhilian
 
-- mycategoryname: zhilian
-  mycategory: projects-zhilian
-
-- mycategoryname: python basic
-  mycategory: tutorials-python-basic
+  - mycategoryname: python basic
+    mycategory: tutorials-python-basic
