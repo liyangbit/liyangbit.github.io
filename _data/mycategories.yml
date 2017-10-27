@@ -4,6 +4,7 @@
 #   - tutorials
 entries:
   - types: projects
+  - mycatitems:
     - mycategoryname: forbes
       mycategory: projects-forbes
 
@@ -12,5 +13,6 @@ entries:
 
 
   - types: toturials
+  - mycatitems:
     - mycategoryname: python basic
       mycategory: tutorials-python-basic
