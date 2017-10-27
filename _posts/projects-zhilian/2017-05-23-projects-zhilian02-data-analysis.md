@@ -516,4 +516,12 @@ print(type(brief_str_cs))
 
 ## 相关文章
 {: .t60 }
-{% include list-posts.html category='projects-zhilian' %}
+
+{% for entry in site.data.mycategories.entries %}
+{% assign categoryitem = entry.mycategory %}
+
+{% if categoryitem == page.categories[0] %}
+{% include list-posts.html category=categoryitem %}
+
+{% endif %}
+{% endfor %}
