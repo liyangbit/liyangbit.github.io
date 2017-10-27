@@ -25,13 +25,13 @@
 
 			{% if page.categories[0] contains "projects"}
 			<h3>项目实战专题列表</h3>
+
 			{% for entry in site.data.mycategories.entries %}
-			<!-- {% assign categoryitems = entry.mycategory %} -->
-			{% for categoryitem in entry.mycategory %}
-			{% if categoryitem contains "projects"}
-			<ul>{{ entry.mycategoryname }}</ul>
-			<li>{% include list-posts-link.html category=categoryitem %}</li>
+			{% assign categoryitem = entry.mycategory %}
+			{% if categoryitem == page.categories[0] %}
+			{% include list-posts-link.html category=categoryitem %}
 			{% endif %}
+			{% endfor %}
 
 			<!-- {% elsif page.categories contains "tutorials"}
 			<h3>Python教程列表</h3>
@@ -49,8 +49,7 @@
 							{% endfor %}
 					  </ul>
 					</li> -->
-				{% endfor %}
-				{% endfor %}
+
 			{% endif %}
 		    <!-- {% for item in site.categories.MachineLearning %}
 		    <li><a href="{{ site.url }}{{ item.url }}">{{ item.title }}</a></li>
