@@ -23,11 +23,11 @@
 	<div class="panel radius">
 		{{% for entry in site.data.sidebar-navigation.entries %}}
 		<ul>
-			<li><a href="{{site.url}}{{entry.url}}">{{ entry.title }}</a></li>
+			<li><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
 
 			<ul>
 				{{% for item in entry.dropdown %}}
-				<li><a href="{{site.url}}{{item.url}}">{{ item.title }}</a></li>
+				<li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
 				{{% endfor %}}
 			</ul>
 
