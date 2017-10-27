@@ -21,12 +21,14 @@
 		</p>
 	</div> -->
 	<div class="panel radius">
+		{{% if page.categories[0] contains "projects" %}}
+		<h3>项目实战专题</h3>
 		<ul>
-			<h3>项目实战专题</h3>
 		    {% for post in site.categories.projects %}
 		    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 		    {% endfor %}
 		</ul>
+		{{% endif %}}
 	</div>
 
 </aside>
