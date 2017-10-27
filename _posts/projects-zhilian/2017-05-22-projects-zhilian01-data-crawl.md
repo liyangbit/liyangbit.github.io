@@ -195,7 +195,6 @@ if __name__ == '__main__':
 
 ## 相关文章
 
-{: .t30 }
 
 {% for entry in site.data.mycategories.entries %}
 {% assign tagitem = entry.tags %}
@@ -207,5 +206,3 @@ if __name__ == '__main__':
 {% endif %}
 {% endfor %}
 {% endfor %}
-
-{: .t30 }
