@@ -5,10 +5,12 @@
 
 entries:
   - categories: projects
-    tags: projects-forbes
-
-  - categories: projects
-    tags: projects-zhilian
+    title: 项目实战专题
+    tags:
+      - projects-forbes
+      - projects-zhilian
 
   - categories: tutorials
-    tags: tutorials-python-basic
+    title: Python教程
+    tags:
+      - tutorials-python-basic
