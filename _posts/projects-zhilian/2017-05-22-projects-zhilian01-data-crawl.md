@@ -196,7 +196,7 @@ if __name__ == '__main__':
 {: .t60 }
 
 {% for entry in site.data.mycategories.entries %}
-{% assign categoryitem = entry.mycategory %}
+{% assign categoryitem = entry.type.mycategory %}
 
 {% if categoryitem == page.categories[0] %}
 {% include list-posts.html category=categoryitem %}

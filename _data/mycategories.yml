@@ -3,11 +3,14 @@
 #   - projects-zhilian
 #   - tutorials
 entries:
-  - mycategoryname: forbes
-    mycategory: projects-forbes
+  - type: projects
+    - mycategoryname: forbes
+      mycategory: projects-forbes
 
-  - mycategoryname: zhilian
-    mycategory: projects-zhilian
+    - mycategoryname: zhilian
+      mycategory: projects-zhilian
 
-  - mycategoryname: python basic
-    mycategory: tutorials-python-basic
+
+  - type: toturials
+    - mycategoryname: python basic
+      mycategory: tutorials-python-basic
