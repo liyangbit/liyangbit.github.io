@@ -21,14 +21,18 @@
 		</p>
 	</div> -->
 	<div class="panel radius">
+		{{% for entry in site.data.sidebar-navigation.entries %}}
 		<ul>
-			hao
+			<li><a href="{{site.url}}{{entry.url}}">{{ entry.title }}</a></li>
 
-			<h3>项目实战专题列表</h3>
-
-
+			<ul>
+				{{% for item in entry.dropdown %}}
+				<li><a href="{{site.url}}{{item.url}}">{{ item.title }}</a></li>
+				{{% endfor %}}
+			</ul>
 
 		</ul>
+		{{% endfor %}}
 	</div>
 
 </aside>
