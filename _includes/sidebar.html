@@ -4,12 +4,12 @@
 		{% include sidebar-search.html %}
 	</div>
 
-	<div class="panel radius">
+	<!-- <div class="panel radius">
 		<h3>Python数据之道</h3>
 		<p>
 			秉承“让数据更有价值”的理念，主要分享数据相关的内容，包括数据分析，挖掘，可视化，机器学习，深度学习等。
 		</p>
-	</div>
+	</div> -->
 
   <!-- <img class="b30" src="http://dummyimage.com/303x16:9/df4949/e27b3f.png&amp;text=Ugly+Ad+Space" alt="Python数据之道"> -->
 
@@ -22,15 +22,15 @@
 	</div> -->
 	<div class="panel radius">
 		{% if page.categories[0] contains "projects" %}
-		<h3>项目实战专题</h3>
+		<h3><strong>项目实战专题</strong></h3>
 		<ul>
 		    {% for post in site.categories.projects %}
-		    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><strong>{{ post.title }}</strong></a></li>
+		    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 		    {% endfor %}
 		</ul>
 
 		{% elsif page.categories[0] contains "tutorials" %}
-		<h3>Python教程</h3>
+		<h3><strong>Python教程</strong></h3>
 		<ul>
 				{% for post in site.categories.tutorials %}
 				<li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
@@ -40,7 +40,7 @@
 		{% else %}
 		<ul>
 		{% for entry in site.data.sidebar-navigation.entries %}
-		<li><a href="{{ site.url }}{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+		<li><strong><a href="{{ site.url }}{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></strong></li>
 
 			<ul>
 				{% for item in entry.dropdown %}
