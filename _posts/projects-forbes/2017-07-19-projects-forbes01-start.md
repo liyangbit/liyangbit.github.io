@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "福布斯系列之数据分析思路篇"
+title: "福布斯系列(1)-数据分析思路篇"
 teaser:
 date: 2017-07-19
 header:
