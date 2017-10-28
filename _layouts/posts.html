@@ -60,6 +60,10 @@ layout: default
 						title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
 					{% endif %}
 
+					<div class="share">
+			      {% include sns-share.html %}
+			    </div>
+					
 					{% if page.comments == true %}
 					{% include comments.html %}
 					{% endif %}

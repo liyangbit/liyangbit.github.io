@@ -48,7 +48,10 @@ format: post
 			<span itemprop="articleSection">
 			{{ content }}
 			</span>
-
+			
+			<div class="share">
+	      {% include sns-share.html %}
+	    </div>
 			<!-- {% include comments.html %} -->
 			{% if page.comments == true %}
 			{% include comments.html %}
