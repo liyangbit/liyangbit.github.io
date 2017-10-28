@@ -2,7 +2,9 @@
 
 	<div class="panel radius">
 		{% include sidebar-search.html %}
+	</div>
 
+	<div class="panel radius">
 		<h3>Python数据之道</h3>
 		<p>
 			秉承“让数据更有价值”的理念，主要分享数据相关的内容，包括数据分析，挖掘，可视化，机器学习，深度学习等。
@@ -19,7 +21,7 @@
 		</p>
 	</div> -->
 	<div class="panel radius">
-		{% if page.categories[0] == site.data.mycategories.entries.categories[1] %}
+		{% if page.categories[0] contains "projects" %}
 		<h3>项目实战专题</h3>
 		<ul>
 		    {% for post in site.categories.projects %}
