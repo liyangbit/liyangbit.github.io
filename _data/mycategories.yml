@@ -4,13 +4,13 @@
 #   - tutorials
 
 entries:
+  - categories: tutorials
+    title: Python教程
+    tags:
+      - tutorials-python-basic
+  
   - categories: projects
     title: 项目实战专题
     tags:
       - projects-forbes
       - projects-zhilian
-
-  - categories: tutorials
-    title: Python教程
-    tags:
-      - tutorials-python-basic
