@@ -1,6 +1,6 @@
 <aside>
 
-	<div class="panel radius">
+	<div>
 		{% include sidebar-search.html %}
 	</div>
 
@@ -25,19 +25,31 @@
 		<h3>项目实战专题</h3>
 		<ul>
 		    {% for post in site.categories.projects %}
-		    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+		    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><strong>{{ post.title }}</strong></a></li>
 		    {% endfor %}
 		</ul>
 
-		{% elsif page.categories[0] == site.data.mycategories.entries.categories[0] %}
+		{% elsif page.categories[0] contains "tutorials" %}
 		<h3>Python教程</h3>
 		<ul>
 				{% for post in site.categories.tutorials %}
 				<li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 				{% endfor %}
 		</ul>
+
 		{% else %}
-		other
+		<ul>
+		{% for entry in site.data.sidebar-navigation.entries %}
+		<li><a href="{{ site.url }}{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+
+			<ul>
+				{% for item in entry.dropdown %}
+				<li><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+				{% endfor %}
+			</ul>
+
+	  {% endfor %}
+	  </ul>
 		{% endif %}
 	</div>
 
