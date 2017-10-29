@@ -1,6 +1,7 @@
 ---
 layout: page
-show_meta: false
+show_meta: true
+authors: ["Lemon"]
 title: "机器学习"
 subheadline: "博客文章分类"
 header:

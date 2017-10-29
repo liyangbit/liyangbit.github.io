@@ -2,7 +2,8 @@
 layout: page
 title: "Contact Us"
 meta_title: "Contact us"
-show_meta: false
+show_meta: true
+authors: ["Lemon"]
 comments: true
 teaser:
 header:

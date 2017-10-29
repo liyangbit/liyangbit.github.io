@@ -1,7 +1,8 @@
 ---
 layout: page
 sidebar: "right"
-show_meta: false
+show_meta: true
+authors: ["Lemon"]
 title: "赞助支持"
 comments: true
 header:

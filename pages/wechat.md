@@ -2,7 +2,8 @@
 layout: page
 sidebar:
 comments: true
-show_meta: false
+show_meta: true
+authors: ["Lemon"]
 title: "关于微信公众号"
 header:
    image_fullwidth: "image-head.jpg"

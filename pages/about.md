@@ -4,6 +4,7 @@ sidebar: "right"
 comments: true
 show_meta: true
 title: "About Us"
+authors: ["Lemon"]
 header:
    image_fullwidth: "image-head.jpg"
 permalink: "/about/"

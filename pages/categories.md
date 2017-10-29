@@ -2,7 +2,8 @@
 layout: page-fullwidth
 title: "博客文章分类 (Categories)"
 meta_title: "Categories"
-show_meta: false
+show_meta: true
+authors: ["Lemon"]
 teaser:
 header:
    image_fullwidth: "image-head.jpg"

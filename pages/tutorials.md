@@ -2,7 +2,8 @@
 layout: page
 sidebar: "right"
 comments: true
-show_meta: false
+show_meta: true
+authors: ["Lemon"]
 title: "Python教程"
 header:
    image_fullwidth: "image-head.jpg"

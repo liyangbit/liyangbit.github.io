@@ -2,10 +2,12 @@
   <p>
 
     <span id="busuanzi_container_page_pv">
-      阅读量:<span id="busuanzi_value_page_pv"></span>次 &nbsp;   &nbsp;   &nbsp;   &nbsp;
+      阅读量:<span id="busuanzi_value_page_pv"></span>次
     </span>
 
-    Authors:   {% for author in page.authors %}<span itemprop="name" class="pr20 icon-edit">{{ author }}</span>{% endfor %}
+    {% if page.authors %}
+    &nbsp;   &nbsp; Authors:   {% for author in page.authors %}<span itemprop="name" class="pr20 icon-edit">{{ author }}</span>{% endfor %}
+    {% endif %}
 
     {% if page.date %}
     <time class="icon-calendar pr20" datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished"> {{ page.date | date: "%Y-%m-%d" }}</time>

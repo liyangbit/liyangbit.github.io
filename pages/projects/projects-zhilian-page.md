@@ -1,7 +1,8 @@
 ---
 layout: page
 sidebar: "right"
-show_meta: false
+show_meta: true
+authors: ["Lemon"]
 title: "智联求职实战"
 comments: true
 header:

@@ -2,7 +2,8 @@
 layout: page
 title: "博客文章标签 (Tags)"
 meta_title: "Tag"
-show_meta: false
+show_meta: true
+authors: ["Lemon"]
 teaser:
 header:
    image_fullwidth: "image-head.jpg"
