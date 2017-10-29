@@ -20,7 +20,6 @@ permalink: "/projects-zhilian-page/"
 
 **本系列文章如下：**
 
-<div style="background-color:#E0EAF2">
-* [求职系列(1)-5分钟掌握智联招聘网站爬取并保存到MongoDB数据库](https://liyangbit.github.io/projects/projects-zhilian01-data-crawl/)
-* [求职系列(2)-python求职Top10城市，来看看是否有你所在的城市](https://liyangbit.github.io/projects/projects-zhilian02-data-analysis/)
-</div>
+
+* **[求职系列(1)-5分钟掌握智联招聘网站爬取并保存到MongoDB数据库](https://liyangbit.github.io/projects/projects-zhilian01-data-crawl/)**
+* **[求职系列(2)-python求职Top10城市，来看看是否有你所在的城市](https://liyangbit.github.io/projects/projects-zhilian02-data-analysis/)**
