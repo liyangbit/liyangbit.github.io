@@ -31,8 +31,9 @@ permalink: "/projects/"
 “python求职Top10城市”，这篇文章，经几个大号转发，**累计阅读量过万**，推荐阅读。
 
 **本系列文章如下：**
-* [求职系列(1)-5分钟掌握智联招聘网站爬取并保存到MongoDB数据库](https://liyangbit.github.io/projects/projects-zhilian01-data-crawl/)
-* [求职系列(2)-python求职Top10城市，来看看是否有你所在的城市](https://liyangbit.github.io/projects/projects-zhilian02-data-analysis/)
+
+**1. [求职系列(1)-5分钟掌握智联招聘网站爬取并保存到MongoDB数据库](https://liyangbit.github.io/projects/projects-zhilian01-data-crawl/)
+1. [求职系列(2)-python求职Top10城市，来看看是否有你所在的城市](https://liyangbit.github.io/projects/projects-zhilian02-data-analysis/)**
 
 
 ## 2 项目实战：福布斯系列
@@ -47,7 +48,8 @@ permalink: "/projects/"
 * 一些可视化的技巧（未发布，待更新）
 
 **本系列已发布文章如下：**
-1. [福布斯系列(1)-数据分析思路篇](https://liyangbit.github.io/projects/projects-forbes01-start/)
+
+**1. [福布斯系列(1)-数据分析思路篇](https://liyangbit.github.io/projects/projects-forbes01-start/)
 1. [福布斯系列(2)-数据采集](https://liyangbit.github.io/projects/projects-forbes02-data-crawl/)
 1. [福布斯系列(3)-数据完整性检查](https://liyangbit.github.io/projects/projects-forbes03-data-completeness-check/)
 1. [福布斯系列(4)-补充数据收集](https://liyangbit.github.io/projects/projects-forbes04-data-crawl-02/)
@@ -55,4 +57,4 @@ permalink: "/projects/"
 1. [福布斯系列(6)-数据清洗(b)](https://liyangbit.github.io/projects/projects-forbes06-data-tidy-2008-2010/)
 1. [福布斯系列(7)-数据清洗(c)](https://liyangbit.github.io/projects/projects-forbes07-data-tidy-2011-2015/)
 1. [福布斯系列(8)-数据清洗(d)](https://liyangbit.github.io/projects/projects-forbes08-data-tidy-2016/)
-1. [福布斯系列(9)-数据清洗(e)](https://liyangbit.github.io/projects/projects-forbes09-data-tidy-concat/)
+1. [福布斯系列(9)-数据清洗(e)](https://liyangbit.github.io/projects/projects-forbes09-data-tidy-concat/)**

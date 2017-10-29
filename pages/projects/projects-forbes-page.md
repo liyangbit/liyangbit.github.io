@@ -22,7 +22,8 @@ permalink: "/projects-forbes-page/"
 * 一些可视化的技巧（未发布，待更新）
 
 **本系列已发布文章如下：**
-1. [福布斯系列(1)-数据分析思路篇](https://liyangbit.github.io/projects/projects-forbes01-start/)
+
+**1. [福布斯系列(1)-数据分析思路篇](https://liyangbit.github.io/projects/projects-forbes01-start/)
 1. [福布斯系列(2)-数据采集](https://liyangbit.github.io/projects/projects-forbes02-data-crawl/)
 1. [福布斯系列(3)-数据完整性检查](https://liyangbit.github.io/projects/projects-forbes03-data-completeness-check/)
 1. [福布斯系列(4)-补充数据收集](https://liyangbit.github.io/projects/projects-forbes04-data-crawl-02/)
@@ -30,4 +31,4 @@ permalink: "/projects-forbes-page/"
 1. [福布斯系列(6)-数据清洗(b)](https://liyangbit.github.io/projects/projects-forbes06-data-tidy-2008-2010/)
 1. [福布斯系列(7)-数据清洗(c)](https://liyangbit.github.io/projects/projects-forbes07-data-tidy-2011-2015/)
 1. [福布斯系列(8)-数据清洗(d)](https://liyangbit.github.io/projects/projects-forbes08-data-tidy-2016/)
-1. [福布斯系列(9)-数据清洗(e)](https://liyangbit.github.io/projects/projects-forbes09-data-tidy-concat/)
+1. [福布斯系列(9)-数据清洗(e)](https://liyangbit.github.io/projects/projects-forbes09-data-tidy-concat/)**
