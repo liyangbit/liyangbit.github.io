@@ -23,14 +23,14 @@
 	<div>
 	<div class="panel radius" style="position:relative; max-height:800px; overflow:auto">
 		{% if page.categories[0] contains "projects" %}
-		<h3><strong>项目实战专题11</strong></h3>
+		<h3><strong>项目实战专题</strong></h3>
 		<ul>
 				{% for entry in site.data.mycategories.entries %}
 				{% for mycat in entry.categories %}
 
 				{% for cat in page.categories %}
 				{% if mycat == cat %}
-				<li>{% include list-posts-link.html category=mycat %}</li>
+				{% include list-posts-link.html category=mycat %}
 				{% endif %}
 				{% endfor %}
 
@@ -41,8 +41,16 @@
 		{% elsif page.categories[0] contains "tutorials" %}
 		<h3><strong>Python教程</strong></h3>
 		<ul>
-				{% for post in site.categories.tutorials %}
-				<li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+				{% for entry in site.data.mycategories.entries %}
+				{% for mycat in entry.categories %}
+
+				{% for cat in page.categories %}
+				{% if mycat == cat %}
+				{% include list-posts-link.html category=mycat %}
+				{% endif %}
+				{% endfor %}
+
+				{% endfor %}
 				{% endfor %}
 		</ul>
 

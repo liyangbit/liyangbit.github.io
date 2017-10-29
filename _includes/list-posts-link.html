@@ -37,7 +37,9 @@
   {% elsif category %}
 
     {% for post in site.categories.[category] %}
+    <ul>
       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    </ul>
     {% endfor %}
       <!-- <li class="text-right"><a href="{{ site.baseurl }}/blog/archive/"><strong>{{ site.data.language.more }}</strong></a></li> -->
 
