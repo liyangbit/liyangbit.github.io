@@ -36,13 +36,11 @@ permalink: "/projects/"
 
 {% for entry in site.data.mycategories.entries %}
 
-<ul>
 {% for mytag in entry.tags %}
 {% if mytag == "projects-zhilian" %}
-<li><strong>{% include list-posts-link.html tag=mytag %}</strong></li>
+<strong>{% include list-posts-link.html tag=mytag %}</strong>
 {% endif %}
 {% endfor %}
-</ul>
 {% endfor %}
 
 </div>
@@ -64,14 +62,11 @@ permalink: "/projects/"
 <div style="background-color:#E0EAF2">
 
 {% for entry in site.data.mycategories.entries %}
-
-<ul>
 {% for mytag in entry.tags %}
 {% if mytag == "projects-forbes" %}
-<li><strong>{% include list-posts-link.html tag=mytag %}</strong></li>
+<strong>{% include list-posts-link.html tag=mytag %}</strong>
 {% endif %}
 {% endfor %}
-</ul>
 {% endfor %}
 
 </div>

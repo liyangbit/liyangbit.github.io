@@ -25,13 +25,11 @@ permalink: "/projects-zhilian-page/"
 
 {% for entry in site.data.mycategories.entries %}
 
-<ul>
 {% for mytag in entry.tags %}
 {% if mytag == "projects-zhilian" %}
-<li><strong>{% include list-posts-link.html tag=mytag %}</strong></li>
+<strong>{% include list-posts-link.html tag=mytag %}</strong>
 {% endif %}
 {% endfor %}
-</ul>
 {% endfor %}
 
 </div>
