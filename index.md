@@ -7,15 +7,15 @@
 layout: frontpage
 title: "Python数据之道"
 header:
-   image_fullwidth: "wood_plank.jpg"
+   image_fullwidth: "image-head.jpg"
 widget-1:
     title: "Python教程"
-    url: '/tutorial/'
+    url: '/tutorials/'
     text: '本文介绍的是Python数据科学相关的教程，包括：(a)Python基础；(b)数据分析：Numpy & Pandas进阶; (c)数据可视化：Matplotlib; (4)机器学习等'
     image: /images/sklearn01.jpg
 widget-2:
     title: "项目实战专题"
-    url: '/casestudy/'
+    url: '/projects/'
     text: '通过项目实战来将灵活运用学到的技能，以此提升自己的水平。
     包括：(a) 求职系列项目实战；（b）福布斯系列项目实战；等等'
     image: /images/forbes_cover1.jpg
