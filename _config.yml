@@ -22,7 +22,7 @@ description: "» Python数据之道 « 秉承“让数据更有价值”的理�
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-url: "https://liyangbit.github.io/"
+url: "https://liyangbit.github.io"
 #url: "http://0.0.0.0:4000/"
 baseurl: ""
 
