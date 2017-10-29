@@ -3,6 +3,7 @@ layout: page
 title: "博客文章标签 (Tags)"
 meta_title: "Tag"
 show_meta: true
+sidebar: right
 authors: ["Lemon"]
 teaser:
 header:

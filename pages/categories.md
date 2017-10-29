@@ -3,6 +3,7 @@ layout: page-fullwidth
 title: "博客文章分类 (Categories)"
 meta_title: "Categories"
 show_meta: true
+sidebar: right
 authors: ["Lemon"]
 teaser:
 header:
@@ -10,9 +11,7 @@ header:
 permalink: "/categories/"
 ---
 
-<div class="row">
 
-<div class="medium-8 columns">
 
 <section class="container posts-content">
 {% assign sorted_categories = site.categories | sort %}
@@ -28,21 +27,3 @@ permalink: "/categories/"
 </ol>
 {% endfor %}
 </section>
-
-</div>
-
-
-
-<div class="medium-4 columns">
-
-<div class="panel radius">
-<ul>
-    {% for post in site.categories.MachineLearning %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
-</div>
-
-</div>
-
-</div>
