@@ -2,7 +2,7 @@
 layout: page
 sidebar: "right"
 comments: true
-show_meta: false
+show_meta: true
 title: "About Us"
 header:
    image_fullwidth: "image-head.jpg"
