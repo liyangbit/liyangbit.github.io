@@ -1,17 +1,27 @@
 <div id="page-meta" class="t30">
   <p>
+
+    <span id="busuanzi_container_page_pv">
+      阅读量:<span id="busuanzi_value_page_pv"></span>次
+    </span>
+
     Authors:   {% for author in page.authors %}<span itemprop="name" class="pr20 icon-edit">{{ author }}</span>{% endfor %}
-    
+
     {% if page.date %}
     <time class="icon-calendar pr20" datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished"> {{ page.date | date: "%Y-%m-%d" }}</time>
     {% endif %}
-    
+
+
+
     {% if page.categories %}<span class="icon-archive pr20">{{ page.categories | join: ' · ' | upcase }}</span>{% endif %}
+
+
+
     <br />
     <span class="pr20">{% for tag in page.tags %}<span class="icon-price-tag pr10">{{tag}}</span> {% endfor %}</span>
   </p>
 
-<!--  
+<!--
   <div id="post-nav" class="row">
     <div class="small-5 columns">
       {% if page.previous.url %}
