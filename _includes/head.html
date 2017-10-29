@@ -6,7 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>{% if page.meta_title %}{{ page.meta_title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 	<link rel="stylesheet" href="{{ site.url }}/assets/css/styles_feeling_responsive.css">
+	<link rel="stylesheet" href="{{ site.url }}/assets/vendor/primer-css/css/primer.css"> <!-- add -->
+	<link rel="stylesheet" href="{{ site.url }}/assets/css/globals/common.css"> <!-- add -->
+  <link rel="stylesheet" href="{{ site.url }}/assets/vendor/share.js/dist/css/share.min.css"> <!-- add -->
 	<script src="{{ site.url }}/assets/js/modernizr.min.js"></script>
+	<script src="{{ site.url }}/assets/vendor/jquery/dist/jquery.min.js"></script> <!-- add -->
+  <script src="{{ site.url }}/assets/js/jquery-ui.js"></script> <!-- add -->
 
   <!-- <script>
     WebFontConfig = {
