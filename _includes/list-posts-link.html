@@ -35,12 +35,11 @@
 
 
   {% elsif category %}
-
-    {% for post in site.categories.[category] %}
     <ul>
+    {% for post in site.categories.[category] %}
       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    </ul>
     {% endfor %}
+    </ul>
       <!-- <li class="text-right"><a href="{{ site.baseurl }}/blog/archive/"><strong>{{ site.data.language.more }}</strong></a></li> -->
 
 
