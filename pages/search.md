@@ -1,7 +1,11 @@
 ---
 layout: page
-show_meta: false
 title: "站内搜索"
+show_meta: true
+authors: ["Lemon"]
+comments: true
+teaser:
+sidebar: right
 header:
    image_fullwidth: "image-head.jpg"
 permalink: "/search/"

@@ -6,6 +6,7 @@ show_meta: true
 authors: ["Lemon"]
 comments: true
 teaser:
+sidebar: right
 header:
    image_fullwidth: "image-head.jpg"
 permalink: "/contact/"
