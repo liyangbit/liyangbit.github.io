@@ -49,6 +49,25 @@ permalink: "/projects/"
 
 **本系列已发布文章如下：**
 
+<div style="background-color:#E0EAF2">
+<ul>
+{% for entry in site.data.mycategories.entries %}
+{% for mytag in entry.tags %}
+
+{% if mytag == "projects-forbes" %}
+<li><strong>{% include list-posts-link.html tag=mytag %}</strong></li>
+{% endif %}
+{% endfor %}
+
+{% endfor %}
+{% endfor %}
+</ul>
+
+</div>
+
+
+en
+
 1. **[福布斯系列(1)-数据分析思路篇](https://liyangbit.github.io/projects/projects-forbes01-start/)**
 1. **[福布斯系列(2)-数据采集](https://liyangbit.github.io/projects/projects-forbes02-data-crawl/)**
 1. **[福布斯系列(3)-数据完整性检查](https://liyangbit.github.io/projects/projects-forbes03-data-completeness-check/)**
