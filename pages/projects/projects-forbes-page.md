@@ -29,5 +29,5 @@ permalink: "/projects-forbes-page/"
 1. [福布斯系列(5)-数据清洗(a)](https://liyangbit.github.io/projects/projects-forbes05-data-tidy-2007/)
 1. [福布斯系列(6)-数据清洗(b)](https://liyangbit.github.io/projects/projects-forbes06-data-tidy-2008-2010/)
 1. [福布斯系列(7)-数据清洗(c)](https://liyangbit.github.io/projects/projects-forbes07-data-tidy-2011-2015/)
-1. [福布斯系列(8)-数据清洗(d)]()
-1. [福布斯系列(9)-数据清洗(e)]()
+1. [福布斯系列(8)-数据清洗(d)](https://liyangbit.github.io/projects/projects-forbes08-data-tidy-2016/)
+1. [福布斯系列(9)-数据清洗(e)](https://liyangbit.github.io/projects/projects-forbes09-data-tidy-concat/)

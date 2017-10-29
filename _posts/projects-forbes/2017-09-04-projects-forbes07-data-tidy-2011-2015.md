@@ -2,7 +2,7 @@
 layout: posts
 title: "福布斯系列(7)-数据清洗(c)"
 teaser:
-date: 2017-08-25
+date: 2017-09-04
 header:
    image_fullwidth: "image-head.jpg"
 categories:
