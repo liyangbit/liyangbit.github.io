@@ -57,7 +57,6 @@ permalink: "/projects/"
 {% if mytag == "projects-forbes" %}
 <li><strong>{% include list-posts-link.html tag=mytag %}</strong></li>
 {% endif %}
-{% endfor %}
 
 {% endfor %}
 {% endfor %}
