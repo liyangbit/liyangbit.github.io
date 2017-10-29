@@ -24,35 +24,35 @@
 	<div class="panel radius" style="position:relative; max-height:800px; overflow:auto">
 		{% if page.categories[0] contains "projects" %}
 		<h3><strong>项目实战专题</strong></h3>
-		<ul>
-				{% for entry in site.data.mycategories.entries %}
-				{% for mycat in entry.categories %}
 
-				{% for cat in page.categories %}
-				{% if mycat == cat %}
-				{% include list-posts-link.html category=mycat %}
-				{% endif %}
-				{% endfor %}
+		{% for entry in site.data.mycategories.entries %}
+		{% for mycat in entry.categories %}
 
-				{% endfor %}
-				{% endfor %}
-		</ul>
+		{% for cat in page.categories %}
+		{% if mycat == cat %}
+		{% include list-posts-link.html category=mycat %}
+		{% endif %}
+		{% endfor %}
+
+		{% endfor %}
+		{% endfor %}
+
 
 		{% elsif page.categories[0] contains "tutorials" %}
 		<h3><strong>Python教程</strong></h3>
-		<ul>
-				{% for entry in site.data.mycategories.entries %}
-				{% for mycat in entry.categories %}
 
-				{% for cat in page.categories %}
-				{% if mycat == cat %}
-				{% include list-posts-link.html category=mycat %}
-				{% endif %}
-				{% endfor %}
+		{% for entry in site.data.mycategories.entries %}
+		{% for mycat in entry.categories %}
 
-				{% endfor %}
-				{% endfor %}
-		</ul>
+		{% for cat in page.categories %}
+		{% if mycat == cat %}
+		{% include list-posts-link.html category=mycat %}
+		{% endif %}
+		{% endfor %}
+
+		{% endfor %}
+		{% endfor %}
+
 
 		{% else %}
 		<ul>
