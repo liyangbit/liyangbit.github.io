@@ -22,7 +22,7 @@ description: "» Python数据之道 « 秉承“让数据更有价值”的理�
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-url: "https://liyangbit.github.io"
+url: "http://liyangbit.com"
 #url: "http://0.0.0.0:4000/"
 baseurl: ""
 
@@ -60,7 +60,7 @@ paginate_path: "blog/page:num"
 # Lesson URLs
 dc_github_repo_url: "https://github.com/liyangbit"
 dc_github_site_url: "http://liyangbit.github.io"
-dc_website_url: "http://liyangbit.github.io"
+dc_website_url: "http://liyangbit.com"
 
 
 # Theme works best with Kramdown (using the table of contents function)
