@@ -19,7 +19,7 @@ $text-color:       	#111;
 $body-font-color: 	$text-color;
 $body-bg: 			#fdfdfd;
 
-$code-bg: 			#f0f0f0; // 添加代码背景颜色， 浅蓝：#DDEAF7；黑色：#110401
+$code-bg: 			#e6e6e6; // 添加代码背景颜色， 浅蓝：#DDEAF7；黑色：#110401
 
 
 /* Corporate Identity Colorpalette
@@ -127,8 +127,8 @@ $subfooter-link-color: $grey-8;
 $code-background-color: scale-color($secondary-color, $lightness: 70%);
 */
 
-$code-background-color: scale-color($code-bg); 
-/* 
+$code-background-color: scale-color($code-bg);
+/*
 修改代码高亮的字体背景颜色,
 然后在文件 _11_syntax-highlighting.scss 中修改 整体代码高亮框的背景颜色
 */
