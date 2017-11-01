@@ -14,9 +14,13 @@ show_meta: true
 sidebar: right
 authors: ["Lemon"]
 ---
-**Table of Contents**
+
+**Python：Anaconda安装虚拟环境到指定路径**
+
+
 
 <div class="panel radius" markdown="1">
+**Table of Contents**
 {: #toc }
 *  TOC
 {:toc}
@@ -24,9 +28,9 @@ authors: ["Lemon"]
 
 
 
-**Python：Anaconda安装虚拟环境到指定路径**
 
-# 1 曾经的困扰
+
+## 1 曾经的困扰
 
 有段时间，想使用基于不同python版本的anaconda，就直接从官网下载了两个不同的anaconda版本进行安装。
 
@@ -38,7 +42,7 @@ authors: ["Lemon"]
 
 很有可能上述问题就是同时安装两个版本的anaconda引起的（不过我也不能完全肯定）。
 
-# 2 安装虚拟环境
+## 2 安装虚拟环境
 
 虽然只安装一个版本的anaconda，能顺利的运行，但有时候，还是需要运行基于不同python版本的anaconda的。后来了解到，anaconda是可以在虚拟环境下运行不同python版本的。
 
@@ -100,7 +104,7 @@ conda remove --prefix=D:\python36\py36 --all
 
 插播一条硬广：技术文章转发太多。文章来自微信公众号“Python数据之道”（ID：PyDataRoad）。
 
-# 3 虚拟环境下安装python库
+## 3 虚拟环境下安装python库
 如果还想继续安装python2.7的虚拟环境，方法跟安装python3.6是一致的。
 
 上述虚拟环境py27安装完成后，激活后虚拟环境后，可以安装其他python库。
