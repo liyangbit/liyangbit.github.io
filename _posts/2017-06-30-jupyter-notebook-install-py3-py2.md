@@ -2,7 +2,7 @@
 layout: posts
 title: "在jupyter notebook中同时安装python2和python3"
 teaser:
-date: 2017-06-23
+date: 2017-06-30
 header:
    image_fullwidth: "image-head.jpg"
 categories:
@@ -45,6 +45,7 @@ authors: ["Lemon"]
 
 在之前的文章中，我是将anaconda的虚拟环境py27安装在指定路径（D:\pyenv\py27），因此在安装ipykernel时，也需要指定安装。
 安装命令为 “conda install --prefix=D:\pyenv\py27 ipykernel”，如下：
+
 ![](http://oqb5ftrdh.bkt.clouddn.com/17-6-29/17825040.jpg)
 
 然后激活py27的虚拟环境，输入命令：
@@ -52,9 +53,11 @@ authors: ["Lemon"]
 ```python
 python -m ipykernel install --user
 ```
+
 ![](http://oqb5ftrdh.bkt.clouddn.com/17-6-29/11590887.jpg)
 
 启动jupyter notebook去查看，这时可以看到，python2的kernel已经安装好了。
+
 ![](http://oqb5ftrdh.bkt.clouddn.com/17-6-29/37253866.jpg)
 
 
