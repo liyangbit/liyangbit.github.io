@@ -9,7 +9,7 @@ categories:
    - PythonVisualization
 tags:
    - Matplotlib
-   - pandas
+   - Pandas
    - Numpy
 comments: true
 show_meta: true
@@ -30,9 +30,8 @@ authors: ["Lemon"]
 {:toc}
 </div>
 
+## 前言
 
-
- ## 前言
 
  >matplotlib， 官方提供的饼图Demo，功能比较比较简单，在实际应用过程中，往往会有许多个性化的绘制需求，在这里跟大家一起了解下饼图（pie chart）的一些特色的功能的实现。
 
