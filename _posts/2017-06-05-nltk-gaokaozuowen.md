@@ -2,14 +2,16 @@
 layout: posts
 title: "Python分析：50年高考作文题，记录时代变迁"
 teaser:
-date: 2017-06-27
+date: 2017-06-05
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-   - Database
+   - NLTK
 tags:
-   - SQLite
-   - Pandas
+   - Jieba
+   - Wordclound
+   - Matplotlib
+   - Numpy
 comments: true
 show_meta: true
 sidebar: right
