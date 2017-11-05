@@ -18,7 +18,7 @@ authors: ["Lemon"]
 
 
 
-{% include alert info='本文首发于我的微信公众号（ID：PyDataRoad）。' %}
+{% include alert info='Python中字典合并的实现方法' %}
 
 
 <div class="panel radius" markdown="1">
