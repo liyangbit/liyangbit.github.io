@@ -32,8 +32,7 @@ authors: ["Lemon"]
 ## 单独显示公式：
 
 
-# Table of Contents
- <p><div class="lev1 toc-item"><a href="#将数据进行初步整理" data-toc-modified-id="将数据进行初步整理-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>将数据进行初步整理</a></div><div class="lev2 toc-item"><a href="#Year-2007" data-toc-modified-id="Year-2007-11"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Year 2007</a></div>
+
 
 
 ```python
