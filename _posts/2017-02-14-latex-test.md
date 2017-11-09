@@ -29,6 +29,8 @@ authors: ["Lemon"]
 
 行前 $ f(x) = \sum_{i=1}^{N} x_{i} $  行后
 
+$$ f(x) = \sum_{i=1}^{N} x_{i}\tag{a} $$
+
 ## 单独显示公式：
 
 
