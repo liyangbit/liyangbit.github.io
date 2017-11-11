@@ -26,6 +26,12 @@ Hi, 我是 Lemon，对数据科学有浓厚的兴趣，主要使用 Python语言
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
 {% endfor %}
 
+**QQ群：**
+Python交流群: 478118956 ，请回复问题加入
+
+问题：请输入本站网址
+
+答案：liyangbit.com
 
 ## 赞助支持
 
