@@ -33,6 +33,10 @@ authors: ["Lemon"]
 
 {% include alert info='请注意：矩阵的公式在正文里没有正常显示，可以在文末的jupyter notebook 中查看效果' %}
 
+众所周知，数据挖掘、机器学习以及深度学习等，在学习与运用过程中，会涉及到大量的数学公式，而公式的编辑往往比较繁琐。
+
+本文将对数学公式的编辑做一个大概的介绍，以加深大家对相关内容的理解。
+
 ## 1 Markdown 中使用LaTex基础语法
 
 本文是在 Jupyter Notebook 中用 markdown 格式来编辑公式的。
