@@ -21,7 +21,7 @@ authors: ["Lemon"]
 
 
 
-{% include alert info='Markdown中输入数学公式及LaTex常用数序符号整理' %}
+**Markdown中输入数学公式及LaTex常用数序符号整理**
 
 
 <div class="panel radius" markdown="1">
@@ -31,9 +31,11 @@ authors: ["Lemon"]
 {:toc}
 </div>
 
-
+{% include alert info='请注意：矩阵的公式在正文里没有正常显示，可以在文末的jupyter notebook 中查看效果' %}
 
 ## 1 Markdown 中使用LaTex基础语法
+
+本文是在 Jupyter Notebook 中用 markdown 格式来编辑公式的。
 
 LaTeX 公式有两种，一种是用在正文中的，一种是单独显示的。
 
@@ -409,9 +411,9 @@ $
     \end{bmatrix}
 $  后面还有……
 
-## LaTex 常用数学符号整理
+## 4 LaTex 常用数学符号整理
 
-<div align="center">**表1 数学模式重音符号** </div>
+**表1 数学模式重音符号**
 
 
 
@@ -422,9 +424,9 @@ $ \grave{a} $ |\grave{a} | $\dot{a}$| \dot{a} | $\ddot{a}$ | \ddot{a}
 $ \bar{a} $ |\bar{a} | $\vec{a}$| \vec{a} | $\widehat{A}$ | \widehat{A}
 $ \acute{a} $ |\acute{a} | $\breve{a}$| \breve{a} | $\widetilde{A}$ | \widetilde{A}
 
+<br>
 
-
-<div align="center">**表2 希腊字母** </div>
+**表2 希腊字母**
 
 符号|LaTex命令 | 符号 | LaTex命令 | 符号 |LaTex命令 | 符号 |LaTex命令
 - |- | - | - | - | - | - | -
@@ -440,16 +442,17 @@ $ \Gamma $| \Gamma | $ \Lambda $ | \Lambda | $ \Sigma $ | \sigma |  $ \Psi $ | \
 $ \Delta $| \Delta | $ \Xi $ | \Xi | $ \Upsilon $ | \Upsilon |  $ \Omega $ | \Omega
 $ \Theta $| \Theta | $ \Pi $ | \Pi | $ \Phi $ | \Phi
 
-<div align="center">
-** Tips: **
+
+**Tips:**
 <br>
 如果使用大写的希腊字母，把命令的首字母变成大写即可，例如 \Gamma 输出的是  $\Gamma$ 。
 <br>
 如果使用斜体大写希腊字母，再在大写希腊字母的LaTeX命令前加上var，例如 \varGamma 生成 $\varGamma$。
 
-</div>
 
-<div align="center">**表3 二元关系** </div>
+<br>
+
+**表3 二元关系**
 
 
 
@@ -472,7 +475,7 @@ $ : $ | : | $\notin $| \notin | $\neq$ | \neq  或 \ne
 
 
 
-<div align="center">
+
 ** Tips: **
 
 <br>
@@ -482,9 +485,9 @@ $ : $ | : | $\notin $| \notin | $\neq$ | \neq  或 \ne
 
 例如： \not\subset 生成 $ \not\subset$
 
-</div>
+<br>
 
-<div align="center">**表4 二元运算符** </div>
+**表4 二元运算符**
 
 
 
@@ -504,7 +507,9 @@ $ \bigtriangleup $ |\bigtriangleup | $\bigtriangledown $| \bigtriangledown | $\d
 $ \lhd $ |\ldh | $\rhd $| \rhd | $\ddagger$ | \ddagger
 $ \unlhd $ |\unldh | $\unrhd $| \unrhd | $\wr$ | \wr
 
-<div align="center">**表5 "大"运算符** </div>
+<br>
+
+**表5 "大"运算符**
 
 
 
@@ -517,7 +522,9 @@ $ \int $ |\int | $\oint $| \oint | $\bigodot$ | \bigodot
 $ \bigoplus $ |\bigoplus | $\bigotimes $| \bigotimes
 
 
-<div align="center">**表6 箭头** </div>
+<br>
+
+**表6 箭头**
 
 
 
@@ -541,7 +548,10 @@ $ \nearrow $ |\nearrow | $\searrow $| \searrow
 $ \swarrow $ |\swarrow | $\nwarrow $| \nwarrow
 $ \leadsto $ |\leadsto
 
-<div align="center">**表7 定界符** </div>
+
+<br>
+
+**表7 定界符**
 
 
 
@@ -556,8 +566,10 @@ $ / $ | / | $ \backslash $| \backslash | $ \Updownarrow $ | \Updownarrow
 $ \Uparrow $ | \Uparrow | $ \Downarrow $| \Downarrow | $ \Vert $ | \Vert
 $ \rceil $ | \rceil
 
-<div align="center">**表8 大定界符** </div>
 
+<br>
+
+**表8 大定界符**
 
 
 符号|LaTex命令 | 符号 | LaTex命令 | 符号 |LaTex命令
@@ -566,7 +578,10 @@ $ \lgroup $ | \lgroup | $ \rgroup $| \rgroup | $\lmoustache$ | \lmoustache
 $ \arrowvert $ | \arrowvert | $ \Arrowvert $| \Arrowvert | $\bracevert$ | \bracevert
 $ \rmoustache $ | \rmoustache
 
-<div align="center">**表9 其他字符** </div>
+
+<br>
+
+**表9 其他字符**
 
 符号|LaTex命令 | 符号 | LaTex命令 | 符号 |LaTex命令 | 符号 |LaTex命令
 - |- | - | - | - | - | - | -
@@ -580,21 +595,28 @@ $ \bot $| \bot | $ \top $ | \top | $ \angle $ | \angle | $ \surd $ | \surd
 $ \diamondsuit $| \diamondsuit | $ \heartsuit $ | \heartsuit | $ \clubsuit $ | \clubsuit | $ \spadesuit $ | \spadesuit
 $ \neg $| \neg 或 \lnot | $ \flat $ | \flat | $ \natural $ | \natural | $ \sharp $ | \sharp
 
-<div align="center">**表10 非数学符号** </div>
+<br>
+
+**表10 非数学符号**
 
 符号|LaTex命令 | 符号 | LaTex命令 | 符号 |LaTex命令 | 符号 |LaTex命令
 - |- | - | - | - | - | - | -
 $ \dagger $| \dagger | $ \S $ | \S | $\copyright$ | \copyright | $ \textregistered $ | \textregistered
 $ \ddagger $| \ddagger | $ \P $ | \P | $ \pounds $ | \pounds | $ \% $ | \%
 
-<div align="center">**表11 AMS 定界符** </div>
+<br>
+
+**表11 AMS 定界符**
 
 符号|LaTex命令 | 符号 | LaTex命令 | 符号 |LaTex命令 | 符号 |LaTex命令
 - |- | - | - | - | - | - | -
 $ \ulcorner $| \ulcorner | $ \urcorner $ | \urcorner | $\llcorner$ | \llcorner | $ \lrcorner $ | \llcorner
 $ \lvert $| \lvert | $ \rvert $ | \rvert | $ \lVert $ | \lVert | $ \rVert $ | \rVert
 
-<div align="center">**表12 AMS 希腊和希伯来字母** </div>
+
+<br>
+
+**表12 AMS 希腊和希伯来字母**
 
 
 
@@ -603,7 +625,9 @@ $ \lvert $| \lvert | $ \rvert $ | \rvert | $ \lVert $ | \lVert | $ \rVert $ | \r
 $ \digamma $ | \digamma | $ \varkappa $| \varkappa | $\beth$ | \beth
 $ \gimel $ | \gimel | $ \daleth $ | \daleth
 
-<div align="center">**表13 AMS 二元关系** </div>
+<br>
+
+**表13 AMS 二元关系**
 
 
 
@@ -633,7 +657,9 @@ $ \vartriangleleft $ | \vartriangleleft | $ \shortmid $| \shortmid | $\smallsmil
 $ \trianglelefteq $ | \trianglelefteq | $ \therefore $| \therefore | $\sqsubset$ | \sqsubset
 
 
-<div align="center">**表14 AMS 箭头** </div>
+<br>
+
+**表14 AMS 箭头**
 
 
 
@@ -650,8 +676,9 @@ $ \curvearrowright $ | \curvearrowright | $ \circlearrowright $| \circlearrowrig
 $ \upharpoonleft $ | \upharpoonleft | $ \rightsquigarrow $| \rightsquigarrow | $\multimap$ | \multimap
 $ \upharpoonright $ | \upharpoonright | $ \leftrightsquigarrow $| \leftrightsquigarrow
 
+<br>
 
-<div align="center">**表15 AMS 二元否定关系符和箭头** </div>
+**表15 AMS 二元否定关系符和箭头**
 
 
 
@@ -674,7 +701,10 @@ $ \varsupsetneq $ | \varsupsetneq | $ \nsupseteq $| \nsupseteq | $ \supsetneqq $
 $ \nleftarrow $ | \nleftarrow | $ \nrightarrow $| \nrightarrow | $ \nleftrightarrow $| \nleftrightarrow
 $ \nLeftarrow $ | \nLeftarrow | $ \nRightarrow $| \nRightarrow | $ \nLeftrightarrow $| \nLeftrightarrow
 
-<div align="center">**表16 AMS 二元运算符** </div>
+
+<br>
+
+**表16 AMS 二元运算符**
 
 
 
@@ -689,7 +719,9 @@ $ \boxtimes $ | \boxtimes | $ \boxdot $| \boxdot | $\rightthreetimes$ | \rightth
 $ \intercal $ | \intercal | $ \circledast $| \circledast | $\leftthreetimes$ | \leftthreetimes
 $ \curlyvee $ | \curlyvee | $ \curlywedge $| \curlywedge
 
-<div align="center">**表17 AMS 其他符号** </div>
+<br>
+
+**表17 AMS 其他符号**
 
 
 
@@ -705,15 +737,16 @@ $ \diagup $ | \diagup | $ \diagdown $| \diagdown | $\backprime$ | \backprime
 $ \nexists $ | \nexists | $ \Finv $| \Finv | $\varnothing$ | \varnothing
 $ \eth $ | \eth | $ \sphericalangle $| \sphericalangle | $\mho$ | \mho
 
-**参考文献：**
-1. 一份不太简短的 LaTex2e 介绍
-1. Markdown 中使用 LaTex， Binean的博客
 
+<br>
 
 <iframe src="http://nbviewer.jupyter.org/github/liyangbit/python_data_analysis/blob/master/ipynb/LaTex.ipynb" width="700" height="1000"></iframe>
 
 
 
+**参考文献：**
+1. 一份不太简短的 LaTex2e 介绍
+1. Markdown 中使用 LaTex， Binean的博客
 
 <br>
 
