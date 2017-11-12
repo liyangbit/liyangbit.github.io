@@ -740,7 +740,7 @@ $ \eth $ | \eth | $ \sphericalangle $| \sphericalangle | $\mho$ | \mho
 
 <br>
 
-<iframe src="http://nbviewer.jupyter.org/github/liyangbit/python_data_analysis/blob/master/ipynb/LaTex.ipynb" height="1200"></iframe>
+<iframe src="http://nbviewer.jupyter.org/github/liyangbit/python_data_analysis/blob/master/ipynb/LaTex.ipynb" width="700" height="1200"></iframe>
 
 
 
