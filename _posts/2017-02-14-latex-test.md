@@ -35,7 +35,7 @@ $$ f(x) = \sum_{i=1}^{N} x_{i}\tag{a} $$
 
 
 
-<iframe src="/images/zhilian.html" width="850" height="500"></iframe>
+<iframe src="/images/zhilian.html" width="700" height="1000"></iframe>
 
 
 

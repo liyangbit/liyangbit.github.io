@@ -6,10 +6,10 @@ date: 2017-06-30
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-   - Jupyter-Notebook
+   - Jupyter
 tags:
    - Anaconda
-   - Jupyter-Notebook
+   - Jupyter
 comments: true
 show_meta: true
 sidebar: right
