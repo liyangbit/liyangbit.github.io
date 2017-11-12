@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Markdown中输入数学公式及LaTex常用数序符号整理"
+title: "Markdown中输入数学公式及LaTex常用数学符号整理"
 teaser:
 date: 2017-11-13
 header:
@@ -21,7 +21,7 @@ authors: ["Lemon"]
 
 
 
-**Markdown中输入数学公式及LaTex常用数序符号整理**
+**Markdown中输入数学公式及LaTex常用数学符号整理**
 
 
 <div class="panel radius" markdown="1">
