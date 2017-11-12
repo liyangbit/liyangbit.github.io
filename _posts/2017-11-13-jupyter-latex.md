@@ -166,11 +166,11 @@ $$
 结果如下：
 
 $$
-\\begin{matrix}
+\begin{matrix}
 1 & 2 & 3 \\
 4 & 5 & 6 \\
 7 & 8 & 9
-\\end{matrix} \tag{3-1}
+\end{matrix} \tag{3-1}
 $$
 
 上述矩阵显示的不是很美观，可以给矩阵加上括号，加括号的方式有多种。
@@ -709,6 +709,8 @@ $ \eth $ | \eth | $ \sphericalangle $| \sphericalangle | $\mho$ | \mho
 1. 一份不太简短的 LaTex2e 介绍
 1. Markdown 中使用 LaTex， Binean的博客
 
+
+<iframe src="http://nbviewer.jupyter.org/github/liyangbit/python_data_analysis/blob/master/ipynb/LaTex.ipynb" width="700" height="1000"></iframe>
 
 
 
