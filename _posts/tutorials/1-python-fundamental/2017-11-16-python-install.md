@@ -41,7 +41,7 @@ Python是跨平台的编程语言，它可以运行在 windows、Mac 和 各种 
 
 ## 1 安装方法一：
 
-### 2.1 安装官方版Python3.6
+### 1.1 安装官方版Python3.6
 
 下面以在 windows 系统下安装 Python3.6版为例：
 
@@ -66,7 +66,7 @@ Python是跨平台的编程语言，它可以运行在 windows、Mac 和 各种 
     <img src="/images/tutorials/1-python-basic/1-py-install-4.png">
 </div>
 
-### 2.2 运行Python3.6
+### 1.2 运行Python3.6
 
 安装完成后，我们可以运行下 python 的解释器里，来查看是否安装成功。
 
