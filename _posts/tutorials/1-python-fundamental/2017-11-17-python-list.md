@@ -20,7 +20,7 @@ authors: ["Lemon"]
 
 本文来源于：
 <!-- [liyangbit.com](liyangbit.com) -->
-<a href="liyangbit.com" target="blank">liyangbit.com</a>
+<a href="http://liyangbit.com" target="blank">liyangbit.com</a>
 
 <div class="panel radius" markdown="1">
 **Table of Contents**
