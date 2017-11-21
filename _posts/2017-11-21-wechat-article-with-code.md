@@ -6,9 +6,9 @@ date: 2017-11-21
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-   - Other
+   - Comprehensive
 tags:
-   - Other
+   - Comprehensive
 comments: true
 show_meta: true
 sidebar: right
@@ -45,12 +45,14 @@ authors: ["Lemon"]
 
 通过以下网站来将将编写好的Markdown文章内容进行格式转换。
 
-[http://md.phodal.com/](http://md.phodal.com/)
+<a href="http://md.phodal.com/" target="blank">http://md.phodal.com/</a>
 
 这个是 IT大佬 Phodal提供的在线编辑器。
 
 当然，如果你想个性化设置你自己的样式，你可以在他的 github 上 fork 编辑器的源文件，进行修改。
-github 地址： [https://github.com/phodal/mdpub](https://github.com/phodal/mdpub)
+github 地址：
+<a href="https://github.com/phodal/mdpub" target="blank">https://github.com/phodal/mdpub</a>
+
 
 我的微信公众号文章，就是在修改了这个编辑器的一些样式之后，一般情况下就是用的这个编辑器来转换Markdown文章。
 
@@ -62,7 +64,10 @@ github 地址： [https://github.com/phodal/mdpub](https://github.com/phodal/mdp
 遗憾的是，原生的 Markdown Here 插件在微信公众号的后台编辑器界面中，代码不能换行，会显示代码错乱。
 
 偶然看到，公众号 “Python之禅” 的作者已提供了一种解决方案，可以完好的转换 Markdown 文章。感兴趣的童鞋可以查看以下内容：
-[]程序员如何优雅地写公众号](http://mp.weixin.qq.com/s?__biz=MjM5MzgyODQxMQ==&mid=2650367120&idx=1&sn=36dc4785e897394ca3321556c9094b46&scene=21#wechat_redirect)
+
+<a href="http://mp.weixin.qq.com/s?__biz=MjM5MzgyODQxMQ==&mid=2650367120&idx=1&sn=36dc4785e897394ca3321556c9094b46&scene=21#wechat_redirect" target="blank">程序员如何优雅地写公众号</a>
+
+
 
 
 ## 需要说明的是：
