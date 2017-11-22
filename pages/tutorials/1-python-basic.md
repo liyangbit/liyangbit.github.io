@@ -7,7 +7,7 @@ authors: ["Lemon"]
 title: "Python基础教程"
 header:
    image_fullwidth: "image-head.jpg"
-permalink: "/1-python-basic/"
+permalink: "/tutorials-1-python-basic/"
 ---
 
 
