@@ -45,7 +45,7 @@
 
   {% elsif tag %}
 
-    {% for post in site.tags.[tag] entries="3" %}
+    {% for post in site.tags.[tag] limit:3 %}
       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 
