@@ -44,10 +44,11 @@
 
 
   {% elsif tag %}
-
-    {% for post in site.tags.[tag] %}
+    <ul>
+    {% for post in site.tags.[tag] limit:20 %}
       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
+    </ul>
 
   {% endif %}
 <!-- </ul> -->
