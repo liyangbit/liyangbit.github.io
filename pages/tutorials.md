@@ -30,7 +30,7 @@ permalink: "/tutorials/"
 <div style="background-color:#E0EAF2">
 
 {% for entry in site.data.mycategories.entries %}
-{% for mytag in entry.tags reversed %}
+{% for mytag in entry.tags %}
 {% if mytag == "tutorials-python-basic" %}
 <strong>{% include list-posts-link.html tag=mytag %}</strong>
 {% endif %}

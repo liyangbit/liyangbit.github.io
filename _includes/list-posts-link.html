@@ -45,7 +45,7 @@
 
   {% elsif tag %}
 
-    {% for post in site.tags.[tag] %}
+    {% for post in site.tags.[tag] reversed %}
       <li><a href="{{ site.baseurl }}{{ post.url }}"><strong>{{ post.title }}</strong></a></li>
     {% endfor %}
 
