@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Python安装"
+title: "Python基础（1）-Python安装"
 teaser:
 date: 2017-11-16
 header:
@@ -15,7 +15,7 @@ sidebar: right
 authors: ["Lemon"]
 ---
 
-**Python安装**
+**Python基础（1）-Python安装**
 
 本文来源于：
 <!-- [liyangbit.com](liyangbit.com) -->
