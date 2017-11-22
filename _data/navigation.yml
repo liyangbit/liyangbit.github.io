@@ -31,8 +31,8 @@
   dropdown:
   - title: "所有教程目录"
     url: "/tutorials/"
-  # - title: "1 智联求职实战"
-  #   url: "/zhaopin01/"
+  - title: "Python基础教程"
+    url: "/1-python-basic/"
   # - title: "Attend a Workshop"
   #   url: "/workshops-attend/"
   # - title: "Past Workshops"
