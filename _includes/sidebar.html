@@ -51,10 +51,8 @@
 		{% endfor %}
 		{% endfor %}
 
-		{% endif %}
 
-
-		{% if page.categories[0] contains "tutorials" %}
+		{% elsif page.categories[0] contains "tutorials" %}
 		<h3><strong>Python教程</strong></h3>
 
 		{% for entry in site.data.mycategories.entries %}
@@ -69,7 +67,16 @@
 		{% endfor %}
 		{% endfor %}
 
+    {% else %}
+
+		<h3><strong>推荐文章</strong></h3>
+
+		{% include list-posts-link.html category="recommend" %}
+
+
 		{% endif %}
+
+
 
 	</div>
   </div>

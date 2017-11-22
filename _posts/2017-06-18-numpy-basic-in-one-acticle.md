@@ -9,6 +9,7 @@ categories:
    - Numpy
 tags:
    - Numpy
+   - recommend
 comments: true
 show_meta: true
 sidebar: right

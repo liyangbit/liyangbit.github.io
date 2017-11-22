@@ -9,6 +9,7 @@ categories:
    - MachineLearning
 tags:
    - MachineLearning
+   - recommend
 comments: true
 show_meta: true
 sidebar: right

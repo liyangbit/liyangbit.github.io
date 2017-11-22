@@ -12,6 +12,7 @@ tags:
    - Pandas
    - Matplotlib
    - Numpy
+   - recommend
 comments: true
 show_meta: true
 sidebar: right

@@ -12,6 +12,7 @@ tags:
    - Math
    - Markdown
    - LaTex
+   - recommend
 comments: true
 show_meta: true
 sidebar: right
