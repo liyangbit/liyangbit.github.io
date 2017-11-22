@@ -5,7 +5,7 @@
 	</div>
 
 	<div class="panel radius">
-		<h3><strong>教程与专题总目录</strong></h3>
+		<h3><strong>总目录</strong></h3>
 		<ul>
 		{% for entry in site.data.sidebar-navigation.entries %}
 		<li><strong><a href="{{ site.url }}{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></strong></li>
@@ -45,7 +45,7 @@
 
 		{% for item in page.tags %}
 		{% if myitem == item %}
-		{% include list-posts-link.html category=myitem %}
+		{% include list-posts-link.html tag=myitem %}
 		{% endif %}
 		{% endfor %}
 
@@ -55,13 +55,13 @@
 
 		{% elsif page.categories[0] contains "tutorials" %}
 		<h3><strong>本系列Python教程</strong></h3>
-		
+
 		{% for entry in site.data.mycategories.entries %}
 		{% for myitem in entry.tags %}
 
 		{% for item in page.tags %}
 		{% if myitem == item %}
-		{% include list-posts-link.html category=myitem %}
+		{% include list-posts-link.html tag=myitem %}
 		{% endif %}
 		{% endfor %}
 
