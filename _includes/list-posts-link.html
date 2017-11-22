@@ -44,10 +44,11 @@
 
 
   {% elsif tag %}
-
+    <ul>
     {% for post in site.tags.[tag] reversed %}
       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
+    </ul>
 
   {% endif %}
 <!-- </ul> -->
