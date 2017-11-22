@@ -6,6 +6,8 @@ entries:
     dropdown:
     - title: "所有教程目录"
       url: "/tutorials/"
+    - title: "Python基础教程"
+      url: "/tutorials-1-python-basic/"
     # - title: "1 智联求职实战"
     #   url: "/zhaopin01/"
     # - title: "Attend a Workshop"

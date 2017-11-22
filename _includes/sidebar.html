@@ -22,6 +22,19 @@
 	</div> -->
 	<div>
 	<div class="panel radius" style="position:relative; max-height:800px; overflow:auto">
+		<ul>
+		{% for entry in site.data.sidebar-navigation.entries %}
+		<li><strong><a href="{{ site.url }}{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></strong></li>
+
+			<ul>
+				{% for item in entry.dropdown %}
+				<li><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+				{% endfor %}
+			</ul>
+
+	  {% endfor %}
+	  </ul>
+
 		{% if page.categories[0] contains "projects" %}
 		<h3><strong>项目实战专题</strong></h3>
 
@@ -54,7 +67,7 @@
 		{% endfor %}
 
 
-		{% else %}
+		<!-- {% else %}
 		<ul>
 		{% for entry in site.data.sidebar-navigation.entries %}
 		<li><strong><a href="{{ site.url }}{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></strong></li>
@@ -66,7 +79,7 @@
 			</ul>
 
 	  {% endfor %}
-	  </ul>
+	  </ul> -->
 		{% endif %}
 	</div>
   </div>
