@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Python基础（2）-Python数据类型-List介绍"
-teaser:
+teaser: "Python基础"
 date: 2017-11-17
 header:
    image_fullwidth: "image-head.jpg"
