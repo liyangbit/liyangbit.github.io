@@ -1,7 +1,7 @@
 ---
 layout: posts
-title: "Python基础（2）-Python数据类型-List介绍"
-subheadline: "Python基础"
+title: "Python基础-Python数据类型-List介绍"
+subheadline:
 teaser:
 date: 2017-11-17
 header:
@@ -17,7 +17,7 @@ sidebar: right
 authors: ["Lemon"]
 ---
 
-**Python基础（2）-Python数据类型-List介绍**
+**Python基础-Python数据类型-List介绍**
 
 本文来源于：
 <!-- [liyangbit.com](liyangbit.com) -->
