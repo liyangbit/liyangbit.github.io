@@ -2,7 +2,7 @@
 layout: posts
 title: "Python基础（2）-Python安装"
 teaser:
-date: 2017-11-16
+date: 2017-11-29
 header:
    image_fullwidth: "image-head.jpg"
 categories:
