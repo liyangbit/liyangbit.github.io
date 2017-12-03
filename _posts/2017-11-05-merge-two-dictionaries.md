@@ -6,7 +6,7 @@ date: 2017-11-05
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-   - PythonFundamentals
+   - PythonBasic
 tags:
    - dictionary
 comments: true

@@ -6,7 +6,7 @@ date: 2017-11-13
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-   - LaTex
+   - Math
 tags:
    - Jupyter
    - Math

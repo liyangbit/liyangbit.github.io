@@ -6,7 +6,7 @@ date: 2017-02-14
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-   - Latex
+   - Math
 tags:
    - Latex
 comments: true
