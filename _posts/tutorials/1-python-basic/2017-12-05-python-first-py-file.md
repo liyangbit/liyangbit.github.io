@@ -1,6 +1,7 @@
 ---
 layout: posts
-title: "Python基础（4）-创建第一个'.py' 和 '.ipynb' 文件"
+title: "04-创建第一个'.py' 和 '.ipynb' 文件"
+subheadline: "Python基础"
 teaser:
 date: 2017-12-05
 header:

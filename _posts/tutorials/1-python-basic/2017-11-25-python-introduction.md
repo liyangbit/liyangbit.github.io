@@ -1,6 +1,7 @@
 ---
 layout: posts
-title: "Python基础（1）-Python语言的简单介绍"
+title: "01-Python语言的简单介绍"
+subheadline: "Python基础"
 teaser:
 date: 2017-11-26
 header:

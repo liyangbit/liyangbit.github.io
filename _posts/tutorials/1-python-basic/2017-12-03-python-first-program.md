@@ -1,6 +1,7 @@
 ---
 layout: posts
-title: "Python基础（3）-第一个Python程序"
+title: "03-第一个Python程序"
+subheadline: "Python基础"
 teaser:
 date: 2017-12-03
 header:

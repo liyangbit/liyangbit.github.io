@@ -1,6 +1,7 @@
 ---
 layout: posts
-title: "Python基础（2）-Python安装"
+title: "02-Python安装"
+subheadline: "Python基础"
 teaser:
 date: 2017-11-29
 header:

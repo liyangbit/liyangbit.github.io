@@ -1,6 +1,7 @@
 ---
 layout: posts
-title: "Python基础-Python数据类型-List介绍"
+title: "Python数据类型-List介绍"
+subheadline: "Python基础"
 subheadline:
 teaser:
 date: 2017-11-17
