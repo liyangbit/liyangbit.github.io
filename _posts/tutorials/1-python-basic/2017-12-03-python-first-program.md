@@ -32,7 +32,7 @@ authors: ["Lemon"]
 
 <a href="http://liyangbit.com/tutorials/python-install/" target="blank">Python程序安装</a>
 
-在安装好Python程序后，我们在Anaconda中找到 ipython 来编写代码并输出。
+在安装好Python程序后，我们在Anaconda中找到 iPython 来编写代码并输出。
 
 在编写代码前，先介绍下运行环境：
 * windows 7
@@ -41,7 +41,7 @@ authors: ["Lemon"]
 后续的教程，如果没有特别说明，基本上也是在Python 3.x （当前用的是 3.5版） 下运行。
 
 
-## 输出函数 print()
+## 1 输出函数 print()
 
 跟其他很多程序一样，我们第一个程序用Python来输出 “Hello, world”。
 
@@ -90,7 +90,7 @@ print("hello,", "world", "welcome!")
     <img src="/images/tutorials/1-python-basic/py-first-program-4.png">
 </div>
 
-## 输入函数 input()
+## 2 输入函数 input()
 
 上面提到的是输出函数，经常会遇到的一种情形是，需要用户输入相关信息，然后程序才继续运行，这种情况怎么办呢？
 
@@ -109,6 +109,14 @@ Python 提供了 `input()` 函数来让用户输入信息。
 </div>
 
 上图中，有2个 "Lemon"（不含引号），其中第一个是用户输入的信息，第二个是输出的结果。
+
+## 3 小练习
+
+在 "iPython" 中输入如下代码，看看运行情况。
+
+```python
+import this
+```
 
 >Python程序是不是很简洁易懂啊，快来动手试试吧。
 
