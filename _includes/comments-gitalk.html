@@ -10,10 +10,9 @@
 			   clientID: 'b3634cd18d6721800472',
 			   clientSecret: '097e900c505d5ccb0dc8e6cffb1cffc1f1de311b',
 			   repo: 'blog-comments',
-				 id: md5(location.href),
 			   owner: 'liyangbit',
 			   admin: ['liyangbit'],
-				 perPage: 50
-		 });
+				 perPage: 50,
+				 id: md5(window.location.pathname)
 		 gitalk.render('gitalk-container');
 	 </script>
