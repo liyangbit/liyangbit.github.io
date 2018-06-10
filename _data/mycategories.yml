@@ -8,9 +8,10 @@ entries:
     title: Python教程
     tags:
       - tutorials-python-basic
-  
+
   - categories: projects
     title: 项目实战专题
     tags:
       - projects-forbes
       - projects-zhilian
+      - projects-world-cup
