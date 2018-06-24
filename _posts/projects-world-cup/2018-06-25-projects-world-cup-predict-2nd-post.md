@@ -106,7 +106,7 @@ df_FIFA_all = df[df['tournament'].str.contains('FIFA', regex=True)]
 结果如下：
 
 <div align="center">
-    </img src="images/projects/world-cup/post2/2.png">
+    <img src="/images/projects/world-cup/post2/2.png">
 </div>
 
 
