@@ -17,11 +17,11 @@ widget-2:
     title: "项目实战专题"
     url: '/projects/'
     text: '通过项目实战来将灵活运用学到的技能，以此提升自己的水平。
-    包括：(a) 求职系列项目实战；（b）福布斯系列项目实战；等等'
+    包括：(a) 世界杯数据分析实战；(b)求职系列项目实战；（c）福布斯系列项目实战等等'
     image: /images/forbes_cover1.jpg
 widget-3:
     title: "关于本站"
     url: '/about/'
-    text: '『Python数据之道』秉承“让数据更有价值”的理念，主要分享数据相关的内容，包括数据分析，挖掘，可视化，机器学习，深度学习等'
+    text: '『Python数据之道』秉承“让数据更有价值”的理念，分享数据分析，挖掘，可视化，机器学习，深度学习等相关内容。 “Making Data Awesome”，本公号源于数据分析，但不止于技术分享，同时希望能畅聊职场、品阅群书、阔谈人生'
     image: /images/about-pydataroad.jpg
 ---

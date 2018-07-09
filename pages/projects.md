@@ -22,13 +22,10 @@ permalink: "/projects/"
 
 
 
-## 1 项目实战：求职系列
+## 项目实战：世界杯数据分析实战系列
 
-本项目属于Python数据分析项目实战案例，首先从智联招聘爬取相关信息，然后对数据进行分析，获取有用的信息。
+本项目属于Python数据分析项目实战案例，数据来源于 Kaggle，“2018世界杯：用Python分析热门夺冠球队”这篇文章，经40+公号转载，总阅读量10W+，虽然预测结果差异很大，但过程不妨学习下。
 
-本项目以Python求职为例，分析全国python招聘数量Top10的城市列表以及其他相关信息，同时进行可视化显示。
-
-“python求职Top10城市”，这篇文章，经几个大号转发，**累计阅读量过万**，推荐阅读。
 
 **本系列文章如下：**
 
@@ -37,7 +34,7 @@ permalink: "/projects/"
 {% for entry in site.data.mycategories.entries %}
 
 {% for mytag in entry.tags %}
-{% if mytag == "projects-zhilian" %}
+{% if mytag == "projects-world-cup" %}
 <strong>{% include list-posts-link.html tag=mytag %}</strong>
 {% endif %}
 {% endfor %}
@@ -46,7 +43,7 @@ permalink: "/projects/"
 </div>
 
 
-## 2 项目实战：福布斯系列
+## 项目实战：福布斯系列
 
 本系列以福布斯全球上市企业排行榜为依据，用Python进行数据分析实战。项目数据从2007年至2017年，涉及10多年。
 
@@ -64,6 +61,30 @@ permalink: "/projects/"
 {% for entry in site.data.mycategories.entries %}
 {% for mytag in entry.tags %}
 {% if mytag == "projects-forbes" %}
+<strong>{% include list-posts-link.html tag=mytag %}</strong>
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+</div>
+
+
+## 项目实战：求职系列
+
+本项目属于Python数据分析项目实战案例，首先从智联招聘爬取相关信息，然后对数据进行分析，获取有用的信息。
+
+本项目以Python求职为例，分析全国python招聘数量Top10的城市列表以及其他相关信息，同时进行可视化显示。
+
+“python求职Top10城市”，这篇文章，经几个大号转发，**累计阅读量过万**，推荐阅读。
+
+**本系列文章如下：**
+
+<div style="background-color:#E0EAF2">
+
+{% for entry in site.data.mycategories.entries %}
+
+{% for mytag in entry.tags %}
+{% if mytag == "projects-zhilian" %}
 <strong>{% include list-posts-link.html tag=mytag %}</strong>
 {% endif %}
 {% endfor %}
