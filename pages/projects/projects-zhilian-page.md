@@ -2,7 +2,7 @@
 layout: page
 sidebar: "right"
 show_meta: true
-authors: ["Lemon"]
+authors: ["Lemonbit"]
 title: "智联求职实战"
 comments: true
 header:
@@ -16,7 +16,7 @@ permalink: "/projects-zhilian-page/"
 
 本项目以Python求职为例，分析全国python招聘数量Top10的城市列表以及其他相关信息，同时进行可视化显示。
 
-“python求职Top10城市”，这篇文章，经几个大号转发，**累计阅读量过万**，推荐阅读。
+
 
 **本系列文章如下：**
 
