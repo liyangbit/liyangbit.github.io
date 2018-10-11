@@ -38,19 +38,20 @@ Jupyter Notebook 可以用来 演示，以及输出各种形式的文件，比�
 * windows 7 / windows 10
 * Anancoda （基于 Python 3.6 版）
 
+## 安装顺序
 
 我是按照下面的顺序安装的，缺少支持的话，pip install xxxxxx
 
-1. 安装pandoc
+1 安装pandoc
 
 https://github.com/jgm/pandoc/releases
 
-2. 安装MiKTex
+2 安装MiKTex
 
 https://miktex.org/download
 
 
-3. 中文支持
+3 中文支持
 
 （1）直接修改tex模版文件。
 

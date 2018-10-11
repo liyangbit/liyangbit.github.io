@@ -1,4 +1,33 @@
-还在吐槽 Jupyter Notebook 的默认风格？ 其实你可以更换一个更酷的主题
+---
+layout: posts
+title: "Jupyter Notebook 主题设置、字体修改等"
+teaser:
+date: 2018-09-07
+header:
+   image_fullwidth: "image-head.jpg"
+categories:
+   - Jupyter
+tags:
+   - Jupyter
+comments: true
+show_meta: true
+sidebar: right
+authors: ["Lemon"]
+---
+
+
+
+{% include alert info='Jupyter Notebook 主题设置、字体修改等' %}
+
+
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+
+
 
 作为用Python进行数据分析的人员，jupyter notebook 在平时使用的频率很高。
 
@@ -12,12 +41,12 @@
 
 notebook页面：
 <div align="center">
-    <img src="images\jupyter-themes\1.png">
+    <img src="/images/posts/jupyter-themes/1.png">
 </div>
 
 代码文件页面：
 <div align="center">
-    <img src="images\jupyter-themes\2.png">
+    <img src="/images/posts/jupyter-themes/2.png">
 </div>
 
 
@@ -50,7 +79,7 @@ pip install -i https://pypi.doubanio.com/simple/ jupyterthemes
 ```
 
 <div align="center">
-    <img src="images\jupyter-themes\3.png">
+    <img src="/images/posts/jupyter-themes/3.png">
 </div>
 
 改用豆瓣的来源后，成功安装了 jupyterthemes ，接下来，我们可以来设置自己喜欢的主题。
@@ -63,7 +92,7 @@ jt -l
 
 有如下一些主题可以选择
 <div align="center">
-    <img src="images\jupyter-themes\4.png">
+    <img src="/images/posts/jupyter-themes/4.png">
 </div>
 
 有兴趣的同学可以尝试下这几个主题。
@@ -78,11 +107,11 @@ jt -t oceans16
 上面设置的是使用 oceans16 这个主题，更换后的效果如下：
 
 <div align="center">
-    <img src="images\jupyter-themes\5.png">
+    <img src="/images/posts/jupyter-themes/5.png">
 </div>
 
 <div align="center">
-    <img src="images\jupyter-themes\6.png">
+    <img src="/images/posts/jupyter-themes/6.png">
 </div>
 
 
@@ -111,9 +140,14 @@ jt -t monokai -f roboto -nf robotosans -tf robotosans -N -T -cellw 70% -dfs 10 -
 
 
 <div align="center">
-    <img src="images\jupyter-themes\7.png">
+    <img src="/images/posts/jupyter-themes/7.png">
 </div>
 
 
 怎么样，新的界面不错吧，心动不如行动，赶紧动手尝试下吧。
 
+对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataRoad），接收我的更新通知。
+
+<div align="center">
+    <img src="/images/qrcode.jpg" width="20%">
+</div>
