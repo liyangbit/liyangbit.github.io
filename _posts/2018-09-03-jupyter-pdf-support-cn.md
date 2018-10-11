@@ -9,6 +9,7 @@ categories:
    - Jupyter
 tags:
    - Jupyter
+   - recommend
 comments: true
 show_meta: true
 sidebar: right
