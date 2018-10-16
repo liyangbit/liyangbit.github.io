@@ -24,6 +24,8 @@ entries:
     dropdown:
     - title: "所有专题目录"
       url: "/projects/"
+    - title: "世界杯数据分析"
+      url: "/projects-world-cup-page/"
     - title: "福布斯数据分析"
       url: "/projects-forbes-page/"
     - title: "智联求职实战"
