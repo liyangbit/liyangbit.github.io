@@ -124,7 +124,7 @@ https://miktex.org/download
 
 * https://www.cnblogs.com/SC-CS/p/Jupyter-PDF_Chinese_Support.html
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataRoad），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号『Python数据之道』（ID：PyDataRoad），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

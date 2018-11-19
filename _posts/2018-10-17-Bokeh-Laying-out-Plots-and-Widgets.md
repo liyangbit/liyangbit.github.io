@@ -251,7 +251,7 @@ show(layout_01)
 对比 Python 中常用的可视化库 Matplotlib， 在 Bokeh 中，对图形和组件进行布局还是比较方便的。布局的功能，会在以后的实践中经常进行使用。
 
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataRoad），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号『Python数据之道』（ID：PyDataRoad），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">
