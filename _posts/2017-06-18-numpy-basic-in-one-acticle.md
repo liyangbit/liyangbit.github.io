@@ -4,7 +4,7 @@ title: "Python：一篇文章掌握Numpy的基本用法"
 teaser:
 date: 2017-06-18
 header:
-   image_fullwidth: "image-head.jpg"
+   image_fullwidth: "image-article-head.jpg"
 categories:
    - Numpy
 tags:
@@ -16,7 +16,7 @@ sidebar: right
 authors: ["Lemon"]
 ---
 
-**Python：一篇文章掌握Numpy的基本用法**
+{% include alert info='Python：一篇文章掌握Numpy的基本用法' %}
 
 
 <div class="panel radius" markdown="1">
@@ -25,13 +25,6 @@ authors: ["Lemon"]
 *  TOC
 {:toc}
 </div>
-
-
-
-
-
-![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/68298712.jpg)
-
 
 
 ## 前言
@@ -49,9 +42,6 @@ Numpy是一个开源的Python科学计算库，它是python科学计算库的基
 7. 数组的类型转换
 8. numpy常用统计函数
 9. 数组的广播
-
-
-
 
 
 ## 1 Numpy数组对象
@@ -210,7 +200,12 @@ arr
 
 Numpy的数值类型如下：
 
-![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/99122977.jpg)
+<div align="center">
+    <img src="/images/posts/numpy-basic-in-one-acticle\2017026-01.png">
+</div>
+
+<!--
+![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/99122977.jpg) -->
 
 每一种数据类型都有相应的数据转换函数，参考示例如下：
 
@@ -257,8 +252,12 @@ a
 
 * 请注意，复数不能转换成为整数类型或者浮点数，比如下面的代码会运行出错
 
-  ![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/71721165.jpg)
+  <!-- ![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/71721165.jpg) -->
 
+
+  <div align="center">
+      <img src="/images/posts/numpy-basic-in-one-acticle\2017026-02.png">
+  </div>
 
 ```python
 # float(42 + 1j)
@@ -505,7 +504,11 @@ e
 
 **下图是对ndarray各种属性的一个小结**
 
-![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/7858951.jpg)
+<div align="center">
+    <img src="/images/posts/numpy-basic-in-one-acticle\2017026-03.jpeg">
+</div>
+
+<!-- ![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/7858951.jpg) -->
 
 
 
@@ -543,9 +546,11 @@ a[ : 6: 2]
 
 * **二维数组的切片和索引**，如下所示：
 
-  ![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/59493281.jpg)
+  <!-- ![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/59493281.jpg) -->
 
-
+  <div align="center">
+      <img src="/images/posts/numpy-basic-in-one-acticle\2017026-04.png">
+  </div>
 
 
 插播一条硬广：技术文章转发太多。本文涉及的代码量比较多，如需要查看源代码，请在微信公众号“Python数据之道”（ID：PyDataRoad）后台回复关键字“2017026”。
@@ -632,10 +637,12 @@ b
 
 参考如下代码：
 
-![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/74821824.jpg)
+<!-- ![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/74821824.jpg) -->
 
 
-
+<div align="center">
+    <img src="/images/posts/numpy-basic-in-one-acticle\2017026-05.png">
+</div>
 
 
 
@@ -791,9 +798,14 @@ np.concatenate((b,c),axis=0)
 
 关于数组的轴方向示意图，以及叠加的示意图，如下：
 
-![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/77741150.jpg)
+<div align="center">
+    <img src="/images/posts/numpy-basic-in-one-acticle\2017026-06.jpg">
+    <img src="/images/posts/numpy-basic-in-one-acticle\2017026-07.jpg">
+</div>
 
-![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/63355812.jpg)
+<!-- ![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/77741150.jpg)
+
+![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/63355812.jpg) -->
 
 
 
@@ -830,10 +842,12 @@ arr_dstack
 
 **深度叠加的示意图如下：**
 
-![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/49051165.jpg)
+<!-- ![](http://oqb5ftrdh.bkt.clouddn.com/17-6-18/49051165.jpg) -->
 
 
-
+<div align="center">
+    <img src="/images/posts/numpy-basic-in-one-acticle/2017026-08.jpg">    
+</div>
 
 ### 6.3 数组的拆分
 
