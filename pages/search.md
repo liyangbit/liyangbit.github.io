@@ -13,6 +13,7 @@ permalink: "/search/"
 
 
 
+## 搜索
 
 {% include sidebar-search.html %}
 
@@ -22,3 +23,7 @@ permalink: "/search/"
 * 分类（Categories）
 * 标签（Tags）
 * 其他……
+
+## 推荐文章
+
+{% include list-posts-recommend.html tag="recommend" %}
