@@ -18,7 +18,7 @@ widget-2:
     url: '/projects/'
     text: '通过项目实战来将灵活运用学到的技能，以此提升自己的水平。
     包括：(a) 世界杯数据分析实战；(b)求职系列项目实战；（c）福布斯系列项目实战等等'
-    image: /images/forbes_cover1.jpg
+    image: /images/tutorial.gif
 widget-3:
     title: "关于本站"
     url: '/about/'
