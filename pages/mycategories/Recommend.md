@@ -16,4 +16,10 @@ permalink: "/Recommend/"
 </ul> -->
 
 
-{% include list-posts-recommend.html tag="recommend" %}
+<!-- {% include list-posts-recommend.html tag="recommend" %} -->
+
+<ul>
+    {% for post in site.tags.recommend %}
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
