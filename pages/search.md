@@ -12,8 +12,7 @@ permalink: "/search/"
 ---
 
 
-
-## 搜索
+{% include alert info='搜索' %}
 
 {% include sidebar-search.html %}
 
@@ -24,6 +23,10 @@ permalink: "/search/"
 * 标签（Tags）
 * 其他……
 
-## 推荐文章
 
-{% include list-posts-recommend.html tag="recommend" %}
+{% include alert info='推荐文章' %}
+<ul>
+    {% for post in site.tags.recommend %}
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
