@@ -110,6 +110,8 @@ jt -t oceans16
     <img src="/images/posts/jupyter-themes/5.png">
 </div>
 
+<br>
+
 <div align="center">
     <img src="/images/posts/jupyter-themes/6.png">
 </div>
