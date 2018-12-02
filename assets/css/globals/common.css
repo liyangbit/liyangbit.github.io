@@ -278,7 +278,8 @@
     margin-top: 1em;
     margin-bottom: 16px;
     font-weight: 700;
-    line-height: 1.4
+    line-height: 1.4;
+	color: #0071c1; /*修改标题颜色*/
 }
 
 .markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link {
@@ -303,7 +304,7 @@
 
 .markdown-body h1 {
     font-size: 2.25em;
-	color: #0071c1;
+	color: #0071c1; /*修改一级标题颜色*/
     line-height: 1.2
 }
 
@@ -313,7 +314,7 @@
 
 .markdown-body h2 {
     font-size: 1.75em;
-	color: #0071c1;
+	color: #0071c1; /*修改二级标题颜色*/
     line-height: 1.225
 }
 
