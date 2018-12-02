@@ -303,6 +303,7 @@
 
 .markdown-body h1 {
     font-size: 2.25em;
+	color: #0071c1;
     line-height: 1.2
 }
 
@@ -312,6 +313,7 @@
 
 .markdown-body h2 {
     font-size: 1.75em;
+	color: #0071c1;
     line-height: 1.225
 }
 

@@ -107,13 +107,15 @@ jt -t oceans16
 上面设置的是使用 oceans16 这个主题，更换后的效果如下：
 
 <div align="center">
-    <img src="/images/posts/jupyter-themes/5.png">
+    <img src="/images/posts/jupyter-themes/5.png" alt="5">
+    <font size="2">图5</font>
 </div>
 
 <br>
 
 <div align="center">
     <img src="/images/posts/jupyter-themes/6.png">
+    <font size="2" >图6</font>
 </div>
 
 
@@ -126,7 +128,7 @@ jt -r
 
 对比其他几个主题后，相对来说， 我更喜欢 monokai 以及 onedork 主题，最后，我选择使用 monokai 主题， 也就是本文开始的主题风格。
 
-## 我的主题设置参数
+## <font color="red">我的主题设置参数</font>
 
 我的 monikai 主题设置的详细参数如下：
 
