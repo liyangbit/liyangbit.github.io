@@ -2,7 +2,7 @@
 layout: posts
 title: "历尽艰辛，Windows系统下安装Basemap，以及 PROJ_LIB 错误处理"
 teaser:
-date: 2018-11-12
+date: 2018-12-03
 header:
    image_fullwidth: "image-article-head.jpg"
 categories:
@@ -32,13 +32,13 @@ authors: ["Lemon"]
 
 Basemap是matplolib的一个组件，是地图数据可视化的重要工具。
 
-本人安装的是基于 Python3.6 版本的 Anaconda,尝试了诸多种安装basemap的方法，其中多次遭遇安装失败，也查找了网上许多tips，发现这个一个普遍的问题。因此决定将该方法分享出来，但不保证一定成功,供大家参考。
+本人安装的是基于 python.6 版本的 Anaconda,尝试了诸多种安装basemap的方法，其中多次遭遇安装失败，也查找了网上许多tips，发现这个一个普遍的问题。因此决定将该方法分享出来，但不保证一定成功,供大家参考。
 
 首先声明下本人的PC环境:
 
 # 环境一： win10
 - 操作系统:Windows10
-- 基于 Python3.6 版本的 Anaconda
+- 基于 python.6 版本的 Anaconda
 
 在 windows10 下，安装步骤如下：
 
@@ -46,14 +46,14 @@ Basemap是matplolib的一个组件，是地图数据可视化的重要工具。
 
 https://www.lfd.uci.edu/~gohlke/pythonlibs/
 
-对应 python3.6 版，windows 系统下的文件如下：
+对应 python.6 版，windows 系统下的文件如下：
 * basemap-1.2.0-cp36-cp36m-win_amd64.whl
 * pyproj-1.9.5.1-cp36-cp36m-win_amd64.whl
 
 
 （2）安装 pyproj 的 whl 文件， 如下：
 
-```python3
+```python
 pip install 路径+文件名
 ```
 
@@ -71,7 +71,7 @@ pip install 路径+文件名
 
 （4）测试下 basemap 是否安装成功
 
-```python3
+```python
 from mpl_toolkits.basemap import Basemap
 ```
 
@@ -84,7 +84,7 @@ from mpl_toolkits.basemap import Basemap
 
 （5）更新 Matplotlib 库
 
-```python3
+```python
 pip install matplotlib --upgrade
 ```
 
@@ -104,7 +104,7 @@ pip install matplotlib --upgrade
 
 接下来，在 Jupyter Notebook 中运行代码试试。
 
-```python3
+```python
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
@@ -135,7 +135,7 @@ m.bluemarble(scale=0.5)
 # 环境二： win7
 
 - 操作系统:Windows7
-- 基于 Python3.6 版本的 Anaconda
+- 基于 python.6 版本的 Anaconda
 
 本以为 Basemap 的安装就告一段落了，但本人还有一个 windows 7 系统 的PC。
 
@@ -143,25 +143,25 @@ m.bluemarble(scale=0.5)
 
 运行代码：
 
-```python3
+```python
 from mpl_toolkits.basemap import Basemap
 ```
 
 出现以下问题：
 
-```python3
+```python
 Traceback (most recent call last)
 <ipython-input-1-d9467465a3b6> in <module>()
 ----> 1 from mpl_toolkits.basemap import Basemap
 
-/opt/conda/lib/python3.6/site-packages/mpl_toolkits/basemap/__init__.py in <module>()
+/opt/conda/lib/python.6/site-packages/mpl_toolkits/basemap/__init__.py in <module>()
     144
     145 # create dictionary that maps epsg codes to Basemap kwargs.
 --> 146 pyproj_datadir = os.environ['PROJ_LIB']
     147 epsgf = open(os.path.join(pyproj_datadir,'epsg'))
     148 epsg_dict={}
 
-/opt/conda/lib/python3.6/os.py in __getitem__(self, key)
+/opt/conda/lib/python.6/os.py in __getitem__(self, key)
     667         except KeyError:
     668             # raise KeyError with the original key value
 --> 669             raise KeyError(key) from None
@@ -183,7 +183,7 @@ KeyError: 'PROJ_LIB'
 
 打开 Anaconda Prompt， 在 Anaconda 的默认跟目录下创建一个虚拟环境，名称为 “py36”。
 
-```python3
+```python
 conda create -n py36 python=3.6
 ```
 
@@ -191,36 +191,36 @@ conda create -n py36 python=3.6
 http://liyangbit.com/anaconda/anaconda-install-env-to-custom-path/
 
 安装好后，可以用以下命令来查看虚拟环境的列表：
-```python3
+```python
 conda info --envs
 ```
 
 然后激活虚拟环境
-```python3
+```python
 activate py36
 ```
 
 （2）在 虚拟环境 “py36” 下安装 matplotlib
-```python3
+```python
 pip install matplotlib
 ```
 
 （3）在 虚拟环境 “py36” 下安装 pyproj 的 whl 文件， 如下：
 
-```python3
+```python
 pip install 路径+文件名
 ```
 
 
 （4）在 虚拟环境 “py36” 下安装basemap 的 whl 文件，如下：
 
-```python3
+```python
 pip install 路径+文件名
 ```
 
 （5）在 虚拟环境 “py36” 下测试下 basemap 是否安装成功
 
-```python3
+```python
 from mpl_toolkits.basemap import Basemap
 ```
 
@@ -239,7 +239,7 @@ from mpl_toolkits.basemap import Basemap
 
 程序文件目录下输入
 
-```python3
+```python
 jupyter notebook
 ```
 发现在默认情况下没有找到之前创建的 虚拟环境。
@@ -248,7 +248,7 @@ jupyter notebook
 
 打开 Anaconda Prompt，插件的安装命令如下：
 
-```python3
+```python
 conda install nb_conda
 ```
 
@@ -266,7 +266,7 @@ conda install nb_conda
 在虚拟环境下运行下面的代码：
 
 
-```python3
+```python
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
