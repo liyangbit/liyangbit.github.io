@@ -11,11 +11,10 @@ tags:
   - projects-world-cup
   - Pandas
   - Matplotlib
-  - recommend
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemonbit"]
+authors: ["Lemon"]
 ---
 
 

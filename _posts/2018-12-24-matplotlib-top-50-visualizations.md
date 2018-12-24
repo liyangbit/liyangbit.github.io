@@ -10,6 +10,7 @@ categories:
 tags:
    - Matplotlib
    - Seaborn
+   - recommend
 comments: true
 show_meta: true
 sidebar: right
@@ -23,8 +24,11 @@ authors: ["Lemon"]
 如果觉得内容不错，欢迎分享到您的朋友圈。
 
 Tips：
+
 （1）本文原文部分代码有不准确的地方，已进行修改；
+
 （2）所有正确的源代码，我已整合到 jupyter notebook 文件中，可以在公众号『Python数据之道』后台回复 “code”，可获得本文源代码；
+
 （3）运行本文代码，除了安装 matplotlib 和 seaborn 可视化库外，还需要安装其他的一些辅助可视化库，已在代码部分作标注，具体内容请查看下面文章内容。
 
 <div class="panel radius" markdown="1">
@@ -2462,3 +2466,12 @@ plt.show()
 >原文：
 Top 50 matplotlib Visualizations – The Master Plots (with full python code)
 https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/
+
+
+---
+
+对我的文章感兴趣的朋友，可以关注我的微信公众号『Python数据之道』（ID：PyDataRoad），接收我的更新通知。
+
+<div align="center">
+    <img src="/images/qrcode.jpg" width="20%">
+</div>
