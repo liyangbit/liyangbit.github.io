@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Matplotlib 必须掌握的 50 个可视化图表（附完整 Python 源代码）"
+title: "深度好文 | Matplotlib可视化最有价值的 50 个图表（附完整 Python 源代码）"
 teaser:
 date: 2018-12-24
 header:
@@ -17,7 +17,7 @@ sidebar: right
 authors: ["Lemon"]
 ---
 
-{% include alert info='Matplotlib 必须掌握的 50 个可视化图表（附完整 Python 源代码）' %}
+{% include alert info='深度好文 | Matplotlib可视化最有价值的 50 个图表（附完整 Python 源代码）' %}
 
 本文总结了 Matplotlib 以及 Seaborn 用的最多的50个图形，掌握这些图形的绘制，对于数据分析的可视化有莫大的作用，强烈推荐大家阅读后续内容。
 
