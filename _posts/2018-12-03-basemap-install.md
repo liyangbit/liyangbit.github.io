@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "历尽艰辛，Windows系统下安装Basemap，以及 PROJ_LIB 错误处理"
+title: "Windows系统下安装Basemap，以及 PROJ_LIB 错误处理"
 teaser:
 date: 2018-12-03
 header:
@@ -18,7 +18,7 @@ authors: ["Lemon"]
 
 
 
-{% include alert info='历尽艰辛，Windows系统下安装Basemap，以及 PROJ_LIB 错误处理' %}
+{% include alert info='Windows系统下安装Basemap，以及 PROJ_LIB 错误处理' %}
 
 
 
