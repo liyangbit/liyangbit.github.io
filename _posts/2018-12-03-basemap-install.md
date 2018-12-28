@@ -310,4 +310,3 @@ m.bluemarble(scale=0.5)
     <img src="/images/qrcode.jpg" width="20%">
 </div>
 
----
