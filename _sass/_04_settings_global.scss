@@ -97,10 +97,16 @@ $include-html-global-classes: $include-html-classes;
 // $font-family-sans-serif: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $font-family-serif: "Volkhov", Georgia, Times, serif;
 // $font-family-monospace: "Lucida Console", Monaco, monospace;
+$font-family-sans-serif: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$font-family-serif: "Volkhov", Georgia, Times, serif;
+$font-family-monospace: "Lucida Console", Monaco, monospace;
+
 
 // We use these to define default font weights
 // $font-weight-normal: normal !default;
 // $font-weight-bold: bold !default;
+$font-weight-normal: normal !default;
+$font-weight-bold: bold !default;
 
 // $white       : #FFFFFF;
 // $ghost       : #FAFAFA;
@@ -203,11 +209,16 @@ $global-radius: 3px;
 
 // We use these to control header font styles
 // $header-font-family: $font-family-serif;
+$header-font-family: $font-family-sans-serif;
+
 // $header-font-weight: $font-weight-normal;
-$header-font-weight: $font-weight-normal;
+$header-font-weight: $font-weight-bold; // 标题加粗
+
 // $header-font-style: normal;
+
 // $header-font-color: $jet;
-$header-font-color: #0071c2;
+$header-font-color: #0071c2; // 修改标题颜色
+
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
