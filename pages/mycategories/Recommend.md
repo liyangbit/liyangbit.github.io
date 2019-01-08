@@ -13,7 +13,7 @@ permalink: "/Recommend/"
 
 <ul>
     {% for post in site.tags.recommend %}
-    <li>{{ post.date | date: '%Y-%m-%d' }} - <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><strong>{{ post.title }}</strong></a></li>
+    <li>{{ post.date | date: '%Y-%m-%d' }} / <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
 
