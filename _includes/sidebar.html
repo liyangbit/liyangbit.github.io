@@ -7,7 +7,7 @@
 
 	<div class="panel radius">
 		<!-- <h3><strong>总目录</strong></h3> -->
-		<font color=#222222><h3>总目录</h3></font> 
+		<font color=#222222><h4>总目录</h4></font> 
 		<ul>
 		{% for entry in site.data.sidebar-navigation.entries %}
 		<li><strong><a href="{{ site.url }}{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></strong></li>
@@ -29,7 +29,7 @@
 	<div class="panel radius" style="position:relative; max-height:800px; overflow:auto">
 
 		{% if page.categories[0] contains "projects" %}
-		<font color=#222222><h3>本系列项目专题</h3></font> 
+		<font color=#222222><h4>本系列项目专题</h4></font> 
 		<!-- <h3><strong>本系列项目专题</strong></h3> -->
 
 		{% for entry in site.data.mycategories.entries %}
@@ -47,7 +47,7 @@
 
 		{% elsif page.categories[0] contains "tutorials" %}
 		<!-- <h3><strong>本系列教程</strong></h3> -->
-		<font color=#222222><h3>本系列教程</h3></font> 
+		<font color=#222222><h4>本系列教程</h4></font> 
 
 		{% for entry in site.data.mycategories.entries %}
 		{% for myitem in entry.tags %}
@@ -66,7 +66,7 @@
         {% else %}
 
 		<!-- <h3><strong>推荐文章</strong></h3> -->
-		<font color=#222222><h3>推荐文章</h3></font> 
+		<font color=#222222><h4>推荐文章</h4></font> 
 
 		{% include list-posts-recommend.html entries='5' tag='recommend' %}
 		
@@ -83,7 +83,8 @@
 
 
 	<div class="panel radius">
-		<h4><strong>微信公众号：Python数据之道</strong></h4>
+		<font color=#222222><h4>微信公众号：Python数据之道</h4></font> 
+		<!-- <h4><strong>微信公众号：Python数据之道</strong></h4> -->
 		<p>
 			订阅我的微信公众号，及时了解Python数据分析相关的最新内容。
 		</p>
