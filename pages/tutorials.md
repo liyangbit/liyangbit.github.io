@@ -11,7 +11,7 @@ permalink: "/tutorials/"
 ---
 
 
-{% include alert info='The tutorials will be coming soon ...' %}
+{% include alert info='内容在不断更新中……' %}
 
 <div class="panel radius" markdown="1">
 **Table of Contents**
@@ -25,9 +25,6 @@ permalink: "/tutorials/"
 
 ### 1.1 Python入门基础
 
-**本系列已发布文章如下：**
-
-
 <ul>
     {% for post in site.tags.tutorials-python-basic %}
     <li>{{ post.date | date: '%Y-%m-%d' }} / <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
@@ -35,7 +32,7 @@ permalink: "/tutorials/"
 </ul>
 
 
-## 2 数据分析库：Numpy 和 Pandas
+## 2 数据分析
 
 ### 2.1 Numpy
 
