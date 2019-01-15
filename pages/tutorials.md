@@ -40,21 +40,33 @@ permalink: "/tutorials/"
 </div>
 
 
-### 正则表达式
-
-### 函数
-
-### 对象
 
 
 ## 2 数据分析库：Numpy 和 Pandas
+
+### Numpy
+
+
+### Pandas
 * Numpy
 * Pandas
 * Other
 
+
+
 ## 3 数据可视化
 * Matplotlib
 * Seaborn
+
+### Bokeh
+
+<ul>
+    {% for post in site.tags.Bokeh %}
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
+
 * Other
 
 ## 4 机器学习
