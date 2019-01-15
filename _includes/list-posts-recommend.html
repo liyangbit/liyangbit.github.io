@@ -45,7 +45,7 @@
 
   {% elsif tag %}
     <ul>
-    {% for post in site.tags.[tag] limit:20 %}
+    {% for post in site.tags.[tag] limit:include.entries %}
       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     </ul>
