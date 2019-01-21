@@ -15,7 +15,13 @@ sidebar: right
 authors: ["Lemon"]
 ---
 
-{% include alert info='轻松用 Seaborn 进行数据可视化' %}
+{% include alert info='摘要：
+
+本文属于 Seaborn 的基础教程，介绍了 直方图、联合分布图、矩阵图、箱形图等，通过本文可以看出，使用 seaborn 可以轻松的进行数据可视化。
+
+
+
+『Python数据之道』已整合本文的相关源代码到 jupyter notebook 文件中，如需获取，请在公众号后(ID：PyDataRoad)台回复 “code”。' %}
 
 <div class="panel radius" markdown="1">
 **Table of Contents**
