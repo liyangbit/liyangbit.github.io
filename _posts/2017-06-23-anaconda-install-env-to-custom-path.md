@@ -36,7 +36,9 @@ authors: ["Lemon"]
 
 刚开始的时候，还觉得也没啥问题。用了一小段时间，在安装其他的第三方库时，经常发现安装失败，并且经常出现下面的问题：
 
-![](http://oqb5ftrdh.bkt.clouddn.com/17-6-22/71956562.jpg)
+![出现的问题](/images/posts/Anaconda-install-env/pre.png)
+
+
 
 这个问题，我google、百度等查了好久，也没有解决好。后来，我把两个版本的anaconda都卸载了，重新安装了其中一个版本，发现再安装其他第三方库时，上述问题就不存在了。
 
@@ -63,7 +65,8 @@ conda create -n py36 python=3.6
 ```
 结果如下：
 
-![](http://oqb5ftrdh.bkt.clouddn.com/17-6-22/80922784.jpg)
+![安装演示](/images/posts/Anaconda-install-env/1-s.jpg)
+
 
 “-n”命令，会将虚拟环境安装在anaconda已安装路径默认的envs目录下。
 
@@ -82,7 +85,9 @@ conda create --help
 ```
 conda create --prefix=D:\python36\py36 python=3.6
 ```
-![](http://oqb5ftrdh.bkt.clouddn.com/17-6-22/10330601.jpg)
+
+
+![安装到制定路径](/images/posts/Anaconda-install-env/2.jpg)
 
 上面的命令中， 路径D:\python36是先建好的文件夹，py36是需要安装的虚拟环境名称。请注意，安装完成后，虚拟环境的全称包含整个路径，为D:\python36\py36。激活指定路径下的虚拟环境的命令如下：
 ```
@@ -93,16 +98,17 @@ activate D:\python36\py36
 ```
 deactivate
 ```
-![](http://oqb5ftrdh.bkt.clouddn.com/17-6-22/20853572.jpg)
+![安装到制定路径](/images/posts/Anaconda-install-env/3_s.jpg)
 
 
 想要删除指定路径下的虚拟环境，使用如下的命令：
 ```
 conda remove --prefix=D:\python36\py36 --all
 ```
-![](http://oqb5ftrdh.bkt.clouddn.com/17-6-22/24065329.jpg)
 
-插播一条硬广：技术文章转发太多。文章来自微信公众号“Python数据之道”（ID：PyDataRoad）。
+![安装到制定路径](/images/posts/Anaconda-install-env/4.jpg)
+
+
 
 ## 3 虚拟环境下安装python库
 如果还想继续安装python2.7的虚拟环境，方法跟安装python3.6是一致的。
@@ -140,7 +146,9 @@ conda list
 ```
 conda install -prefix=D:\pyenv\py36 anaconda
 ```
-![](http://oqb5ftrdh.bkt.clouddn.com/17-6-22/10330601.jpg)
+
+
+![安装到制定路径](/images/posts/Anaconda-install-env/5.jpg)
 
 **请特别注意，全部安装时，安装包会很多，安装时间比较长，同时占用安装空间也会比较大，请根据自己的需求选择是否安装**
 
