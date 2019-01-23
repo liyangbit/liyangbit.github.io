@@ -98,7 +98,7 @@ activate D:\python36\py36
 ```
 deactivate
 ```
-![安装到制定路径](/images/posts/Anaconda-install-env/3_s.jpg)
+![退出虚拟环境](/images/posts/Anaconda-install-env/3_s.jpg)
 
 
 想要删除指定路径下的虚拟环境，使用如下的命令：
@@ -106,7 +106,7 @@ deactivate
 conda remove --prefix=D:\python36\py36 --all
 ```
 
-![安装到制定路径](/images/posts/Anaconda-install-env/4.jpg)
+![删除指定路径下的虚拟环境](/images/posts/Anaconda-install-env/4.jpg)
 
 
 
@@ -148,7 +148,7 @@ conda install -prefix=D:\pyenv\py36 anaconda
 ```
 
 
-![安装到制定路径](/images/posts/Anaconda-install-env/5.jpg)
+![安装Anaconda中所有的库](images/posts/Anaconda-install-env/5.jpg)
 
 **请特别注意，全部安装时，安装包会很多，安装时间比较长，同时占用安装空间也会比较大，请根据自己的需求选择是否安装**
 
