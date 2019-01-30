@@ -34,9 +34,9 @@ Hi, 我是 Lemon，对数据科学有浓厚的兴趣，跨界玩 Python。喜欢
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;答案：liyangbit.com
 
-## 赞助支持
+## 成长之路
 
 
-| <center>遇见，是缘</center> | <center>欢迎关注</center> |
+| <center>知识星球</center> | <center>微信公众号</center> |
 | ---------------------------------------- | ---------------------------------------- |
-| <img src="/images/wechat-pay.png" width="300"/> | <img src="/images/foot.jpg" width="300"/> |
+| <img src="/images/xingqiu1.jpg" width="300"/> | <img src="/images/foot.jpg" width="300"/> |
