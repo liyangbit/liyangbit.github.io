@@ -21,8 +21,8 @@
   # - title: "Assessment"
   #   url: "/assessment/"
 
-- title: "赞助"
-  url: "/sponsors/"
+- title: "加入社群"
+  url: "/community/"
   side: left
 
 - title: "Python教程"
@@ -104,6 +104,6 @@
   url: "/search/"
   side: right
 
-- title: "联系"
-  url: "/contact/"
-  side: right
+# - title: "联系"
+#   url: "/contact/"
+#   side: right
