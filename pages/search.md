@@ -24,6 +24,6 @@ permalink: "/search/"
 {% include alert info='推荐文章' %}
 <ul>
     {% for post in site.tags.recommend %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    <li>{{ post.date | date: '%Y-%m-%d' }} / <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
