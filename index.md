@@ -20,8 +20,8 @@ widget-2:
     包括：(a) 世界杯数据分析实战；(b)求职系列项目实战；（c）福布斯系列项目实战等等'
     image: /images/tutorial.gif
 widget-3:
-    title: "关于本站"
-    url: '/about/'
-    text: '『Python数据之道』秉承“让数据更有价值”的理念，分享数据分析，挖掘，可视化，机器学习，深度学习等相关内容。 本公号源于数据分析，但不止于技术分享，同时希望能畅聊职场、品阅群书、阔谈人生'
-    image: /images/about-pydataroad.jpg
+    title: "Python知识手册"
+    url: '/python-knowledge-handbook/'
+    text: '《Python知识手册》由『Python数据之道』出品，欢迎免费获取。由于个人水平有限，手册中内容难免有不准确的地方，欢迎通过公众号联系我。'
+    image: /images/Python知识手册-v2018.jpg
 ---
