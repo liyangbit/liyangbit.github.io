@@ -2,7 +2,7 @@
 layout: posts
 title: "干货推荐 | 掌握这几点，轻松玩转 Bokeh 可视化 （项目实战经验分享）"
 teaser:
-date: 2019-01-21
+date: 2019-03-05
 header:
    image_fullwidth: "image-head.jpg"
 categories:
