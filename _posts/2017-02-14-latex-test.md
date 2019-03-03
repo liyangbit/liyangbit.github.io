@@ -36,7 +36,7 @@ $$ f(x) = \sum_{i=1}^{N} x_{i}\tag{a} $$
 
 <iframe src="//player.bilibili.com/player.html?aid=2692020&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="696" height="470"> </iframe> -->
 
-<iframe src="//player.bilibili.com/player.html?aid=45277942&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="200vm" height="142.85vm"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=45277942&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="300vm" height="214.28vm"> </iframe>
 
 腾讯
 
