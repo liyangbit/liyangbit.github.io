@@ -40,8 +40,15 @@ $$ f(x) = \sum_{i=1}^{N} x_{i}\tag{a} $$
 
 <iframe src="//player.bilibili.com/player.html?aid=2692020&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="696" height="470"> </iframe> -->
 
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 <iframe src="//player.bilibili.com/player.html?aid=8705995&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%"> </iframe>
+
+
+腾讯
+
+<iframe class="video_iframe" =" z-index:1; " src="http://v.qq.com/iframe/player.html?vid=e0844amfs0i&width=300&height=200&auto=0" allowfullscreen="" frameborder="0" height="200" width="300"></iframe>
+
 
 <!-- <iframe src="//player.bilibili.com/player.html?aid=8705995&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="696" height="470"> </iframe> -->
 
