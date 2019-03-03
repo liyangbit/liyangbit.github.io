@@ -35,11 +35,13 @@ $$ f(x) = \sum_{i=1}^{N} x_{i}\tag{a} $$
 
 
 
-<iframe src="/images/zhilian.html" width="700" height="1000"></iframe>
+<!-- <iframe src="/images/zhilian.html" width="700" height="1000"></iframe>
 
 
-<iframe src="//player.bilibili.com/player.html?aid=2692020&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="696" height="470"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=2692020&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="696" height="470"> </iframe> -->
 
+
+<iframe src="//player.bilibili.com/player.html?aid=8705995&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 <iframe src="//player.bilibili.com/player.html?aid=8705995&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="696" height="470"> </iframe>
 
