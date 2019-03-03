@@ -41,7 +41,7 @@ $$ f(x) = \sum_{i=1}^{N} x_{i}\tag{a} $$
 <iframe src="//player.bilibili.com/player.html?aid=2692020&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="696" height="470"> </iframe> -->
 
 
-<iframe src="//player.bilibili.com/player.html?aid=8705995&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="100%"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=8705995&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%"> </iframe>
 
 <!-- <iframe src="//player.bilibili.com/player.html?aid=8705995&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="696" height="470"> </iframe> -->
 
