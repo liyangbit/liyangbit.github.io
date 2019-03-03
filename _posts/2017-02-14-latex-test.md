@@ -36,7 +36,7 @@ $$ f(x) = \sum_{i=1}^{N} x_{i}\tag{a} $$
 
 <iframe src="//player.bilibili.com/player.html?aid=2692020&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="696" height="470"> </iframe> -->
 
-<iframe src="//player.bilibili.com/player.html?aid=45277942&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100vm" height="71.42vm"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=45277942&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="200vm" height="142.85vm"> </iframe>
 
 腾讯
 
@@ -46,6 +46,7 @@ $$ f(x) = \sum_{i=1}^{N} x_{i}\tag{a} $$
 </iframe> -->
 
 [在自适应布局页面上如何让iframe保持高宽比例](http://www.webhek.com/post/responsive-video-iframes-keeping-aspect-ratio-with-only-css.html)
+
 [腾讯视频添加方法](https://blog.csdn.net/shilianweiyao/article/details/49024787)
 
 <!-- <iframe src="//player.bilibili.com/player.html?aid=8705995&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="696" height="470"> </iframe> -->
