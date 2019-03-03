@@ -40,14 +40,19 @@ $$ f(x) = \sum_{i=1}^{N} x_{i}\tag{a} $$
 
 <iframe src="//player.bilibili.com/player.html?aid=2692020&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="696" height="470"> </iframe> -->
 
-<iframe src="//player.bilibili.com/player.html?aid=8705995&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="470"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=45277942&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="auto"> </iframe>
 
 
 腾讯
 
-<iframe class="video_iframe" style="z-index:1;" src="http://v.qq.com/iframe/player.html?vid=e0844amfs0i&width=656&height=470&auto=0" allowfullscreen="" frameborder="0" height="470" width="656">
-</iframe>
+<!-- <iframe class="video_iframe" style="z-index:1;" src="http://v.qq.com/iframe/player.html?vid=e0844amfs0i&width=656&height=470&auto=0" allowfullscreen="" frameborder="0" height="470" width="656"> -->
 
+<!-- <iframe class="video_iframe" style="z-index:1;" src="http://v.qq.com/iframe/player.html?vid=e0844amfs0i&auto=0" allowfullscreen="" frameborder="0">
+</iframe> -->
+
+腾讯视频添加方法
+
+https://blog.csdn.net/shilianweiyao/article/details/49024787
 
 <!-- <iframe src="//player.bilibili.com/player.html?aid=8705995&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="696" height="470"> </iframe> -->
 
