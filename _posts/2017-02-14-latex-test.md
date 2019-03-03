@@ -41,6 +41,8 @@ $$ f(x) = \sum_{i=1}^{N} x_{i}\tag{a} $$
 <iframe src="//player.bilibili.com/player.html?aid=2692020&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="696" height="470"> </iframe>
 
 
+<iframe src="//player.bilibili.com/player.html?aid=8705995&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="696" height="470"> </iframe>
+
 {% include alert text='对我的文章感兴趣的朋友，可以关注我的微信公众号"Python数据之道"，接收我的更新通知。' %}
 
 <div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
