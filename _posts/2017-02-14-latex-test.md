@@ -38,7 +38,7 @@ $$ f(x) = \sum_{i=1}^{N} x_{i}\tag{a} $$
 <iframe src="/images/zhilian.html" width="700" height="1000"></iframe>
 
 
-
+<iframe src="//player.bilibili.com/player.html?aid=2692020&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="888" height="600"> </iframe>
 
 
 {% include alert text='对我的文章感兴趣的朋友，可以关注我的微信公众号"Python数据之道"，接收我的更新通知。' %}
