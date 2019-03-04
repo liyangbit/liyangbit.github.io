@@ -87,6 +87,8 @@
     url: "/categories/"
   - title: 文章标签
     url: "/tags/"
+  - title: 推荐文章
+    url: "/Recommend/"
   - title: "机器学习"
     url: "/MachineLearning/"
   - title: "文章存档"

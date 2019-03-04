@@ -9,6 +9,7 @@ categories:
    - PythonVisualization
 tags:
    - Seaborn
+   - recommend
 comments: true
 show_meta: true
 sidebar: right
