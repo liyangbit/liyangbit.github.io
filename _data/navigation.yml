@@ -16,10 +16,6 @@
     url: "/links/"
   - title: "收藏资源"
     url: "/mysource/"
-  # - title: "Governance"
-  #   url: "/governance/"
-  # - title: "Assessment"
-  #   url: "/assessment/"
 
 - title: "加入社群"
   url: "/community/"
@@ -37,13 +33,6 @@
     url: "/tutorials/"
   - title: "Python基础教程"
     url: "/tutorials-1-python-basic/"
-  # - title: "Attend a Workshop"
-  #   url: "/workshops-attend/"
-  # - title: "Past Workshops"
-  #   url: "/workshops-past"
-  # - title: "Upcoming Workshops"
-  #   url: "/workshops-upcoming"
-
 
 - title: "项目实战专题"
   url: "/projects/"
@@ -57,25 +46,6 @@
     url: "/projects-forbes-page/"
   - title: "智联求职实战"
     url: "/projects-zhilian-page/"
-  # - title: "Newsletter"
-  #   url: "/newsletter/"
-  # - title: "Discussion Forum"
-  #   url: "http://discuss.datacarpentry.org"
-  # - title: "Help Develop Lessons"
-  #   url: "/involved-lessons/"
-  # - title: "Jobs"
-  #   url: "/jobs/"
-  # - title: "Donate"
-  #   url: "/involved-donate/"
-
-# - title: Lessons
-#   url: "/lessons/"
-#   side: left
-#   dropdown:
-#   - title: "Overview of Lessons"
-#     url: "/lessons/"
-#   - title: "Roadmap for Lesson Development"
-#     url: "/lessons-incubation/"
 
 - title: 文章归档
   url: "/blog/"
@@ -87,27 +57,13 @@
     url: "/categories/"
   - title: 文章标签
     url: "/tags/"
-  - title: 推荐文章
-    url: "/Recommend/"
   - title: "机器学习"
     url: "/MachineLearning/"
   - title: "文章存档"
     url: "/blog/archive/"
 
-
-# - title: For instructors
-#   url: "/for-instructors/"
-#   side: left
-#   dropdown:
-#   - title: Instructor training checkout
-#     url: "/checkout/"
-#   - title: Workshop Checklists
-#     url: "/checklists/"
-#   - title: Self-organized Workshops
-#     url: "/self-organized-workshops/"
-
-- title: "站内搜索"
-  url: "/search/"
+- title: "精华文章"
+  url: "/Recommend/"
   side: right
 
 - title: "站内搜索"
