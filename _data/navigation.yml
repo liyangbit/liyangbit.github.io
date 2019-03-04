@@ -25,6 +25,10 @@
   url: "/community/"
   side: left
 
+- title: "Python知识手册"
+  url: "/python-knowledge-handbook/"
+  side: left
+
 - title: "Python教程"
   url: "/tutorials/"
   side: left
@@ -73,7 +77,7 @@
 #   - title: "Roadmap for Lesson Development"
 #     url: "/lessons-incubation/"
 
-- title: 博客文章
+- title: 文章归档
   url: "/blog/"
   side: right
   dropdown:
@@ -99,6 +103,10 @@
 #     url: "/checklists/"
 #   - title: Self-organized Workshops
 #     url: "/self-organized-workshops/"
+
+- title: "站内搜索"
+  url: "/search/"
+  side: right
 
 - title: "站内搜索"
   url: "/search/"
