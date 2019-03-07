@@ -29,3 +29,4 @@ permalink: "/about/"
 <div align="center">
     <img src="/images/xingqiu-1.png" width="500"/>
 </div>
+<br>
