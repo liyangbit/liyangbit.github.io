@@ -10,7 +10,6 @@ header:
 permalink: "/tutorials/"
 ---
 
-
 {% include alert info='内容在不断更新中……' %}
 
 <div class="panel radius" markdown="1">
@@ -19,7 +18,6 @@ permalink: "/tutorials/"
 *  TOC
 {:toc}
 </div>
-
 
 ## 1 Python基础
 
@@ -30,7 +28,6 @@ permalink: "/tutorials/"
     <li>{{ post.date | date: '%Y-%m-%d' }} / <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
-
 
 ## 2 数据分析
 
@@ -49,7 +46,6 @@ permalink: "/tutorials/"
     <li>{{ post.date | date: '%Y-%m-%d' }} / <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
-
 
 ### 2.3 Jupyter
 
@@ -80,17 +76,21 @@ permalink: "/tutorials/"
 
 ### 3.3 Bokeh
 
-
 <ul>
     {% for post in site.tags.Bokeh %}
     <li>{{ post.date | date: '%Y-%m-%d' }} / <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
 
+### 3.4 Plotly
 
+<ul>
+    {% for post in site.tags.Plotly %}
+    <li>{{ post.date | date: '%Y-%m-%d' }} / <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
 
 ## 4 机器学习
-
 
 <ul>
     {% for post in site.categories.MachineLearning %}
