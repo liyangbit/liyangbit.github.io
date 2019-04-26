@@ -64,7 +64,9 @@ plotly.offline.plot(iris_plot)
 
 代码运行后，结果会出现在浏览器端，效果如下：
 
-![image](https://wx4.sinaimg.cn/large/007EIIJlgy1g1nfx2opsug30rm0gptdp.gif)
+<!-- ![image](https://wx4.sinaimg.cn/large/007EIIJlgy1g1nfx2opsug30rm0gptdp.gif) -->
+
+![image](/images/posts/005-Plotly-Express-Introduction/ide.gif)
 
 ## 第二个示例
 
