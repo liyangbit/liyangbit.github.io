@@ -45,41 +45,61 @@ gapminder2007 = gapminder.query('year == 2007')
 px.scatter(gapminder2007, x='gdpPercap', y='lifeExp')
 ```
 
-![image01](https://wx3.sinaimg.cn/large/007EIIJlgy1g1arb3tfq0j30m80f8758.jpg)
+<!-- ![image01](https://wx3.sinaimg.cn/large/007EIIJlgy1g1arb3tfq0j30m80f8758.jpg) -->
+
+![image01](/images/posts/005-Plotly-Express-Introduction/1.png)
 
 如果你想通过大陆区分它们，你可以使用 `color` 参数为你的点着色，由 `px` 负责设置默认颜色，设置图例等：
 
-![image02](https://ws2.sinaimg.cn/large/007EIIJlgy1g1arbyq4pbj30m80dldgq.jpg)
+<!-- ![image02](https://ws2.sinaimg.cn/large/007EIIJlgy1g1arbyq4pbj30m80dldgq.jpg) -->
+
+![image02](/images/posts/005-Plotly-Express-Introduction/2.png)
 
 这里的每一点都是一个国家，所以也许我们想要按国家人口来衡量这些点...... 没问题：这里也有一个参数来设置，它被称为 `size`：
 
-![image03](https://ws3.sinaimg.cn/large/007EIIJlgy1g1arckf7guj30m80drmyf.jpg)
+<!-- ![image03](https://ws3.sinaimg.cn/large/007EIIJlgy1g1arckf7guj30m80drmyf.jpg) -->
+
+![image03](/images/posts/005-Plotly-Express-Introduction/3.png)
+
 
 如果你好奇哪个国家对应哪个点？ 可以添加一个 `hover_name` ，您可以轻松识别任何一点：只需将鼠标放在您感兴趣的点上即可！ 事实上，即使没有 `hover_name` ，整个图表也是互动的：
 
-![image04](https://ws4.sinaimg.cn/large/007EIIJlgy1g1arczxuojg30s20hegy3.gif)
+<!-- ![image04](https://ws4.sinaimg.cn/large/007EIIJlgy1g1arczxuojg30s20hegy3.gif) -->
+
+![image04](/images/posts/005-Plotly-Express-Introduction/4.gif)
+
 
 也可以通过 `facet_col =”continent“` 来轻松划分各大洲，就像着色点一样容易，并且让我们使用 x轴 对数（log_x）以便在我们在图表中看的更清晰：
 
-![image06](https://wx1.sinaimg.cn/large/007EIIJlgy1g1ares0m2qj30m80ea76b.jpg)
+<!-- ![image06](https://wx1.sinaimg.cn/large/007EIIJlgy1g1ares0m2qj30m80ea76b.jpg) -->
+
+![image06](/images/posts/005-Plotly-Express-Introduction/6.png)
 
 也许你不仅仅对 2007年 感兴趣，而且你想看看这张图表是如何随着时间的推移而演变的。 可以通过设置 `animation_frame =“year”` （以及 `animation_group =“country”` 来标识哪些圆与控制条中的年份匹配）来设置动画。 在这个最终版本中，让我们在这里调整一些显示，因为像“gdpPercap” 这样的文本有点难看，即使它是我们的数据框列的名称。 我们可以提供更漂亮的“标签” （labels），可以在整个图表、图例、标题轴和悬停（hovers）中应用。 我们还可以手动设置边界，以便动画在整个过程中看起来更棒：
 
-![image07](https://wx1.sinaimg.cn/large/007EIIJlgy1g1arfpds9ig30m80ei7wh.gif)
+<!-- ![image07](https://wx1.sinaimg.cn/large/007EIIJlgy1g1arfpds9ig30m80ei7wh.gif) -->
+
+![image07](/images/posts/005-Plotly-Express-Introduction/7.gif)
 
 因为这是地理数据，我们也可以将其表示为动画地图，因此这清楚地表明 Plotly Express 不仅仅可以绘制散点图（不过这个数据集缺少前苏联的数据）。
+<!-- 
+![image08](https://wx1.sinaimg.cn/large/007EIIJlgy1g1arg1r00ag30m80e1dyj.gif) -->
 
-![image08](https://wx1.sinaimg.cn/large/007EIIJlgy1g1arg1r00ag30m80e1dyj.gif)
+![image08](/images/posts/005-Plotly-Express-Introduction/8.gif)
 
 事实上，Plotly Express 支持三维散点图、三维线形图、极坐标和地图上三元坐标以及二维坐标。 条形图（Bar）有二维笛卡尔和极坐标风格。进行可视化时，您可以使用单变量设置中的直方图（histograms）和箱形图（box）或小提琴图（violin plots），或双变量分布的密度等高线图（density contours）。 大多数二维笛卡尔图接受连续或分类数据，并自动处理日期/时间数据。 可以查看我们的图库 (ref-3) 来了解每个图表的例子。
 
-![image09](https://ws2.sinaimg.cn/large/007EIIJlgy1g1arhs15f9g30m80eiayp.gif)
+<!-- ![image09](https://ws2.sinaimg.cn/large/007EIIJlgy1g1arhs15f9g30m80eiayp.gif) -->
+
+![image09](/images/posts/005-Plotly-Express-Introduction/9.gif)
 
 上述动态图包含 10多张 图片的可视化，『Python数据之道』已将代码整合到 jupyter notebook 文件中，在公号回复 “code” 即可获得源代码。
 
 下图即是其中的一个图形：
 
-![image](https://wx4.sinaimg.cn/large/007EIIJlgy1g1cnut0791j30p00an0wm.jpg)
+<!-- ![image](https://wx4.sinaimg.cn/large/007EIIJlgy1g1cnut0791j30p00an0wm.jpg) -->
+
+![image](/images/posts/005-Plotly-Express-Introduction/cover-px-middle.jpg)
 
 ## 可视化分布
 
@@ -89,18 +109,26 @@ px.scatter(gapminder2007, x='gdpPercap', y='lifeExp')
 
 直方图：
 
-![image10](https://wx4.sinaimg.cn/large/007EIIJlgy1g1ari57r90j30m80dp3yv.jpg)
+<!-- ![image10](https://wx4.sinaimg.cn/large/007EIIJlgy1g1ari57r90j30m80dp3yv.jpg) -->
+
+![image10](/images/posts/005-Plotly-Express-Introduction/10.png)
 
 箱形图：
 
-![image11](https://ws1.sinaimg.cn/large/007EIIJlgy1g1arimiqasj30m80e23ze.jpg)
+<!-- ![image11](https://ws1.sinaimg.cn/large/007EIIJlgy1g1arimiqasj30m80e23ze.jpg) -->
+
+![image11](/images/posts/005-Plotly-Express-Introduction/11.png)
 
 小提琴图：
-![image12](https://ws3.sinaimg.cn/large/007EIIJlgy1g1ark2nulij30m80dywfn.jpg)
+<!-- ![image12](https://ws3.sinaimg.cn/large/007EIIJlgy1g1ark2nulij30m80dywfn.jpg) -->
+
+![image12](/images/posts/005-Plotly-Express-Introduction/12.png)
 
 还可以创建联合分布图（marginal rugs），使用直方图，箱形图（box）或小提琴来显示双变量分布，也可以添加趋势线。 Plotly Express 甚至可以帮助你在悬停框中添加线条公式和R²值！ 它使用 statsmodels 进行普通最小二乘（OLS）回归或局部加权散点图平滑（LOWESS）。
 
-![image13](https://wx4.sinaimg.cn/large/007EIIJlgy1g1arkicljmj30m80dztad.jpg)
+<!-- ![image13](https://wx4.sinaimg.cn/large/007EIIJlgy1g1arkicljmj30m80dztad.jpg) -->
+
+![image13](/images/posts/005-Plotly-Express-Introduction/13.png)
 
 ## 颜色面板和序列
 
@@ -108,25 +136,36 @@ px.scatter(gapminder2007, x='gdpPercap', y='lifeExp')
 
 定性的颜色序列：
 
-![image14](https://wx3.sinaimg.cn/large/007EIIJlgy1g1arktti8uj30m80fyq3m.jpg)
+<!-- ![image14](https://wx3.sinaimg.cn/large/007EIIJlgy1g1arktti8uj30m80fyq3m.jpg) -->
+
+![image14](/images/posts/005-Plotly-Express-Introduction/14.png)
 
 众多内置顺序色标中的一部分：
 
-![image15](https://wx1.sinaimg.cn/large/007EIIJlgy1g1arl2ehaxj30m80ep0t8.jpg)
+<!-- ![image15](https://wx1.sinaimg.cn/large/007EIIJlgy1g1arl2ehaxj30m80ep0t8.jpg) -->
+
+![image15](/images/posts/005-Plotly-Express-Introduction/15.png)
 
 ## 用一行 Python 代码进行交互式多维可视化
 
 我们特别为我们的交互式多维图表感到自豪，例如散点图矩阵（SPLOMS）、平行坐标和我们称之为并行类别的并行集。 通过这些，您可以在单个图中可视化整个数据集以进行数据探索。 在你的Jupyter 笔记本中查看这些单行及其启用的交互：
 
-![image16](https://ws4.sinaimg.cn/large/007EIIJlgy1g1arle0dvmg30s60gk7wh.gif)
+<!-- ![image16](https://ws4.sinaimg.cn/large/007EIIJlgy1g1arle0dvmg30s60gk7wh.gif) -->
+
+![image16](/images/posts/005-Plotly-Express-Introduction/16.gif)
+
 
 散点图矩阵（SPLOM）允许您可视化多个链接的散点图：数据集中的每个变量与其他变量的关系。 数据集中的每一行都显示为每个图中的一个点。 你可以进行缩放、平移或选择操作，你会发现所有图都链接在一起！
 
-![image17](https://ws2.sinaimg.cn/large/007EIIJlgy1g1arlnnld2g30s50gk1kz.gif)
+<!-- ![image17](https://ws2.sinaimg.cn/large/007EIIJlgy1g1arlnnld2g30s50gk1kz.gif) -->
+
+![image17](/images/posts/005-Plotly-Express-Introduction/17.gif)
 
 平行坐标允许您同时显示3个以上的连续变量。 dataframe 中的每一行都是一行。 您可以拖动尺寸以重新排序它们并选择值范围之间的交叉点。
 
-![image18](https://ws3.sinaimg.cn/large/007EIIJlgy1g1arm7dr3ag30s50gku0y.gif)
+<!-- ![image18](https://ws3.sinaimg.cn/large/007EIIJlgy1g1arm7dr3ag30s50gku0y.gif) -->
+
+![image18](/images/posts/005-Plotly-Express-Introduction/18.gif)
 
 并行类别是并行坐标的分类模拟：使用它们可视化数据集中多组类别之间的关系。
 
@@ -136,21 +175,27 @@ Plotly Express 至于 Plotly.py 类似 Seaborn 之于 matplotlib：Plotly Expres
 
 主题（Themes）允许您控制图形范围的设置，如边距、字体、背景颜色、刻度定位等。 您可以使用模板参数应用任何命名的主题或主题对象：
 
-![image19](https://wx3.sinaimg.cn/large/007EIIJlgy1g1armxer1ug30m80dxgnl.gif)
+<!-- ![image19](https://wx3.sinaimg.cn/large/007EIIJlgy1g1armxer1ug30m80dxgnl.gif) -->
+
+![image19](/images/posts/005-Plotly-Express-Introduction/19.gif)
 
 有三个内置的 Plotly 主题可以使用， 分别是 plotly， plotly_white 和 plotly_dark
 
 `px` 输出继承自 Plotly.py 的 `Figure` 类 `ExpressFigure` 的对象，这意味着你可以使用任何 `Figure` 的访问器和方法来改变 `px` 生成的绘图。 例如，您可以将 `.update（）` 调用链接到 `px` 调用以更改图例设置并添加注释。 `.update（）` 现在返回修改后的数字，所以你仍然可以在一个很长的 Python 语句中执行此操作：
 
-![image20](https://ws1.sinaimg.cn/large/007EIIJlgy1g1arng1pivj30m80g5abk.jpg)
+<!-- ![image20](https://ws1.sinaimg.cn/large/007EIIJlgy1g1arng1pivj30m80g5abk.jpg) -->
+
+![image20](/images/posts/005-Plotly-Express-Introduction/20.png)
 
 在这里，在使用 Plotly Express 生成原始图形之后，我们使用 Plotly.py 的 API 来更改一些图例设置并添加注释。
 
 ## 能够与 Dash 完美匹配
 
 Dash 是 Plotly 的开源框架，用于构建具有 Plotly.py 图表的分析应用程序和仪表板。Plotly Express 产生的对象与 Dash 100％兼容，只需将它们直接传递到`dash_core_components.Graph`，如下所示：`dcc.Graph（figure = px.scatter（...））`。 这是一个非常简单的 50行 Dash 应用程序的示例，它使用 `px` 生成其中的图表：
+<!-- 
+![image](https://wx4.sinaimg.cn/large/007EIIJlgy1g1arnq0nepg30u30k6qby.gif) -->
 
-![image](https://wx4.sinaimg.cn/large/007EIIJlgy1g1arnq0nepg30u30k6qby.gif)
+![image21](/images/posts/005-Plotly-Express-Introduction/21.gif)
 
 这个 50 行的 Dash 应用程序使用 Plotly Express 生成用于浏览数据集的 UI 。
 
