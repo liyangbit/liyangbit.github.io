@@ -5,6 +5,8 @@ comments: true
 show_meta: true
 title: "网站导航"
 authors: ["Lemon"]
+header:
+   image_fullwidth: "image-head.jpg"
 permalink: "/web-nav/"
 ---
 
@@ -19,4 +21,5 @@ permalink: "/web-nav/"
 
 ## 数据平台
 
-<a href="https://www.kaggle.com/" target="blank">Kaggle</a>
+<a href="https://www.kaggle.com/" target="blank">Kaggle</a> \| <a href="https://stackoverflow.com/" target="blank">Stack Overflow</a>
+
