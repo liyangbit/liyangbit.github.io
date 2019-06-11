@@ -16,7 +16,12 @@ permalink: "/web-nav/"
 
 ## 运营工具
 
-<a href="https://weixin.sogou.com/" target="blank">搜狗微信搜索</a> \| <a href="https://www.newrank.cn/" target="blank">新榜</a> \| <a href="http://data.xiguaji.com/" target="blank">西瓜数据</a> \| <a href="https://yiban.io/" target="blank">壹伴</a> \| <a href="https://www.wxb.com/" target="blank">微小宝</a> \| 
+<a href="https://weixin.sogou.com/" target="blank">搜狗微信搜索</a> \| <a href="https://www.newrank.cn/" target="blank">新榜</a> \| <a href="http://data.xiguaji.com/" target="blank">西瓜数据</a> \| <a href="https://yiban.io/" target="blank">壹伴</a> \| <a href="https://www.wxb.com/" target="blank">微小宝</a> \| <a href="http://www.daxiangdaili.com/" target="blank">大象代理</a> \| 
+
+## Python
+
+<a href="https://www.python.org/" target="blank">Python官方网站</a> \| <a href="https://www.anaconda.com/" target="blank">Anaconda</a> \| <a href="https://jupyter.org/" target="blank">Jupyter</a> \| <a href="https://www.liaoxuefeng.com/wiki/1016959663602400/1016959735620448" target="blank">廖雪峰</a> \| 
+
 
 
 
@@ -24,8 +29,6 @@ permalink: "/web-nav/"
 
 <a href="https://www.kaggle.com/" target="blank">Kaggle</a> \| <a href="https://stackoverflow.com/" target="blank">Stack Overflow</a> \| <a href="https://www.quora.com/" target="blank">Quora</a> \| <a href="https://medium.com/" target="blank">Medium</a> \| 
 
-
-<a href="https://medium.com/" target="blank">Medium</a>
 
 
 ## 视频
