@@ -29,10 +29,12 @@ authors: ["Lemonbit"]
 {:toc}
 </div>
 
-
 作者： Vincent Tatan
+
 翻译： 李洁
+
 整理： Lemonbit
+
 译文出品：Python数据之道
 
 ![img01](/images/posts/008-stock-analysis-with-pandas-sklearn/1.jpeg)
@@ -499,11 +501,9 @@ plt.show()
 
 ---
 文章来源：
-https://towardsdatascience.com/in-12-minutes-stocks-analysis-with-pandas-and-scikit-learn-a8d8a7b50ee7
+[In 12 minutes: Stocks Analysis with Pandas and Scikit-Learn](https://towardsdatascience.com/in-12-minutes-stocks-analysis-with-pandas-and-scikit-learn-a8d8a7b50ee7)
 
----
-代码
-https://github.com/VincentTatan/PythonAnalytics/blob/master/Youtube/Lesson%203%20Basic%20Python%20for%20Data%20Analytics%20(Stocks%20Prediction).ipynb
+代码: [点击获取](https://github.com/VincentTatan/PythonAnalytics/blob/master/Youtube/Lesson%203%20Basic%20Python%20for%20Data%20Analytics%20(Stocks%20Prediction).ipynb)
 
 ---
 本文原作者 Vincent Tatan 的声明：
