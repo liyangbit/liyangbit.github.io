@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["Lemonbit"]
 ---
 
 {% include alert info='在 Pycharm 等编辑器下使用 Python 可视化神器 Plotly Express' %}
