@@ -139,29 +139,10 @@ Flask 的简单性允许经验丰富的开发人员在短时间内完成较小�
 
 Flask 是使用 Jinja2 模板引擎开发的。 它是一个现代且设计友好的模板，允许开发人员在集成的沙盒环境的帮助下模拟动态 Web 应用程序。 Jinja2 模板包含变量和标签。 Flask 模板的另一个关键特性是模板继承。 以下是一些常用的 Jinja2 语法示例：
 
-<!-- ```
-comments: {# … #}
 
-variables: {{ … }}
-
-statements: {% … %} (Similar to normal programming, Jinja2
-statements find usage in a variety of cases, like if-else
-statements, imports, loops, and macros).
-``` -->
 
 Django 使用内置的模板引擎，允许开发人员毫不费力地定义 Web 应用程序的面向用户的层。 此外，开发人员可以使用 Django 模板语言（DTL）编写模板来创建自定义用户界面开发。 Django 中的模板语法包括：
 
-<!-- ```
-single-line comments: {# … #}
-
-multi-line comments: {% comment %} … {% endcomment %}
-
-filters on variables: {{ variable|filter }}
-
-tags: {% … %}
-
-variables: {{ … }}
-``` -->
 
 jinja2 模板从 Django 模板语言中获取灵感，因此语法相似。 Django 模板具有模板继承功能，更多信息可以在 Django 模板官方文档中看到。
 
