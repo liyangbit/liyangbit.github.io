@@ -1,111 +1,93 @@
 <aside>
 
-  <!-- 添加总目录 -->
-	<div>
-		{% include sidebar-search.html %}
-	</div>
+    <!-- 添加总目录 -->
+    <div>
+        {% include sidebar-search.html %}
+    </div>
 
-	<div class="panel radius">
-		<!-- <h3><strong>总目录</strong></h3> -->
-		<font color=#222222><h4>总目录</h4></font> 
-		<ul>
-		{% for entry in site.data.sidebar-navigation.entries %}
-		<li><strong><a href="{{ site.url }}{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></strong></li>
+    <div class="panel radius">
+        <!-- <h3><strong>总目录</strong></h3> -->
+        <font color=#222222>
+            <h4>总目录</h4>
+        </font>
+        <ul>
+            {% for entry in site.data.sidebar-navigation.entries %}
+            <li><strong><a href="{{ site.url }}{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></strong></li>
 
-			<ul>
-				{% for item in entry.dropdown %}
-				<li><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
-				{% endfor %}
-			</ul>
+            <ul>
+                {% for item in entry.dropdown %}
+                <li><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                {% endfor %}
+            </ul>
 
-	  {% endfor %}
-	  </ul>
+            {% endfor %}
+        </ul>
 
-	</div>
-
-
-<!-- 添加项目实战专题文章列表，或者Tutotiral系列文章列表 -->
-	<div>
-	<div class="panel radius" style="position:relative; max-height:800px; overflow:auto">
-
-		{% if page.categories[0] contains "projects" %}
-		<font color=#222222><h4>本系列项目专题</h4></font> 
-		<!-- <h3><strong>本系列项目专题</strong></h3> -->
-
-		{% for entry in site.data.mycategories.entries %}
-		{% for myitem in entry.tags %}
-
-		{% for item in page.tags %}
-		{% if myitem == item %}
-		{% include list-posts-link.html tag=myitem %}
-		{% endif %}
-		{% endfor %}
-
-		{% endfor %}
-		{% endfor %}
+    </div>
 
 
-		{% elsif page.categories[0] contains "tutorials" %}
-		<!-- <h3><strong>本系列教程</strong></h3> -->
-		<font color=#222222><h4>本系列教程</h4></font> 
+    <!-- 添加项目实战专题文章列表，或者Tutotiral系列文章列表 -->
+    <div>
+        <div class="panel radius" style="position:relative; max-height:800px; overflow:auto">
 
-		{% for entry in site.data.mycategories.entries %}
-		{% for myitem in entry.tags %}
+            {% if page.categories[0] contains "projects" %}
+            <font color=#222222>
+                <h4>本系列项目专题</h4>
+            </font>
+            <!-- <h3><strong>本系列项目专题</strong></h3> -->
 
-		{% for item in page.tags %}
-		{% if myitem == item %}
-		{% include list-posts-link.html tag=myitem %}
-		{% endif %}
-		{% endfor %}
+            {% for entry in site.data.mycategories.entries %} {% for myitem in entry.tags %} {% for item in page.tags %} {% if myitem == item %} {% include list-posts-link.html tag=myitem %} {% endif %} {% endfor %} {% endfor %} {% endfor %} {% elsif page.categories[0]
+            contains "tutorials" %}
+            <!-- <h3><strong>本系列教程</strong></h3> -->
+            <font color=#222222>
+                <h4>本系列教程</h4>
+            </font>
 
-		{% endfor %}
-		{% endfor %}
+            {% for entry in site.data.mycategories.entries %} {% for myitem in entry.tags %} {% for item in page.tags %} {% if myitem == item %} {% include list-posts-link.html tag=myitem %} {% endif %} {% endfor %} {% endfor %} {% endfor %} {% else %}
+
+            <!-- <h3><strong>推荐文章</strong></h3> -->
+            <font color=#222222>
+                <h4>推荐文章</h4>
+            </font>
+
+            {% include list-posts-recommend.html entries='5' tag='recommend' %}
+
+            <div align="right">
+                <strong><a href="http://liyangbit.com/Recommend/">More</a></strong>
+            </div>
+
+            {% endif %}
 
 
 
-        {% else %}
-
-		<!-- <h3><strong>推荐文章</strong></h3> -->
-		<font color=#222222><h4>推荐文章</h4></font> 
-
-		{% include list-posts-recommend.html entries='5' tag='recommend' %}
-		
-		<div align="right">
-		    <strong><a href="http://liyangbit.com/Recommend/">More</a></strong>
-		</div>
-		
-		{% endif %}
-
-		
-
-	</div>
-  </div>
+        </div>
+    </div>
 
 
-	<div class="panel radius">	
-		<font size=4 color=#0071c1><strong>知识星球</strong></font> 
-		<div align="center">
-		    <img src="/images/xingqiu1.jpg">
-		</div>
+    <div class="panel radius">
+        <font size=4 color=#d66101><strong>柠檬2069</strong></font>
+        <div align="center">
+            <img src="/images/qrcode_2069.jpg" width="60%">
+        </div>
 
-		<br>
+        <br>
 
-		<font size=4 color=#0071c1><strong>微信公众号</strong></font> 
-		<!-- <h4><strong>微信公众号：Python数据之道</strong></h4> -->
-		<div align="center">
-		    <img src="/images/qrcode.jpg" width="60%">
-		</div>
+        <font size=4 color=#0071c1><strong>微信公众号</strong></font>
+        <!-- <h4><strong>微信公众号：Python数据之道</strong></h4> -->
+        <div align="center">
+            <img src="/images/qrcode.jpg" width="60%">
+        </div>
 
-	</div>
+    </div>
 
-	<!-- <h3>Python数据之道</h3>
+    <!-- <h3>Python数据之道</h3>
 	<p>
 		秉承“让数据更有价值”的理念，主要分享数据相关的内容，包括数据分析，挖掘，可视化，机器学习，深度学习等。
 	</p> -->
-	<!-- <img class="b30" src="http://dummyimage.com/303x16:9/df4949/e27b3f.png&amp;text=Ugly+Ad+Space" alt="Python数据之道"> -->
+    <!-- <img class="b30" src="http://dummyimage.com/303x16:9/df4949/e27b3f.png&amp;text=Ugly+Ad+Space" alt="Python数据之道"> -->
 
 
-	<!-- <div class="border-dotted radius b30">
+    <!-- <div class="border-dotted radius b30">
 		<img src="http://placekitten.com/271/270" alt="uh, Placekitten">
 		<p class="text-left">
 			This is an advertisment with a crazy cat! <a href="http://placekitten.com/">More cats, please!</a>
