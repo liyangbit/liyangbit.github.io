@@ -29,11 +29,11 @@ authors: ["Lemon"]
 {:toc}
 </div>
 
-作者 | Will Koehrsen
+作者 : Will Koehrsen
 
-翻译 | Lemon
+翻译 : Lemon
 
-译文出品 | Python数据之道 （ID：PyDataLab）
+译文出品 : Python数据之道 （公众号ID：PyDataLab）
 
 本文通过一个项目案例，详细的介绍了如何从 Bokeh 基础到构建 Bokeh 交互式应用程序的过程，内容循序渐进且具有很高的实用性。本文共有两万字左右，属于纯干货分享，强烈推荐大家阅读后续内容。
 
