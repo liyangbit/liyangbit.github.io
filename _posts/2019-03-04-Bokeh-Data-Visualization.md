@@ -61,7 +61,7 @@ Tips：
 
 可用于数据科学的资源正在迅速发展，这在可视化领域尤其明显，似乎每周都有另一种选择。 随着所有这些进步，有一个共同的趋势：增加交互性。 人们喜欢在静态图中查看数据，但他们更喜欢的是使用数据来查看更改参数如何影响结果。 关于我的研究，一份报告告诉建筑物所有者他们可以通过改变他们的空调（AC）使用计划表节省多少电力是很好的，但是给他们一个交互式图表更有效，他们可以选择不同的使用计划表，看看他们的选择如何影响用电量。 最近，受到互动图的趋势和不断学习新工具的渴望的启发，我一直在使用 Bokeh，一个 Python 库。 我为我的研究项目构建的仪表板中显示了 Bokeh 交互功能的一个示例，如下：
 
-![image1-能耗项目示例](https://wx4.sinaimg.cn/large/007EIIJlgy1g0pc9ybmfvg30m80dbx6p.gif)
+![image1-能耗项目示例](/images/posts/003-bokeh-data-visualization/1.gif)
 
 虽然我不能分享这个项目背后的代码，但我可以通过一个使用公开数据构建完全交互式 Bokeh 应用程序的例子。 本文将介绍使用 Bokeh 创建应用程序的整个过程。 首先，我们将介绍 Bokeh 的基础内容， 我们将使用 `nycflights13` 数据集，该数据集记录了 2013年超过 300,000 个航班。首先，我们将专注于可视化单个变量，在这种情况下，航班的到达延迟时间为几分钟，我们将从构造基本直方图开始。
 
@@ -98,7 +98,7 @@ show(p)
 
 图示如下：
 
-![image2-Bokeh基础图](https://wx4.sinaimg.cn/large/007EIIJlgy1g0m1m6ls05j30ja0h9q2z.jpg)
+![image2-Bokeh基础图](/images/posts/003-bokeh-data-visualization/2.png)
 
 现在让我们开始展示航班延误数据，在进入图表之前，应该加载数据并对其进行简要检查：
 
@@ -141,7 +141,7 @@ delays = pd.DataFrame({'arr_delay': arr_hist,
 
 数据如下：
 
-![image3-flights数据](https://ws1.sinaimg.cn/large/007EIIJlgy1g0m1m7gaqrj305d05qa9x.jpg)
+![image3-flights数据](/images/posts/003-bokeh-data-visualization/3.png)
 
 `flights` 列是从 `left` 到 `right` 的每个延迟间隔内的航班数量。 从这里开始，我们可以创建一个新的 Bokeh 图形，并添加一个指定适当参数的 `quad`：
 
@@ -161,7 +161,7 @@ p.quad(bottom=0, top=delays['flights'],
 show(p)
 ```
 
-![image4-Bokeh绘制直方图](https://ws1.sinaimg.cn/large/007EIIJlgy1g0m1m7i67sj30gl0gx0sv.jpg)
+![image4-Bokeh绘制直方图](/images/posts/003-bokeh-data-visualization/4.png)
 
 从上述图表来看，我们看到到达延迟几乎正态分布，右侧有轻微的正偏斜或重尾。
 
@@ -171,7 +171,7 @@ show(p)
 
 本文介绍的第一种交互方式是被动交互。 这些是读者可以采取的不会改变所显示数据的动作。 这些被称为检查员（inspectors），因为它们允许读者更详细地 “查看” 数据。 一个有用的检查器是当用户将鼠标悬停在数据点上时出现的提示工具，在 Bokeh 中称为 HoverTool 。
 
-![image5-HoverTool](https://ws4.sinaimg.cn/large/007EIIJlgy1g0m1m413hsj30e708c74c.jpg)
+![image5-HoverTool](/images/posts/003-bokeh-data-visualization/5.png)
 
 为了添加提示工具(tooltips)，我们需要将数据源从 dataframe 更改为 `ColumnDataSource` （CDS），这是 Bokeh 中的一个关键概念。 CDS 是一个专门用于绘图的对象，包括数据以及多个方法和属性。 CDS 允许我们为图形添加注释和交互性，并且可以从pandas 的 dataframe 构建。 实际数据本身保存在可通过 CDS 的 data 属性访问的字典中。 在这里，我们从 dataframe 创建源代码，并查看数据字典中与 dataframe 列对应的键。
 
@@ -212,7 +212,7 @@ h = HoverTool(tooltips = [('Delay Interval Left ', '@left'),
 
 在这里，我们使用 `@` 引用 ColumnDataSource 中的 `left` 数据字段（对应于原始 dataframe 的 'left' 列），并使用 `$` 引用光标的（x，y）位置。 结果如下：
 
-![image06-HoverTool](https://wx2.sinaimg.cn/large/007EIIJlgy1g0m1m7nzjej30fk06wt8p.jpg)
+![image06-HoverTool](/images/posts/003-bokeh-data-visualization/6.png)
 
 （x，y）位置是图表上鼠标的位置，对我们的直方图不是很有帮助，因为我们要找到给定条形中对应于条形顶部的航班数量。 为了解决这个问题，我们将改变我们的 tooltip 实例以引用正确的列。 格式化提示工具中显示的数据可能令人沮丧，因此我通常在 dataframe 中使用正确的格式创建另一列。 例如，如果我希望我的提示工具显示给定栏的整个间隔，我在 dataframe 中创建一个格式化的列：
 
@@ -252,7 +252,7 @@ show(p)
 
 在 Bokeh 样式中，通过将元素添加到原始图形中来包含元素。 注意在 `p.quad` 调用中，还有一些额外的参数，`hover_fill_alpha` 和 `hover_fill_color`，当将鼠标悬停在条形图上时会改变 glyph 的外观。 我还使用 `style` 函数添加了样式。 当使用样式时，我会保持简单并专注于标签的可读性。 图的主要观点是显示数据，添加不必要的元素只会减少图形的用处！ 最终的图形如下：
 
-![image07-带HoverTool的直方图](https://ws3.sinaimg.cn/large/007EIIJlgy1g0mj5c3tojj30hi0gftcb.jpg)
+![image07-带HoverTool的直方图](/images/posts/003-bokeh-data-visualization/7.png)
 
 当将鼠标悬停在不同的栏上时，会得到该栏的精确统计数据，显示该区间内的间隔和航班数。 如果我们为图形感到自豪，可以将其保存到html文件中进行分享：
 
@@ -273,11 +273,11 @@ show(p)
 
 Bokeh中有两类交互：被动交互和主动交互。 前面介绍的被动交互也称为检查器（inspectors），因为它们允许用户更详细地查阅图表中的信息，但不会更改显示的信息。 一个示例是当用户将鼠标悬停在数据点上时显示的提示信息，如下：
 
-![image10-被动交互](https://ws2.sinaimg.cn/large/007EIIJlgy1g0m1m7lmggj30e708c74c.jpg)
+![image10-被动交互](/images/posts/003-bokeh-data-visualization/10.png)
 
 第二类交互称为主动交互，因为它会更改绘图上显示的实际数据。 这可以是从选择数据子集（例如特定航空公司）到改变多项式回归拟合自由度的任何事情。 Bokeh 中有多种类型的主动交互，但在这里我们将重点关注所谓的“小部件”（“widgets”），可以点击的元素，并让用户控制图形的某些方面。
 
-![image11-主动交互](https://wx1.sinaimg.cn/large/007EIIJlgy1g0m1m43fkwj305w02z0si.jpg)
+![image11-主动交互](/images/posts/003-bokeh-data-visualization/11.png)
 
 当查看图表时，我喜欢使用主动交互，因为它们允许我自己探索数据。 我发现从我自己的数据（来自设计师的某个方向）而不是从完全静态的图表中发现数据的结论更具洞察力。 此外，为用户提供一定的自由度使他们能够略微不同的解释，从而产生有关数据集的有益讨论。
 
@@ -299,7 +299,7 @@ Bokeh中有两类交互：被动交互和主动交互。 前面介绍的被动�
 
 对于为绘图创建数据集的函数，我们需要允许指定每个参数。 为了告知我们如何在`make_dataset` 函数中转换数据，我们可以加载所有相关数据并进行检查。
 
-![image12-加载数据](https://ws3.sinaimg.cn/large/007EIIJlgy1g0m1m4878lj307z04kmx2.jpg)
+![image12-加载数据](/images/posts/003-bokeh-data-visualization/12.png)
 
 在此数据集中，每行是一个单独的航班。 `arr_delay` 列是以分钟为单位的航班到达延迟（负数表示航班早到）。 从前面的描述中我们知道有 327,236 个航班，最小延迟为 -86 分钟，最大延迟为 +1272 分钟。 在 `make_dataset` 函数中，我们希望根据 dataframe 中的 `name` 列选择航空公司，并通过 `arr_delay` 列限制航班数量。
 
@@ -356,7 +356,7 @@ def make_dataset(carrier_list, range_start = -60, range_end = 120, bin_width = 5
 
 上述运行结果如下：
 
-![image13-整理好的数据](https://ws2.sinaimg.cn/large/007EIIJlgy1g0m1m4bgprj30gp04nq32.jpg)
+![image13-整理好的数据](/images/posts/003-bokeh-data-visualization/13.png)
 
 提醒一下，我们使用 Bokeh 中 `quad` 函数来制作直方图，因此我们需要提供该图形符号的左、右和顶部（底部将固定为0）参数。 它们分别位于 “left”，“right” 和 “proportion” 列中。 color 列为每个显示的航空公司提供了唯一的颜色，`f_` 列为 tooltips 提供了格式化文本。
 
@@ -391,7 +391,7 @@ def make_plot(src):
 
 如果我们导入所有航空公司的数据，绘制的图形如下：
 
-![image14-所有航线的延迟图](https://wx1.sinaimg.cn/large/007EIIJlgy1g0mj0bp15fj30jz0jr0xo.jpg)
+![image14-所有航线的延迟图](/images/posts/003-bokeh-data-visualization/14.png)
 
 这个直方图非常混乱，因为有 16 家航空公司在同一图表上绘制！ 如果想比较航空公司，由于信息重叠，这几乎是不可能的。 幸运的是，我们可以添加小部件（widgets）以使绘图更清晰并实现快速比较。
 
@@ -407,7 +407,7 @@ carrier_selection = CheckboxGroup(labels=available_carriers,
                                   active = [0, 1])
 ```
 
-![image15-CheckboxGroup](https://wx3.sinaimg.cn/large/007EIIJlgy1g0m1m4hdvqj30650bhq2z.jpg)
+![image15-CheckboxGroup](/images/posts/003-bokeh-data-visualization/15.png)
 
 Bokeh 复选框中的标签必须是字符串，而活动值是整数。 这意味着在图形中 'AirTran Airways Corporation' 对应数字 0 ，'Alaska Airlines Inc.' 对应数值 1。 当想要将所选复选框与航空公司匹配时，需要确保查找与所选整数活动值关联的字符串名称。 我们可以使用小部件的 `.labels` 和 `.active` 属性来做到这一点：
 
@@ -448,7 +448,7 @@ carrier_selection.on_change('active', update)
 
 只要选择或取消选择不同的航空公司，就会调用更新功能。 最终结果是在直方图上仅绘制了与所选航空公司相对应的图形 ，如下所示：
 
-![image16-交互图](https://ws1.sinaimg.cn/large/007EIIJlgy1g0pcalld69g30m80fehdt.gif)
+![image16-交互图](/images/posts/003-bokeh-data-visualization/16.gif)
 
 ### 更多的交互式控制
 
@@ -496,7 +496,7 @@ def update(attr, old, new):
 
 标准的 slider 和 range slider 如下所示：
 
-![image17-滑动块](https://wx4.sinaimg.cn/large/007EIIJlgy1g0m1m4zcnij308g02xt8j.jpg)
+![image17-滑动块](/images/posts/003-bokeh-data-visualization/17.png)
 
 除了使用更新功能显示的数据之外，还可以更改绘图的其他方面。例如，要更改标题文本以匹配 bin 宽度，可以执行以下操作：
 
@@ -531,7 +531,7 @@ tabs = Tabs(tabs=[tab])
 
 我将整个布局放在一个选项卡上，当我们完成一个完整的应用程序时，我们可以将每个绘图放在一个单独的选项卡上。 所有这些工作的最终结果如下：
 
-![image18-带选项卡的交互图](https://ws1.sinaimg.cn/large/007EIIJlgy1g0pcbnjdhhg30m80fyqv5.gif)
+![image18-带选项卡的交互图](/images/posts/003-bokeh-data-visualization/18.gif)
 
 ## 在 Bokeh 中创建交互式可视化应用程序
 
@@ -574,7 +574,7 @@ bokeh_app
 
 对于这次我们分析的航班程序项目，文件结构遵循一般大纲，如下：
 
-![image20-航班程序项目结构](https://wx2.sinaimg.cn/large/007EIIJlgy1g0m1m6p04pj304q09674k.jpg)
+![image20-航班程序项目结构](/images/posts/003-bokeh-data-visualization/20.png)
 
 在一个 `bokeh_app` 目录下有三个主要部分：`data`，`scripts` 和 `main.py`。 当运行服务器时，我们告诉 Bokeh 服务于 `bokeh_app` 目录，它将自动搜索并运行 `main.py` 脚本。 有了一般的结构，让我们来看看 `main.py` ，这就是我喜欢称之为 Bokeh 应用程序的执行者！
 
@@ -631,7 +631,7 @@ curdoc().add_root(tabs)
 
 此函数包含 `map_data`（航班数据的格式化版本）和美国各州的数据，并为选定的航空公司生成航班路线图：
 
-![image21-航班图](https://ws3.sinaimg.cn/large/007EIIJlgy1g0m1m6t3elj30rs0dbn2c.jpg)
+![image21-航班图](/images/posts/003-bokeh-data-visualization/21.png)
 
 ```python
 def map_tab(map_data, states):
@@ -667,13 +667,13 @@ curdoc().add_root(tabs)
 
 选项卡显示在应用程序的顶部，就像任何浏览器中的选项卡一样，我们可以轻松地在它们之间切换以探索数据。
 
-![image22-带选项卡的交互图](https://ws3.sinaimg.cn/large/007EIIJlgy1g0miiot4t4j30rs0k3n4n.jpg)
+![image22-带选项卡的交互图](/images/posts/003-bokeh-data-visualization/22.png)
 
 ### 运行 Bokeh 服务器
 
 在制作绘图所需的所有设置和代码编写完成之后，在本地运行 Bokeh 服务器非常简单。 我们打开一个命令行界面（我更喜欢 Git Bash， 但任何一个都可以工作），切换到包含 `bokeh_app` 的目录并运行 `bokeh serve --show bokeh_app` 。 假设一切都正确，应用程序将在我们的浏览器中自动打开地址 `http：// localhost：5006 / bokeh_app` 。 然后我们可以访问该应用程序并浏览我们的仪表板，效果如下：
 
-![image23-程序运行后的动态图](https://ws2.sinaimg.cn/large/007EIIJlgy1g0pccq9i7yg30m80cib29.gif)
+![image23-程序运行后的动态图](/images/posts/003-bokeh-data-visualization/23.gif)
 
 ### 在 Jupyter Notebook 中进行调试
 
