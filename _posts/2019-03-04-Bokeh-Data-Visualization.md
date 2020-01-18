@@ -29,6 +29,16 @@ authors: ["Lemon"]
 {:toc}
 </div>
 
+{% include alert success='
+
+作者 : Will Koehrsen
+
+翻译 : Lemon
+
+译文出品 : Python数据之道 （公众号ID：PyDataLab）
+
+' %}
+
 作者 : Will Koehrsen
 
 翻译 : Lemon
