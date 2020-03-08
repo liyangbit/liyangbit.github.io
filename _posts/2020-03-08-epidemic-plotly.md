@@ -10,7 +10,8 @@ categories:
 tags:    
    - Plotly
    - Cufflinks
-   - Pandas    
+   - Pandas
+   - recommend    
 comments: true
 show_meta: true
 sidebar: right

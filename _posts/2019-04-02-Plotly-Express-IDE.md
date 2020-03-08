@@ -75,10 +75,10 @@ plotly.offline.plot(iris_plot)
 ```python
 # Code based on Python 3.x
 # _*_ coding: utf-8 _*_
-# Author: "LEMON"
+# Author: "Lemonbit"
 # Website: http://liyangbit.com
 # 公众号: Python数据之道
-# ID: PyDataRoad
+# ID: PyDataLab
 
 import plotly_express as px
 import plotly
@@ -96,3 +96,13 @@ plotly.offline.plot(wind_plot)
 ![image](https://wx4.sinaimg.cn/large/007EIIJlgy1g1cnut0791j30p00an0wm.jpg)
 
 看完上面的代码，是不是觉得 so easy， 赶紧动手试试吧。
+
+---
+
+<br>
+
+对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataLab），接收我的更新通知。
+
+<div align="center">
+    <img src="/images/qrcode.jpg" width="20%">
+</div>
