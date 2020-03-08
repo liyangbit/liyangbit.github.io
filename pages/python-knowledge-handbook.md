@@ -38,7 +38,7 @@ permalink: "/python-knowledge-handbook/"
 手册 V2.1 的封面如下：
 
 <div align="center">
-    <img src="/images/pages/Python-knowledge-handbook/1.png" width="400"/>
+    <img src="/images/pages/Python-knowledge-handbook/1.png" width="500"/>
 </div>
 
 虽然我写了一些关于 Python 零基础入门的文章，但《Python知识手册》 并没有比较完整的覆盖 Python 的基础知识。因此，针对手册的阅读，各位读者最好有一些 Python 的基本功底。
@@ -59,7 +59,7 @@ permalink: "/python-knowledge-handbook/"
 手册的部分页面如下：
 
 <div align="center">
-    <img src="/images/pages/Python-knowledge-handbook/2.png" width="400"/>
+    <img src="/images/pages/Python-knowledge-handbook/2.png" width="500"/>
 </div>
 
 <div align="center">
@@ -67,7 +67,7 @@ permalink: "/python-knowledge-handbook/"
 </div>
 
 <div align="center">
-    <img src="/images/pages/Python-knowledge-handbook/4.png" width="400"/>
+    <img src="/images/pages/Python-knowledge-handbook/4.png" width="500"/>
 </div>
 
 若上述这些内容，能给诸位读者带来益处，我觉得付出些辛劳，也是值得的。

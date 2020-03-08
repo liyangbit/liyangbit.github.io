@@ -23,5 +23,5 @@ widget-3:
     title: "Python知识手册"
     url: '/python-knowledge-handbook/'
     text: '《Python知识手册》由『Python数据之道』出品，欢迎免费获取。由于个人水平有限，手册中内容难免有不准确的地方，欢迎通过公众号联系我。'
-    image: /images/Python知识手册-v2018.jpg
+    image: /images/Python知识手册.png
 ---
