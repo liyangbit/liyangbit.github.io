@@ -6,13 +6,13 @@ date: 2019-07-30
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-   - Comprehensive
+   - ITBooks
 tags:    
-   - Books      
+   - PythonBooks      
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemonbit"]
+authors: ["Lemon"]
 ---
 
 {% include alert info='笨办法学Python，其实一点都不笨' %}
@@ -132,7 +132,7 @@ print(y)
 
 ---
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PythonDataLab），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

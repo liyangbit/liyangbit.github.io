@@ -15,7 +15,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemonbit"]
+authors: ["Lemon"]
 ---
 
 {% include alert info='用 Python可视化神器 Plotly 动态演示全球疫情变化趋势' %}
@@ -29,7 +29,7 @@ authors: ["Lemonbit"]
 
 # 用 Python可视化神器 Plotly 动态演示全球疫情变化趋势
 
-各位同学早上好，我是 Lemonbit 。
+各位同学早上好，我是 Lemon 。
 
 近期对疫情数据进行可视化的内容比较多，今天我来用 Python 可视化申请 Plotly 对国外的疫情发展情况进行可视化，以项目实战的形式，在分析和了解国外疫情变化趋势的同时，加深大家对 Plotly 的学习应用。
 
