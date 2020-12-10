@@ -6,7 +6,7 @@ date: 2020-09-30
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-   - Python基础
+   - PythonBasics
 tags:    
    - Python基础 
 comments: true
