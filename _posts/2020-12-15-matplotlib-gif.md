@@ -59,7 +59,3 @@ Matplotlib 是 Python 数据可视化中不可或缺的一个可视化库，「P
 ### 多图多曲线动态图
 
 ![](/images/posts/202012-matplotlib-gif/mat-4.gif)
-
-### 代码文件获取
-
-
