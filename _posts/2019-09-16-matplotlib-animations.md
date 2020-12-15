@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemonbit"]
+authors: ["Lemon"]
 ---
 
 {% include alert info='巧用 Matplotlib 动画让你的 Python 可视化大放异彩' %}

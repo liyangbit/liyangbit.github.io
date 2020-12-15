@@ -13,7 +13,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemonbit"]
+authors: ["Lemon"]
 ---
 
 {% include alert info='用 Python 读取巴菲特最近的持仓数据' %}
