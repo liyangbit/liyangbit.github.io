@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemonbit"]
+authors: ["Lemon"]
 ---
 
 {% include alert info='在 Pycharm 等编辑器下使用 Python 可视化神器 Plotly Express' %}
@@ -93,7 +93,9 @@ plotly.offline.plot(wind_plot)
 
 代码运行后，结果会出现在浏览器端，图示如下：
 
-![image](https://wx4.sinaimg.cn/large/007EIIJlgy1g1cnut0791j30p00an0wm.jpg)
+![](/images/posts/005-Plotly-Express-Introduction/cover-px-middle.jpg)
+
+<!-- ![image](https://wx4.sinaimg.cn/large/007EIIJlgy1g1cnut0791j30p00an0wm.jpg) -->
 
 看完上面的代码，是不是觉得 so easy， 赶紧动手试试吧。
 
