@@ -75,7 +75,7 @@ plotly.offline.plot(iris_plot)
 ```python
 # Code based on Python 3.x
 # _*_ coding: utf-8 _*_
-# Author: "Lemonbit"
+# Author: "Lemon"
 # Website: http://liyangbit.com
 # 公众号: Python数据之道
 # ID: PyDataLab
