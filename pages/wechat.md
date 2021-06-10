@@ -38,16 +38,16 @@ permalink: "/wechat/"
 
 
 
-## 微信文章汇总
+<!-- ## 微信文章汇总
 * [历史文章分类汇总-V5](http://mp.weixin.qq.com/s?__biz=MzI2NjY5NzI0NA==&mid=2247484222&idx=1&sn=ce4832be3005a970e3e5afd50e3529a2&chksm=ea8b6c4dddfce55b529189af410ff29771a6ce09e3345fba2d4bcd6301d9c0886284e5423a36&scene=21#wechat_redirect)
-* [精华文章推荐-V1](http://mp.weixin.qq.com/s?__biz=MzI2NjY5NzI0NA==&mid=2247484074&idx=1&sn=cb6174702fe8f495a37df8a74ef30ffe&chksm=ea8b6dd9ddfce4cffc0ea8aa1c3b5c51cf3623b2ae6b43ae7f7e0c5ab8a8db70d5f05f967eaf&scene=21#wechat_redirect)
+* [精华文章推荐-V1](http://mp.weixin.qq.com/s?__biz=MzI2NjY5NzI0NA==&mid=2247484074&idx=1&sn=cb6174702fe8f495a37df8a74ef30ffe&chksm=ea8b6dd9ddfce4cffc0ea8aa1c3b5c51cf3623b2ae6b43ae7f7e0c5ab8a8db70d5f05f967eaf&scene=21#wechat_redirect) -->
 
 
 ## 微信群
-### “Python数据之道-1群”（大群）
+
 如需入群，请关注微信公众号，并在后台回复“微信群”申请加入。
 
-### “机器学习打卡群”（专用群）
+<!-- ### “机器学习打卡群”（专用群）
 
 加入步骤：
 
@@ -69,25 +69,12 @@ permalink: "/wechat/"
 
 ### 打卡活动主题2： [45天机器学习实战](http://mp.weixin.qq.com/s?__biz=MzI2NjY5NzI0NA==&mid=2247484153&idx=1&sn=6dfd58f809768ca136e018263ae0810b&chksm=ea8b6d8addfce49cddc53eb360c5d613321e59c55c3284819c3a2f5f28a014c56951379989e0&scene=21#wechat_redirect)
 
-<img src="/images/daka45days.jpg" width="80%">
+<img src="/images/daka45days.jpg" width="80%"> -->
 
 
 ## 投稿&合作
-如果您希望通过 “Python数据之道” 扩散您的原创文章或译文，请将内容按照以下格式要求发送给我们。
 
-
-邮箱：liyangbit@gmail.com
-
-标题：向 [ Python数据之道 ] 微信公众号投稿
-
-内容：
-
-1）如果文章已经在网上发布，请直接附上链接。如果希望文章首发到我们这，请以附件的形式发布。
-
-2）请附上作者简介。了解了作者的情况后，方便后续展开更多的合作。
-
-
-特别提醒：请不要投递任何形式的广告；请不要投递非您本人的原创文章或译文。
+如果您希望通过 「Python数据之道」扩散您的原创文章，请在微信公众号「Python数据之道」后台回复 “**投稿**” 了解详细内容。
 
 ## 源代码分享
 
@@ -110,8 +97,9 @@ permalink: "/wechat/"
 - [50年高考作文题，记录时代变迁](http://mp.weixin.qq.com/s?__biz=MzI2NjY5NzI0NA==&mid=2247483805&idx=1&sn=a368eb3528b2c2bd3f7ebceaec467d42&chksm=ea8b6eeeddfce7f832280c26b6cb08dc2daef0059a024276b7807b8e3d8e24af5cf0f72269b4&scene=21#wechat_redirect)
 
 
-
+<!-- 
 ## 公众号推荐
+
 点击公众号菜单栏：“资源推荐”-“优质公号推荐”
 
 拟推荐的公众号涉及领域包括：大数据、编程、人工智能、互联网、低碳环保、金融、创投及创业等相关的公众号。
@@ -123,4 +111,4 @@ permalink: "/wechat/"
 
 | <center>遇见，是缘</center> | <center>欢迎关注</center> |
 | ---------------------------------------- | ---------------------------------------- |
-| <img src="/images/wechat-pay.png" width="300"/> | <img src="/images/foot.jpg" width="300"/> |
+| <img src="/images/wechat-pay.png" width="300"/> | <img src="/images/foot.jpg" width="300"/> | -->
