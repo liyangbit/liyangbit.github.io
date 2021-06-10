@@ -13,7 +13,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='markdown cheat sheet' %}
@@ -27,7 +27,7 @@ authors: ["Lemon"]
 
 # Markdown 速查表
 
-大家好，我是 Lemon。
+大家好，我是 阳哥。
 
 今天给大家带来一份由 Lemon 整理的 `Markdown 速查表` ，先来一张图镇楼哈：
 
