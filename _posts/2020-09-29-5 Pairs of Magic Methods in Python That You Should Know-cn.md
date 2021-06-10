@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 
@@ -29,7 +29,7 @@ authors: ["Lemon"]
 
 >原文作者：Yong Cui
 >
->翻译：Lemon
+>翻译：阳哥
 >
 >译文出品：Python数据之道
 
@@ -270,7 +270,7 @@ https://medium.com/better-programming/5-pairs-of-magic-methods-in-python-you-sho
 
 ---
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataLab），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「**Python数据之道**」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

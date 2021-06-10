@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='利用 Matplotlib 创建gif动态图' %}
@@ -26,7 +26,7 @@ authors: ["Lemon"]
 
 # Matplotlib 动态图还可以这样玩，收藏了！
 
-大家好，我是 Lemon。
+大家好，我是 阳哥。
 
 Matplotlib 是 Python 数据可视化中不可或缺的一个可视化库，「Python数据之道」之前也给大家分享了一系列 Matplotlib 从基础到进阶的内容，包括：
 
@@ -109,7 +109,7 @@ HTML('<img src="./{}" />'.format(output1))
 
 ### 代码文件获取
 
-为了方便大家练习和复现上面的效果，Lemon 整理好了本文的实现代码过程，大家可以在下面的公众号 **「Python数据之道」** 回复 **mat-gif** 来获取。
+为了方便大家练习和复现上面的效果，阳哥 整理好了本文的实现代码过程，大家可以在下面的公众号 **「Python数据之道」** 回复 **mat-gif** 来获取。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

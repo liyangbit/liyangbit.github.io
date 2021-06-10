@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='《Python编程从入门到实践》' %}
@@ -27,6 +27,8 @@ authors: ["Lemon"]
 # 《Python编程从入门到实践》，第2版来了
 
 ## 1、前言
+
+大家好，我是阳哥。
 
 经常有读者问我，想让我推荐一些关于 Python 学习的书籍，鉴于每个人的知识背景以及跟我交流的深浅程度不一样，可能每次推荐的书籍都会有些差异。
 
@@ -72,9 +74,10 @@ authors: ["Lemon"]
 
 ![Python基础知识部分](https://tva1.sinaimg.cn/large/007S8ZIlgy1gjr22pw0mcj30u027qqi7.jpg)
 
+
 ---
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataLab），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「**Python数据之道**」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">
