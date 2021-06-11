@@ -2,7 +2,7 @@
 layout: page
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 title: "机器学习"
 subheadline: "博客文章分类"
 header:

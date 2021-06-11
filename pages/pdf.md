@@ -3,7 +3,7 @@ layout: page
 sidebar: "right"
 comments: true
 show_meta: true
-authors: ["Lemonbit"]
+authors: ["阳哥"]
 title: "PDF文件资源"
 header:
    image_fullwidth: "image-head.jpg"
@@ -28,7 +28,7 @@ permalink: "/pdf/"
 
 ---
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PythonDataLab），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

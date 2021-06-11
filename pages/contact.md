@@ -3,7 +3,7 @@ layout: page
 title: "Contact Us"
 meta_title: "Contact us"
 show_meta: true
-authors: ["Lemon"]
+authors: ["阳哥"]
 comments: true
 teaser:
 sidebar: right
@@ -20,7 +20,7 @@ permalink: "/contact/"
 
 ## 关于我
 
-我是 Lemon，对数据科学有浓厚的兴趣，跨界玩 Python。喜欢鼓捣些东西，平时也喜欢看看书、跑跑步，大家可以通过以下途径联系我。
+我是阳哥，对数据科学有浓厚的兴趣，跨界玩 Python。喜欢鼓捣些东西，平时也喜欢看看书、跑跑步，大家可以通过以下途径联系我。
 
 ## 联系途径
 
@@ -28,7 +28,7 @@ permalink: "/contact/"
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
 {% endfor %}
 
-* **QQ群：**
+<!-- * **QQ群：**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python交流群: 478118956 ，请回复问题加入
 
@@ -40,4 +40,4 @@ permalink: "/contact/"
 
 | <center>知识星球</center> | <center>微信公众号</center> |
 | ---------------------------------------- | ---------------------------------------- |
-| <img src="/images/xingqiu1.jpg" width="300"/> | <img src="/images/foot.jpg" width="300"/> |
+| <img src="/images/xingqiu1.jpg" width="300"/> | <img src="/images/foot.jpg" width="300"/> | -->

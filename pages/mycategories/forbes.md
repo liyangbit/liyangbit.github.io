@@ -2,7 +2,7 @@
 layout: page
 show_meta: true
 title: "福布斯项目实战-Python数据分析"
-authors: ["Lemon"]
+authors: ["阳哥"]
 subheadline: "博客文章分类"
 header:
    image_fullwidth: "image-head.jpg"

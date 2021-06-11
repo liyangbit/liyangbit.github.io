@@ -4,7 +4,7 @@ sidebar: "right"
 comments: true
 show_meta: true
 title: "My Source"
-authors: ["Lemon"]
+authors: ["阳哥"]
 header:
    image_fullwidth: "image-head.jpg"
 permalink: "/mysource/"

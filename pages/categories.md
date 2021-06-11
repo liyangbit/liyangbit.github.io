@@ -4,7 +4,7 @@ title: "博客文章分类 (Categories)"
 meta_title: "Categories"
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 teaser:
 header:
    image_fullwidth: "image-head.jpg"

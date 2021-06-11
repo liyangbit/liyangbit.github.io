@@ -2,7 +2,7 @@
 layout: page
 sidebar: "right"
 show_meta: true
-authors: ["Lemonbit"]
+authors: ["阳哥"]
 title: "智联求职实战"
 comments: true
 header:

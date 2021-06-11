@@ -2,7 +2,7 @@
 layout: page
 sidebar: "right"
 show_meta: true
-authors: ["Lemonbit"]
+authors: ["阳哥"]
 title: "世界杯系列-Pyton数据分析项目实战"
 comments: true
 header:

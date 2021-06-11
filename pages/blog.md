@@ -2,7 +2,7 @@
 layout: page
 sidebar: "right"
 show_meta: true
-authors: ["Lemon"]
+authors: ["阳哥"]
 title: "Python数据之道"
 header:
    image_fullwidth: "image-head.jpg"

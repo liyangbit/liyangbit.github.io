@@ -2,7 +2,7 @@
 layout: page
 sidebar: "right"
 show_meta: true
-authors: ["Lemon"]
+authors: ["阳哥"]
 title: "友情链接"
 header:
    image_fullwidth: "image-head.jpg"

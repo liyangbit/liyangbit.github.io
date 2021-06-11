@@ -3,7 +3,7 @@ layout: page
 sidebar: "right"
 comments: true
 show_meta: true
-authors: ["Lemon"]
+authors: ["阳哥"]
 title: "Python基础教程"
 header:
    image_fullwidth: "image-head.jpg"

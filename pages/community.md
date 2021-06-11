@@ -2,7 +2,7 @@
 layout: page
 sidebar: "right"
 show_meta: true
-authors: ["Lemon"]
+authors: ["阳哥"]
 title: "加入社群"
 comments: true
 header:
@@ -12,7 +12,7 @@ permalink: "/community/"
 
 # 微信公众号
 
-公众号『Python数据之道』秉承“让数据更有价值”的理念，主要分享数据相关的内容，包括数据分析，挖掘，可视化，机器学习，深度学习等。
+公众号「Python数据之道」秉承“让数据更有价值”的理念，主要分享数据相关的内容，包括数据分析，挖掘，可视化，机器学习，深度学习等。
 
 公众号所有文章都可以免费阅读，欢迎关注。
 
