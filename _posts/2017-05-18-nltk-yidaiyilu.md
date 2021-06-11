@@ -15,13 +15,13 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 
 
 
-{% include alert info='本文首发于我的微信公众号（ID：PyDataRoad）。' %}
+{% include alert info='本文首发于我的微信公众号（ID：PyDataLab）。' %}
 
 
 <div class="panel radius" markdown="1">
@@ -34,10 +34,12 @@ authors: ["Lemon"]
 
 
 ## 前言
+
 最近几日关注度最高的新闻莫过于一带一路峰会相关的消息，会议结束后，一带一路峰会联合公告已经公布出来了。
 本文通过词云分析，了解本次公告以及习大大在峰会开幕式上主要都讲了哪些关键内容。
 
 ## 1 一带一路峰会联合公告词云图
+
 5月17日公布的一带一路峰会联合公告的词云分析结果图，如下：
 
 ![ydyl_gb_colors_cloud.png](http://upload-images.jianshu.io/upload_images/5462537-c5e59189d25a5957.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -47,6 +49,7 @@ authors: ["Lemon"]
 从上图可以看出，出现次数最多的3个词语为 **“合作”、“我们”以及“加强”** ，基本可以看出，本次峰会是一个新的起点，今后需要做的事情还很多，需要各方务实合作，哈。
 
 ## 2 一带一路峰会开幕式上习大大的讲话词云图
+
 分析开幕式上习大大的讲话内容，得到词云图如下：
 
 ![ydyl_orange_cloud.png](http://upload-images.jianshu.io/upload_images/5462537-0d6937f67f47bd5c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -56,6 +59,7 @@ authors: ["Lemon"]
 
 
 ## 3 用python制作词云图
+
 下面主要来介绍下用python制作这个词云图的过程，主要分为如下几个步骤：
 * 从txt文件读取需要分析的文本内容
 * 使用jieba分词工具进行中文分词
@@ -69,7 +73,7 @@ authors: ["Lemon"]
 """
 Created on Wed May 17 2017
 
-@author: lemon
+@author: 阳哥
 """
 
 import jieba
@@ -110,12 +114,10 @@ my_wordcloud.to_file(os.path.join(d, 'ydyl_gb_colors_cloud.png'))
 
 
 
+---
 
-
-<br>
-
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataRoad），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
-    <img src="/images/qrcode.jpg" width="200">
+    <img src="/images/qrcode.jpg" width="20%">
 </div>

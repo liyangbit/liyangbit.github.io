@@ -15,12 +15,12 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 
 
-{% include alert info='本文首发于我的微信公众号（ID：PyDataRoad）。' %}
+{% include alert info='本文首发于我的微信公众号（ID：PyDataLab）。' %}
 
 
 <div class="panel radius" markdown="1">
@@ -33,6 +33,7 @@ authors: ["Lemon"]
 
 
 ## 1 前言
+
 2017年6月1日，美国特朗普总统正式宣布美国退出《巴黎协定》。宣布退出《巴黎协定》后，特朗普似乎成了“全球公敌”。
 * 特斯拉总裁马斯克宣布退出总统顾问团队
 * 迪士尼董事长离开总统委员会
@@ -43,6 +44,7 @@ authors: ["Lemon"]
 在此背景下，本文以python词云图分析的方式来了解下相关情况。
 
 ## 2 特朗普演讲内容分析
+
 首先来看下特朗普宣布退出《巴黎协定》时都说了啥。
 
 特朗普宣布退出《巴黎协定》的演讲内容（英文）来自美国政府的官方网站，将其演讲内容存入文本文件中（statement.txt）。
@@ -142,6 +144,7 @@ my_wordcloud.to_file(os.path.join(d, 'Pairs_accord_colors_cloud.jpg'))
 通过上图可以看出，这个事件最出名的当然是特朗普了。从词频来看，还是“美国”出现次数最多，特朗普以美国为重的执政理念通过这些舆论也能从某些程度上体现一些出来。
 
 ## 4 闲谈
+
 当然，客观的来说，特朗普宣布美国退出《巴黎协定》，其影响实际上应该是没有当年小布什政府宣布退出《京都议定书》那时的影响大，其主要原因包括两点：
 * 《巴黎协定》目前已于2016年生效，全球已有190多个国家参与，美国退出的影响力有限。
 * 美国退出《京都议定书》后，导致《京都议定书》推迟了4年才生效。
@@ -152,10 +155,10 @@ my_wordcloud.to_file(os.path.join(d, 'Pairs_accord_colors_cloud.jpg'))
 
 
 
-<br>
+---
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataRoad），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
-    <img src="/images/qrcode.jpg" width="200">
+    <img src="/images/qrcode.jpg" width="20%">
 </div>

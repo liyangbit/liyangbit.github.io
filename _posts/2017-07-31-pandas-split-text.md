@@ -12,12 +12,12 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 
 
-{% include alert info='本文首发于我的微信公众号（ID：PyDataRoad）。' %}
+{% include alert info='本文首发于我的微信公众号（ID：PyDataLab）。' %}
 
 <br>
 

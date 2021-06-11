@@ -13,7 +13,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='摘要：
@@ -22,7 +22,7 @@ authors: ["Lemon"]
 
 
 
-『Python数据之道』已整合本文的相关源代码到 jupyter notebook 文件中，如需获取，请在公众号后(ID：PyDataRoad)台回复 “code”。' %}
+『Python数据之道』已整合本文的相关源代码到 jupyter notebook 文件中，如需获取，请在公众号后(ID：PyDataLab)台回复 “code”。' %}
 
 <div class="panel radius" markdown="1">
 **Table of Contents**
@@ -379,9 +379,7 @@ https://medium.com/@mukul.mschauhan/data-visualisation-using-seaborn-464b7c0e512
 
 ---
 
-<br>
-
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataRoad），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

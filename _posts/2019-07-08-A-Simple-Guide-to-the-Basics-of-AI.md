@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemonbit"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='极简机器学习入门指南' %}
@@ -30,9 +30,9 @@ authors: ["Lemonbit"]
 
 翻译：Jesse
 
-整理：Lemonbit
+整理：阳哥
 
-译文出品：Python数据之道（PythonDataLab）
+译文出品：Python数据之道（PyDataLab）
 
 ## 机器学习背后的术语可能听起来很复杂，但概念非常直观
 
@@ -153,7 +153,7 @@ https://medium.com/s/story/machine-learning-for-people-who-know-nothing-about-ma
 
 ---
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PythonDataLab），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

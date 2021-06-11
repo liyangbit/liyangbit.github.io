@@ -13,7 +13,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemonbit"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='「Python数据之道」导语：本文内容较长，较为详细的阐述了进行时间序列预测的步骤，有些内容可能暂时用不到或者看不懂，但不要紧，知道有这么一个概念，后续碰到的时候，继续深入学习以及使用就可以。' %}
@@ -31,7 +31,7 @@ authors: ["Lemonbit"]
 
 译者：李洁
 
-整理：Lemonbit
+整理：阳哥
 
 译文出品：Python数据之道
 
@@ -505,7 +505,7 @@ EMM 预测中的平均数据周期为 1 /α。 例如，当 α= 0.5 时，滞后
 
 ---
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PythonDataLab），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

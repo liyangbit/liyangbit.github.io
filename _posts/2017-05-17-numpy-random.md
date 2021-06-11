@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 **为什么你用不好Numpy的random函数？**
@@ -150,6 +150,7 @@ np.random.randn(4,3,2)
 ## 3 numpy.random.randint()
 
 ### 3.1 numpy.random.randint()
+
 numpy.random.randint(low, high=None, size=None, dtype='l')
 * 返回随机整数，范围区间为[low,high），包含low，不包含high
 * 参数：low为最小值，high为最大值，size为数组维度大小，dtype为数据类型，默认的数据类型是np.int
@@ -357,10 +358,10 @@ np.random.rand(5)
     array([ 0.39983389,  0.29426895,  0.89541728,  0.71807369,  0.3531823 ])    
 
 
+---
 
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
-
-
-{% include alert text='对我的文章感兴趣的朋友，可以关注我的微信公众号"Python数据之道"，接收我的更新通知。' %}
-
-<div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
+<div align="center">
+    <img src="/images/qrcode.jpg" width="20%">
+</div>

@@ -13,7 +13,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='摘要：
@@ -33,7 +33,7 @@ authors: ["Lemon"]
 ```
 作者 : Will Koehrsen
 
-翻译 : Lemon
+翻译 : 阳哥
 
 译文出品 : Python数据之道 （公众号ID：PyDataLab）
 ```
@@ -722,9 +722,7 @@ curdoc().add_root(tabs)
 
 ---
 
-<br>
-
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataLab），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

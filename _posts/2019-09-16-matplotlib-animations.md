@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='巧用 Matplotlib 动画让你的 Python 可视化大放异彩' %}
@@ -32,7 +32,7 @@ authors: ["Lemon"]
 
 翻译：Hanz
 
-整理：Lemonbit
+整理：阳哥
 
 译文出品：Python数据之道
 

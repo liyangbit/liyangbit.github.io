@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='在 Pycharm 等编辑器下使用 Python 可视化神器 Plotly Express' %}
@@ -43,10 +43,10 @@ authors: ["Lemon"]
 ```python
 # Code based on Python 3.x
 # _*_ coding: utf-8 _*_
-# Author: "LEMON"
+# Author: "阳哥"
 # Website: http://liyangbit.com
 # 公众号: Python数据之道
-# ID: PyDataRoad
+# ID: PyDataLab
 
 import plotly_express as px
 import plotly
@@ -75,7 +75,7 @@ plotly.offline.plot(iris_plot)
 ```python
 # Code based on Python 3.x
 # _*_ coding: utf-8 _*_
-# Author: "Lemon"
+# Author: "阳哥"
 # Website: http://liyangbit.com
 # 公众号: Python数据之道
 # ID: PyDataLab
@@ -101,9 +101,7 @@ plotly.offline.plot(wind_plot)
 
 ---
 
-<br>
-
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataLab），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

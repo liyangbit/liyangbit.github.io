@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemonbit"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='可视化神器 Plotly Express 合并到 Plotly，安装过程有点小尴尬' %}
@@ -114,7 +114,7 @@ pip install plotly_express==0.1.1
 
 ---
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PythonDataLab），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

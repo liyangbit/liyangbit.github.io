@@ -17,7 +17,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemonbit"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='用Python快速分析、可视化和预测股票价格' %}
@@ -33,7 +33,7 @@ authors: ["Lemonbit"]
 
 翻译： 李洁
 
-整理： Lemonbit
+整理： 阳哥
 
 译文出品：Python数据之道
 
@@ -514,9 +514,7 @@ plt.show()
 
 ---
 
-<br>
-
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataLab），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

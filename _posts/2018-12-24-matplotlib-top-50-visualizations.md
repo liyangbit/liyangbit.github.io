@@ -14,10 +14,10 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
-{% include alert info='深度好文 | Matplotlib可视化最有价值的 50 个图表（附完整 Python 源代码）' %}
+{% include alert info='Matplotlib可视化最有价值的 50 个图表（附完整 Python 源代码）' %}
 
 本文总结了 Matplotlib 以及 Seaborn 用的最多的50个图形，掌握这些图形的绘制，对于数据分析的可视化有莫大的作用，强烈推荐大家阅读后续内容。
 
@@ -2470,7 +2470,7 @@ https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-m
 
 ---
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号『Python数据之道』（ID：PyDataRoad），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

@@ -14,13 +14,13 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 
 
 
-{% include alert info='本文首发于我的微信公众号（ID：PyDataRoad）。' %}
+{% include alert info='本文首发于我的微信公众号（ID：PyDataLab）。' %}
 
 
 <div class="panel radius" markdown="1">
@@ -303,6 +303,7 @@ plt.show()
 ![Demo_project_set_legend_good.jpg](http://upload-images.jianshu.io/upload_images/5462537-d67fb5eb511c5755.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 3.6 将某些类别突出显示
+
 * 将某些类别突出显示
 * 控制label的显示位置
 * 控制百分比的显示位置
@@ -352,12 +353,10 @@ plt.show()
 
 
 
+---
 
-
-<br>
-
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataRoad），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
-    <img src="/images/qrcode.jpg" width="200">
+    <img src="/images/qrcode.jpg" width="20%">
 </div>

@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='数据科学家是否应该持证上岗？' %}
@@ -31,7 +31,7 @@ Licensing could lead to increased public safety, but at the cost of slowing down
 ![image](https://ws4.sinaimg.cn/large/007EIIJlgy1g1022j3h2uj30m80eu75u.jpg)
 
 作者 | Andrei Lyskov
-翻译 | Lemon
+翻译 | 阳哥
 译文出品 | Python数据之道
 
 每天你的生活都受到不同的机器学习算法的影响。 有些是无害的，比如 Netflix 上的电影推荐。 其他如贷款审批和保释判决如果发展不当，可能会在不同程度上造成影响。 随着这些模型的影响越来越大，它提出了数据科学家是否应该获得许可的问题，类似于律师和医生。
@@ -65,9 +65,7 @@ Licensing could lead to increased public safety, but at the cost of slowing down
 
 ---
 
-<br>
-
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataRoad），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

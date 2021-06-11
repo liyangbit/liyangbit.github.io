@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemonbit"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='12条经验，让你在机器学习的路上避免很多坑' %}
@@ -33,7 +33,7 @@ Being your own biggest sceptic, the value in trying things which might not work 
 
 翻译：李洁
 
-整理：Lemonbit
+整理：阳哥
 
 译文出品：Python数据之道
 
@@ -286,7 +286,7 @@ BERT 一直都是这一年最受欢迎的模型。 但是，如果没有谷歌�
 
 ---
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PythonDataLab），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

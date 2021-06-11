@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 
@@ -29,7 +29,7 @@ authors: ["Lemon"]
 
 
 
-“Lemon，别玩手机了，赶紧过来打牌，三缺一，十万火急！！！”
+“阳哥，别玩手机了，赶紧过来打牌，三缺一，十万火急！！！”
 
 “别急，马上就来，还有几个重要的朋友要发送新年祝福……”
 
@@ -145,4 +145,6 @@ itchat 在使用过程中，如果频繁调取与发送消息，可能会导致�
 
 完整的代码文件，可以在公众号『Python数据之道』后台回复 "code" 来获取。
 
-最后，提前祝各位朋友新年快乐，万事如意，心想事成!
+<div align="center">
+    <img src="/images/qrcode.jpg" width="20%">
+</div>

@@ -13,7 +13,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='用 Python 读取巴菲特最近的持仓数据' %}
@@ -27,7 +27,7 @@ authors: ["Lemon"]
 
 # 用 Python 读取巴菲特最近的持仓数据
 
-各位同学早上好，我是 Lemonbit ，最近关注巴菲特的同学比较多，结合2020年巴菲特致股东信，我也去了解了下伯克希尔最近的持仓情况 。
+大家好，我是阳哥 ，最近关注巴菲特的同学比较多，结合2020年巴菲特致股东信，我也去了解了下伯克希尔最近的持仓情况 。
 
 ## 数据表格情况
 
@@ -69,7 +69,7 @@ authors: ["Lemon"]
 ```python
 # -*- coding: utf-8 -*-
 """
-@Author: Lemonbit
+@Author: 阳哥
 @出品：Python数据之道
 @Homepage: liyangbit.com
 """

@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 **Anaconda安装第三方包（whl文件）**
 
@@ -66,6 +66,10 @@ pip install 路径+whl文件名
 查看是否有刚才安装的package。
 
 
-{% include alert text='对我的文章感兴趣的朋友，可以关注我的微信公众号"Python数据之道"，接收我的更新通知。' %}
+---
 
-<div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
+
+<div align="center">
+    <img src="/images/qrcode.jpg" width="20%">
+</div>

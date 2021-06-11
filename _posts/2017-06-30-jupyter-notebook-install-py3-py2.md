@@ -13,7 +13,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 **在jupyter notebook中同时安装python2和python3**
@@ -80,7 +80,10 @@ pause
 
 
 
+---
 
-{% include alert text='对我的文章感兴趣的朋友，可以关注我的微信公众号"Python数据之道"，接收我的更新通知。' %}
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
-<div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
+<div align="center">
+    <img src="/images/qrcode.jpg" width="20%">
+</div>

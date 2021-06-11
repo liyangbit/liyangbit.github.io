@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 
@@ -31,7 +31,7 @@ authors: ["Lemon"]
 </div>
 
 
-{% include alert info='本文首发于我的微信公众号（ID：PyDataRoad）。' %}
+{% include alert info='本文首发于我的微信公众号（ID：PyDataLab）。' %}
 
 # 1 概述
 
@@ -195,9 +195,9 @@ f.savefig('sns_style_update.jpg', dpi=100, bbox_inches='tight')
 
 当然，并不是每次都需要进行个性定制，具体可以根据自己的需求来设置。
 
-<br>
+---
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataRoad），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

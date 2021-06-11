@@ -13,7 +13,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 本文介绍的是我在机器学习方面的 **实际经历**，想以此给大家提供些建议与思路，供各位参考。
@@ -26,7 +26,7 @@ authors: ["Lemon"]
 
 * 建立机器学习的Github项目仓库
 
-{% include alert info='本文首发于我的微信公众号（ID：PyDataRoad）。' %}
+{% include alert info='本文首发于我的微信公众号（ID：PyDataLab）。' %}
 
 # 1 书籍阅读
 
@@ -183,9 +183,9 @@ Anyway，计划制定之时，可能不会考虑那么全面，关键是个人�
 
 总之，欢迎大家参与到机器学习中来，希望能共同学习，一起交流。
 
-<br>
+---
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataRoad），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

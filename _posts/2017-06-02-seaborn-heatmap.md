@@ -16,12 +16,12 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 
 
-{% include alert info='本文首发于我的微信公众号（ID：PyDataRoad）。' %}
+{% include alert info='本文首发于我的微信公众号（ID：PyDataLab）。' %}
 
 
 <div class="panel radius" markdown="1">
@@ -407,20 +407,10 @@ f.savefig('sns_heatmap_eg2.jpg')
 > 你可能会发现本文中seaborn的heatmap中还有些参数没有进行介绍，介于篇幅，这里就不在啰嗦了，建议各位小伙伴自己可以研究下其他参数如何使用。
 
 
+---
 
-
-
-
-
-
-
-
-
-
-<br>
-
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataRoad），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
-    <img src="/images/qrcode.jpg" width="200">
+    <img src="/images/qrcode.jpg" width="20%">
 </div>

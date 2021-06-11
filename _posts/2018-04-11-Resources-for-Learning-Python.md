@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 
@@ -77,10 +77,10 @@ authors: ["Lemon"]
 
 
 
-<br>
+---
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataRoad），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
-    <img src="/images/qrcode.jpg" width="200">
+    <img src="/images/qrcode.jpg" width="20%">
 </div>

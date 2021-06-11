@@ -12,7 +12,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 **Python：Anaconda安装虚拟环境到指定路径**
@@ -155,7 +155,10 @@ conda install -prefix=D:\pyenv\py36 anaconda
 我安装py36全部的库花了大概1个多小时。
 
 
+---
 
-{% include alert text='对我的文章感兴趣的朋友，可以关注我的微信公众号"Python数据之道"，接收我的更新通知。' %}
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
-<div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
+<div align="center">
+    <img src="/images/qrcode.jpg" width="20%">
+</div>

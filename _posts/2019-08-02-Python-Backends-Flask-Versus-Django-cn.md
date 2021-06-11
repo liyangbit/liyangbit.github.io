@@ -13,7 +13,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemonbit"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='Flask vs Django，Python Web 开发用哪个框架更好?' %}
@@ -29,7 +29,7 @@ authors: ["Lemonbit"]
 
 作者： SeattleDataGuy
 
-翻译： Lemonbit
+翻译： 阳哥
 
 译文出品： Python数据之道
 
@@ -164,7 +164,7 @@ https://medium.com/better-programming/python-backends-flask-versus-django-5de314
 
 ---
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PythonDataLab），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

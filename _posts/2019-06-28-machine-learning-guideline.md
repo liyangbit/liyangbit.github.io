@@ -13,7 +13,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemonbit"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='手把手教你用 Python 进行机器学习' %}
@@ -31,7 +31,7 @@ authors: ["Lemonbit"]
 
 翻译：李洁
 
-编辑：Lemonbit
+编辑：阳哥
 
 译文出品：Python数据之道
 
@@ -50,7 +50,9 @@ authors: ["Lemonbit"]
 我的观点是：Python 对于初学者来说是一个完美的选择，可以让你专注于机器学习和数据科学领域。它是一种极简且直观的语言，具有全功能的工具库线（也称为框架），大大减少了获得第一个结果所需的时间。
 
 你也可以考虑使用 R 语言，但就个人而言，我更倾向于使用 Python。你可以在以下链接读到我对这个问题的详细解释：
+
 Python vs R. Choosing the Best Tool for AI, ML & Data Science.
+
 https://medium.com/datadriveninvestor/python-vs-r-choosing-the-best-tool-for-ai-ml-data-science-7e0c2295e243
 
 ## 第0步  你需要了解的ML流程的简要概述
@@ -272,6 +274,7 @@ Python 文档 —— 另一个搜索参考资料的好地方
 ---
 
 本文来源：
+
 https://towardsdatascience.com/beginners-guide-to-machine-learning-with-python-b9ff35bc9c51
 
 ---
@@ -281,7 +284,7 @@ https://towardsdatascience.com/beginners-guide-to-machine-learning-with-python-b
 
 ---
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PythonDataLab），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">

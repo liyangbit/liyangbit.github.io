@@ -18,7 +18,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 **"Pycon 2017： Python可视化库大全**
@@ -209,7 +209,10 @@ python可视化这个视频，我已经下载下来，需要的童鞋可在微�
 
 “link01”（不含引号）
 
-{% include alert text='对我的文章感兴趣的朋友，可以关注我的微信公众号"Python数据之道"，接收我的更新通知。' %}
+---
 
+对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
 
-<div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
+<div align="center">
+    <img src="/images/qrcode.jpg" width="20%">
+</div>

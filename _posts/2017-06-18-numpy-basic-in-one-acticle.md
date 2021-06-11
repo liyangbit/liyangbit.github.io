@@ -13,7 +13,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='Python：一篇文章掌握Numpy的基本用法' %}
@@ -1218,9 +1218,10 @@ numpy涵盖的内容其实是非常丰富的，本文仅仅介绍了numpy一些�
 
 numpy官方的《Numpy Reference》文档，光页面数量就有1500+页，如想要系统的学习numpy，建议仔细阅读官方的参考文档，可在其官方网站进行查阅。当然，资料都是英文版的，可能看起来难度稍微大点，看习惯了就好。
 
+---
 
+本文涉及的代码量比较多，如需要查看**源代码**，请在微信公众号“Python数据之道”（ID：PyDataLab）后台回复关键字“**2017026**”。
 
-本文涉及的代码量比较多，如需要查看**源代码**，请在微信公众号“Python数据之道”（ID：PyDataRoad）后台回复关键字“2017026”。
-
-
-<div align="center"><img src="/images/qrcode.jpg" width="200"/></div>
+<div align="center">
+    <img src="/images/qrcode.jpg" width="20%">
+</div>

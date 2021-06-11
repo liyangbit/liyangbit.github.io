@@ -15,7 +15,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemonbit"]
+authors: ["阳哥"]
 ---
 
 {% include alert info='「Python数据之道」导语：理解你的数据的最佳方法是花时间去研究它。' %}
@@ -33,7 +33,7 @@ authors: ["Lemonbit"]
 
 译者：LJY
 
-整理：Lemonbit
+整理：阳哥
 
 译文出品：Python数据之道
 
@@ -261,7 +261,7 @@ LJY，转型思考者，扎根通信领域9年，致力成为数据洞察的践�
 
 ---
 
-对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PythonDataLab），接收我的更新通知。
+对我的文章感兴趣的朋友，可以关注我的微信公众号（ID：PyDataLab），接收我的更新通知。
 
 <div align="center">
     <img src="/images/qrcode.jpg" width="20%">
