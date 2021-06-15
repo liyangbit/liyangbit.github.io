@@ -49,7 +49,7 @@ authors: ["阳哥"]
 
 本文的数据来自开源项目 tushare， 从 tushare 中获取数据，首先要进行注册获取 token（一串字母和数字组成的文本），然后才可以获取到数据，大家可以通过以下链接来注册：
 
-[https://tushare.pro/register?reg=129033](https://tushare.pro/register?reg=129033)
+[tushare注册链接](https://tushare.pro/register?reg=129033)
 
 <!-- 本文的代码是在 Jupyter notebook 环境中运行的。
 
