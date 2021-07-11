@@ -883,4 +883,8 @@ df_consume.style.hide_index()\
 
 为方便大家运行文中的内容，阳哥已经整理好数据文件以及完整的 `《Pandas表格样式设置指南》` （高清pdf版），大家可以在公众号「**Python数据之道**」回复 **style** 来获取。
 
-![Python数据之道](https://tva1.sinaimg.cn/large/008i3skNgy1grq6pyorttj3076076dga.jpg)
+<!-- ![Python数据之道](https://tva1.sinaimg.cn/large/008i3skNgy1grq6pyorttj3076076dga.jpg) -->
+
+<div align="center">
+    <img src="/images/qrcode.jpg" width="20%">
+</div>

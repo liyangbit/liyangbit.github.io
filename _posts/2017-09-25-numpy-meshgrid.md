@@ -126,7 +126,7 @@ out:
 meshgrid函数的运行过程，可以通过下面的示意图来加深理解：
 
 
-![meshgrid](images/posts/Numpy-meshgrid/meshgrid.jpg)
+![meshgrid](/images/posts/Numpy-meshgrid/meshgrid.jpg)
 
 
 再者，也可以通过在matplotlib中进行可视化，来查看函数运行后得到的网格化数据的结果
@@ -137,7 +137,7 @@ plt.show()
 ```
 
 
-![result](images/posts/Numpy-meshgrid/result.png)
+![result](/images/posts/Numpy-meshgrid/result.png)
 
 
 
@@ -174,11 +174,11 @@ Meshgrid函数常用的场景有等高线绘制及机器学习中SVC超平面的
 （1）等高线
 
 
-![contour](images/posts/Numpy-meshgrid/contour.png)
+![contour](/images/posts/Numpy-meshgrid/contour.png)
 
 （2）SVC中超平面的绘制：
 
-![svc](images/posts/Numpy-meshgrid/svc.png)
+![svc](/images/posts/Numpy-meshgrid/svc.png)
 
 
 

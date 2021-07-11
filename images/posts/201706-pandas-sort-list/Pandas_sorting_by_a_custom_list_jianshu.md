@@ -1,63 +1,23 @@
----
-layout: posts
-title: "Python：Pandas的DataFrame如何按指定list排序"
-teaser:
-date: 2017-06-13
-header:
-   image_fullwidth: "image-head.jpg"
-categories:
-   - DataAnalysis
-tags:
-   - Pandas
-comments: true
-show_meta: true
-sidebar: right
-authors: ["阳哥"]
----
+>本文首发于微信公众号“Python数据之道”（ID：PyDataRoad）
 
-
-
-
-{% include alert info='本文首发于我的微信公众号（ID：PyDataLab）。' %}
-
-
-<div class="panel radius" markdown="1">
-**Table of Contents**
-{: #toc }
-*  TOC
-{:toc}
-</div>
-
-
-
-
-
-## 前言
+# 前言
 
 写这篇文章的起由是有一天微信上一位朋友问到一个问题，问题大体意思概述如下：
-
-*现在有一个pandas的Series和一个python的list，想让Series按指定的list进行排序，如何实现？*
+>现在有一个pandas的Series和一个python的list，想让Series按指定的list进行排序，如何实现？
 
 这个问题的需求用流程图描述如下：
 
-![](/images/posts/201706-pandas-sort-list/01.jpg)
-
-
-
-<!-- ![](http://upload-images.jianshu.io/upload_images/5462537-5e95a6a12fe295d4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) -->
+![](http://upload-images.jianshu.io/upload_images/5462537-5e95a6a12fe295d4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 我思考了一下，这个问题解决的核心是引入pandas的数据类型“category”，从而进行排序。
 
 在具体的分析过程中，先将pandas的Series转换成为DataFrame，然后设置数据类型，再进行排序。思路用流程图表示如下：
 
-![](/images/posts/201706-pandas-sort-list/02.jpg)
+![](http://upload-images.jianshu.io/upload_images/5462537-6a7f5a455c50617b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-<!-- ![](http://upload-images.jianshu.io/upload_images/5462537-6a7f5a455c50617b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) -->
-
-
-## 分析过程
+# 分析过程
 
 * 引入pandas库
 
@@ -119,9 +79,10 @@ df.columns = ['words', 'number']
 df
 ```
 
-<!-- ![1.jpg](http://upload-images.jianshu.io/upload_images/5462537-5a2970f02ecc7577.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) -->
+![1.jpg](http://upload-images.jianshu.io/upload_images/5462537-5a2970f02ecc7577.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![](/images/posts/201706-pandas-sort-list/03.jpg)
+
+
 
 
 
@@ -148,14 +109,11 @@ df
 
 
 
-<!-- ![2.jpg](http://upload-images.jianshu.io/upload_images/5462537-f3484be33b6304f8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) -->
-
-![](/images/posts/201706-pandas-sort-list/04.jpg)
+![2.jpg](http://upload-images.jianshu.io/upload_images/5462537-f3484be33b6304f8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
-
-## 指定list元素多的情况：
+# 指定list元素多的情况：
 
 若指定的list所包含元素比Dataframe中需要排序的列的元素**多**，怎么办？
 
@@ -179,10 +137,7 @@ df_new
 
 
 
-<!-- ![3.jpg](http://upload-images.jianshu.io/upload_images/5462537-b833ac0395ebe313.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) -->
-
-![](/images/posts/201706-pandas-sort-list/05.jpg)
-
+![3.jpg](http://upload-images.jianshu.io/upload_images/5462537-b833ac0395ebe313.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
@@ -201,14 +156,11 @@ df_new.sort_values('words', ascending=True)
 
 
 
-<!-- ![4.jpg](http://upload-images.jianshu.io/upload_images/5462537-87752f4c7709a43a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) -->
-
-![](/images/posts/201706-pandas-sort-list/06.jpg)
+![4.jpg](http://upload-images.jianshu.io/upload_images/5462537-87752f4c7709a43a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
-
-## 指定list元素少的情况：
+# 指定list元素少的情况：
 
 若指定的list所包含元素比Dataframe中需要排序的列的元素**少**，怎么办？
 * 这种情况下，set_categories()方法还是可以使用的，只是没有的元素会以NaN表示
@@ -228,12 +180,11 @@ df_new
     ['d', 'c', 'a', 'e']
 
 
-![](/images/posts/201706-pandas-sort-list/07.jpg)
 
 
 
 
-<!-- ![5.jpg](http://upload-images.jianshu.io/upload_images/5462537-babac9470c82cec4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) -->
+![5.jpg](http://upload-images.jianshu.io/upload_images/5462537-babac9470c82cec4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
@@ -249,14 +200,13 @@ df_new.sort_values('words', ascending=True)
 ```
 
 
-![](/images/posts/201706-pandas-sort-list/08.jpg)
 
 
 
-<!-- ![6.jpg](http://upload-images.jianshu.io/upload_images/5462537-ccbd273321362d96.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) -->
+![6.jpg](http://upload-images.jianshu.io/upload_images/5462537-ccbd273321362d96.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-## 总结
+# 总结
 
 根据指定的list所包含元素比Dataframe中需要排序的列的元素的多或少，可以分为三种情况：
 
@@ -266,15 +216,6 @@ df_new.sort_values('words', ascending=True)
 
 **源代码**
 
-需要的童鞋可在微信公众号“Python数据之道”（ID：PyDataLab）后台回复关键字获取，关键字如下：
+需要的童鞋可在微信公众号“Python数据之道”（ID：PyDataRoad）后台回复关键字获取视频，关键字如下：
 
 “**2017-025**”（不含引号）
-
-
----
-
-对我的文章感兴趣的朋友，可以关注我的微信公众号「Python数据之道」（ID：PyDataLab），接收我的更新通知。
-
-<div align="center">
-    <img src="/images/qrcode.jpg" width="20%">
-</div>
