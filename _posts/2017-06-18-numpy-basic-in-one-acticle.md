@@ -1,12 +1,12 @@
 ---
 layout: posts
-title: "Python：一篇文章掌握Numpy的基本用法"
+title: "一篇文章掌握Numpy的基本用法"
 teaser:
 date: 2017-06-18
 header:
    image_fullwidth: "image-article-head.jpg"
 categories:
-   - Numpy
+   - DataAnalysis
 tags:
    - Numpy
    - recommend
@@ -16,7 +16,7 @@ sidebar: right
 authors: ["阳哥"]
 ---
 
-{% include alert info='Python：一篇文章掌握Numpy的基本用法' %}
+{% include alert info='一篇文章掌握Numpy的基本用法' %}
 
 
 <div class="panel radius" markdown="1">

@@ -6,7 +6,7 @@ date: 2017-09-25
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-   - Numpy
+   - DataAnalysis
 tags:
    - Numpy
    - Matplotlib

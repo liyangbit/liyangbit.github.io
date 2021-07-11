@@ -6,7 +6,7 @@ date: 2020-11-30
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-   - Pandas
+   - DataAnalysis
 tags:    
    - Pandas 
 comments: true
