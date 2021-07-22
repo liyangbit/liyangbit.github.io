@@ -29,36 +29,21 @@ permalink: "/python-knowledge-handbook/"
 
 2019 年 2 月，「Python数据之道」发布了《Python知识手册》的第一个版本（v2018版）。
 
-## 更新内容介绍
-
-自《Python知识手册》发布以来，有不少读者给我提供了一些建议，本次更新到 V3.0版。
-
-《Python知识手册》V3.0 版主要更新了 2020年下半年我写的一些内容，主要涉及 VS Code、Pandas、Plotly 以及学习资料等内容。
-
-最明显的一点，就是 V3.0 版的页面数量已经增加到 500多页了。
+2021 年 7 月，《Python知识手册》更新到 V3.1 版。
 
 
 手册的封面如下：
 
-
 <div align="center">
-    <img src="/images/pages/Python-knowledge-handbook/1.png" width="500"/>
+    <img src="/images/pages/Python-knowledge-handbook/v3.1.png" width="600"/>
 </div>
-
-虽然我写了一些关于 Python 零基础入门的文章，但《Python知识手册》 并没有比较完整的覆盖 Python 的基础知识。因此，针对手册的阅读，各位读者最好有一些 Python 的基本功底。
 
 当前版本中，手册主要包含以下几方面相关的内容：
 
-- Python 基础知识
-- Jupyter Notebook
-- Numpy
-- Pandas
-- Matplotlib
-- Seaborn
-- Bokeh
-- Plotly
-- 若干个项目实战案例
-- Python 学习资料
+<div align="center">
+    <img src="/images/pages/Python-knowledge-handbook/content.png" width="600"/>
+</div>
+
 
 如没有特殊的说明，手册中代码的运行环境如下：
 
@@ -98,6 +83,7 @@ permalink: "/python-knowledge-handbook/"
 
 | 版本号  | 日期  | 主要内容描述  |
 |---|---|---|
+|v3.1| 2021-07-12  | 更新 Matplotlib、Pandas等相关内容|
 |v3.0| 2021-01-01  | 更新 VS Code、Pandas、Plotly 以及学习资料等内容|
 |v2.2| 2020-05-11  | 更新Plotly相关内容和Python学习资料的章节|
 |v2.1| 2020-02-14  | 添加“导读” 和 “Python网站”  章节，移除部分项目|
