@@ -51,7 +51,9 @@ Plotly Express 语法简洁，同时功能强大，可以绘制咱们遇到的�
 
 Plotly 以及 Plotly Express 是交互式可视化工具，阳哥录制了一段简短的视频，来展示下其强大与优雅之处。
 
-- [Plotly Express 可视化使用指南](https://mp.weixin.qq.com/s/6_7N6Wdu7mGWAIrmVIrU_Q)
+<!-- - [Plotly Express 可视化使用指南](https://mp.weixin.qq.com/s/6_7N6Wdu7mGWAIrmVIrU_Q) -->
+
+- [视频：Plotly Express 可视化图表](https://mp.weixin.qq.com/s/esxIDvtVtr0Sr_nGxOpj5A)
 
 ## 00 环境与数据准备
 
