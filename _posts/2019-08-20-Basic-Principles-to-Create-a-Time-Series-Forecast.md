@@ -6,7 +6,7 @@ date: 2019-08-20
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-   - Finance
+   - PyFinance
 tags:    
    - Quantitative-Finance
    - Time-Series      

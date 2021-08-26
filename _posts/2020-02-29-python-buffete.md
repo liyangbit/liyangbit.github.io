@@ -6,7 +6,7 @@ date: 2020-02-29
 header:
    image_fullwidth: "image-head.jpg"
 categories:
-   - Finance
+   - PyFinance
 tags:    
    - BeautifulSoup
    - Pandas    
