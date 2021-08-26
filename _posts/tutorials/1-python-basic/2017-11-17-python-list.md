@@ -15,7 +15,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 **Python基础-Python数据类型-List介绍**

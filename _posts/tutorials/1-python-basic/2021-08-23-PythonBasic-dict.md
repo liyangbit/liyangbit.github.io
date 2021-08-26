@@ -1,7 +1,37 @@
-# 零基础学习Python字典操作
+---
+layout: posts
+title: "Python数据类型-字典(dict)介绍"
+subheadline: "Python基础"
+subheadline:
+teaser:
+date: 2021-08-23
+header:
+   image_fullwidth: "image-head.jpg"
+categories:
+   - tutorials
+tags:
+   - tutorials-python-basic
+comments: true
+show_meta: true
+sidebar: right
+authors: ["阳哥"]
+---
+
+{% include alert info='Python数据类型-字典(dict)介绍' %}
+
+**Python基础-Python数据类型-字典(dict)介绍**
+
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+
+<!-- # 零基础学习Python字典操作
 
 Python数据类型-字典介绍
-零基础学习Python字典操作
+零基础学习Python字典操作 -->
 
 大家好，我是阳哥。
 

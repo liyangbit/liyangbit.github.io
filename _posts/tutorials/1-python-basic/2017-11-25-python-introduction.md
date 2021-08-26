@@ -13,7 +13,7 @@ tags:
 comments: true
 show_meta: true
 sidebar: right
-authors: ["Lemon"]
+authors: ["阳哥"]
 ---
 
 **Python基础（1）-Python语言的简单介绍**
