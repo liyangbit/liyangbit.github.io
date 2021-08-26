@@ -2,7 +2,7 @@
 layout: posts
 title: "用 Python 快速追踪基金的收益情况"
 teaser:
-date: 2020-02-29
+date: 2021-08-26
 header:
    image_fullwidth: "image-head.jpg"
 categories:
