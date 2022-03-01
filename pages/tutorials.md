@@ -101,7 +101,7 @@ permalink: "/tutorials/"
 ## 5 视频创作
 
 <ul>
-    {% for post in site.categories.tutorials-manimce %}
+    {% for post in site.tags.tutorials-manimce %}
     <li>{{ post.date | date: '%Y-%m-%d' }} / <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
