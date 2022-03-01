@@ -91,9 +91,9 @@ authors: ["阳哥"]
 在 `Manim` 3b1b 版本 和 社区版均提供了如何安装的文档：
 
 - 3b1b 新版的安装文档： 
-  https://github.com/3b1b/manim
+  [https://github.com/3b1b/manim](https://github.com/3b1b/manim)
 - 社区版的安装文档： 
-  https://docs.manim.community/en/stable/installation.html
+  [https://docs.manim.community/en/stable/installation.html](https://docs.manim.community/en/stable/installation.html)
 
 有同学说安装是比较容易的，不过，我自己在安装过程中还是遇到了一些麻烦。
 
@@ -115,7 +115,7 @@ authors: ["阳哥"]
 
 社区版的文档、教程，可以在下面这个网站查询：
 
-https://docs.manim.community/en/stable/tutorials/quickstart.html
+[https://docs.manim.community/en/stable/tutorials/quickstart.html](https://docs.manim.community/en/stable/tutorials/quickstart.html)
 
 我制作的视频主要在微信视频号「价值前瞻」和「Python数据之道」上发布：
 
@@ -186,7 +186,7 @@ https://docs.manim.community/en/stable/tutorials/quickstart.html
 
 地址如下：
 
-https://github.com/liyangbit/ManimLab
+[https://github.com/liyangbit/ManimLab](https://github.com/liyangbit/ManimLab)
 
 ---
 

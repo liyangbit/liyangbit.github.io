@@ -52,7 +52,7 @@ authors: ["阳哥"]
 
 如何安装社区版Manim，参见下面的官方链接：
 
-https://docs.manim.community/en/stable/installation.html
+[https://docs.manim.community/en/stable/installation.html](https://docs.manim.community/en/stable/installation.html)
 
 ### 如何运行 Manim
 
