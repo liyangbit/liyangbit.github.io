@@ -155,7 +155,7 @@ https://docs.manim.community/en/stable/tutorials/quickstart.html
 
 [![](https://tva1.sinaimg.cn/large/008i3skNgy1gxgpx7zxpnj30p00aodi6.jpg)](https://mp.weixin.qq.com/s/ufViNQMGwx8KIX23x4rmOw)
 
-**排序算法：** [汇总](https://mp.weixin.qq.com/s/ufViNQMGwx8KIX23x4rmOw) | [冒泡排序](https://mp.weixin.qq.com/s/qFuF6w00P6zPOkzDEoE4pA) | [选择排序](https://mp.weixin.qq.com/s/uJnamO-Pf_0smeIXbst0Qw) | [快速排序](https://mp.weixin.qq.com/s/cy5-M0aan8XO5K2CpEee0w) | [归并排序](https://mp.weixin.qq.com/s/o_-S9jHSBt_za3XK5kBW0A) | [堆排序](https://mp.weixin.qq.com/s/2dtKn4uNlhXsdhM1tGrD4w) | [插入排序](https://mp.weixin.qq.com/s/llgaW7HGJ4DRTRMkVX1N-A) | [希尔排序](https://mp.weixin.qq.com/s/14t7U61vW6xJDvhdoQbY_A) | [计数排序](https://mp.weixin.qq.com/s/cEVWRJ-xldYC9ztmBSpdhA) | [桶排序](https://mp.weixin.qq.com/s/mC7OobFV6GVNIkOA6PRKRg) | [基数排序](https://mp.weixin.qq.com/s/LFUUL7TlIr0csGwbl6fgOQ)
+**排序算法：** [汇总](https://mp.weixin.qq.com/s/ufViNQMGwx8KIX23x4rmOw) , [冒泡排序](https://mp.weixin.qq.com/s/qFuF6w00P6zPOkzDEoE4pA) , [选择排序](https://mp.weixin.qq.com/s/uJnamO-Pf_0smeIXbst0Qw) , [快速排序](https://mp.weixin.qq.com/s/cy5-M0aan8XO5K2CpEee0w) , [归并排序](https://mp.weixin.qq.com/s/o_-S9jHSBt_za3XK5kBW0A) , [堆排序](https://mp.weixin.qq.com/s/2dtKn4uNlhXsdhM1tGrD4w) , [插入排序](https://mp.weixin.qq.com/s/llgaW7HGJ4DRTRMkVX1N-A) , [希尔排序](https://mp.weixin.qq.com/s/14t7U61vW6xJDvhdoQbY_A) , [计数排序](https://mp.weixin.qq.com/s/cEVWRJ-xldYC9ztmBSpdhA) , [桶排序](https://mp.weixin.qq.com/s/mC7OobFV6GVNIkOA6PRKRg) , [基数排序](https://mp.weixin.qq.com/s/LFUUL7TlIr0csGwbl6fgOQ)
 
 数学方面，主要是一些经典图形，以及一些基础内容的介绍，要做好数学类的视频，最最最主要的，还是要对数学原理有比较深入的理解，这个是最难滴~
 
