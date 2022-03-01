@@ -9,7 +9,8 @@ categories:
    - VideoCreation
 tags:    
    - Manim
-   - ManimCE    
+   - ManimCE
+   - recommend    
 comments: true
 show_meta: true
 sidebar: right

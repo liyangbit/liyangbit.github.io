@@ -10,6 +10,7 @@ categories:
 tags:    
    - Plotly
    - PlotlyExpress
+   - recommend 
 comments: true
 show_meta: true
 sidebar: right

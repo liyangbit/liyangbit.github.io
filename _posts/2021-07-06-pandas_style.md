@@ -9,6 +9,7 @@ categories:
    - DataAnalysis
 tags:    
    - Pandas
+   - recommend 
 comments: true
 show_meta: true
 sidebar: right
