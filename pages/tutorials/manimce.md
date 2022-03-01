@@ -29,7 +29,7 @@ permalink: "/tutorials-2-manimce/"
 {% endfor %} -->
 
 <ul>
-    {% for post in site.tags.Numpy %}
+    {% for post in site.tags.tutorials-manimce %}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
