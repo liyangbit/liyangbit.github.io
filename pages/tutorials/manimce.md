@@ -20,12 +20,19 @@ permalink: "/tutorials-2-manimce/"
 
 <div style="background-color:#E0EAF2">
 
-{% for entry in site.data.mycategories.entries %}
+<!-- {% for entry in site.data.mycategories.entries %}
 {% for mytag in entry.tags %}
 {% if mytag == "tutorials-manimce" %}
 <strong>{% include list-posts-link.html tag=mytag %}</strong>
 {% endif %}
 {% endfor %}
-{% endfor %}
+{% endfor %} -->
+
+<ul>
+    {% for post in site.tags.Numpy %}
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
 
 </div>
