@@ -7,7 +7,7 @@ authors: ["阳哥"]
 title: "Manim社区版教程"
 header:
    image_fullwidth: "image-head.jpg"
-permalink: "/tutorials-manimce/"
+permalink: "/tutorials-2-manimce/"
 ---
 
 
