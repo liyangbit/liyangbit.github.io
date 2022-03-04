@@ -84,7 +84,7 @@ manim -pql XXXX.py DemoSquare
 
 命令行中，还有其他许多参数可以设置，可以通过社区版的支持文档来进一步了解：
 
-https://docs.manim.community/en/stable/tutorials/configuration.html#command-line-arguments
+[https://docs.manim.community/en/stable/tutorials/configuration.html#command-line-arguments](https://docs.manim.community/en/stable/tutorials/configuration.html#command-line-arguments)
 
 
 ## Manim 的基础形状介绍
