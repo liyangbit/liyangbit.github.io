@@ -2,7 +2,7 @@
 layout: posts
 title: "Manim社区版教程-02-文本使用介绍"
 teaser:
-date: 2022-03-22
+date: 2022-03-02
 header:
    image_fullwidth: "image-head.jpg"
 categories:
