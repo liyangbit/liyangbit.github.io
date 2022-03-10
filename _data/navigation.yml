@@ -16,13 +16,19 @@
     url: "/links/"
   - title: "收藏资源"
     url: "/mysource/"
+  - title: "加入社群"
+    url: "/community/"
 
-- title: "加入社群"
-  url: "/community/"
-  side: left
+# - title: "加入社群"
+#   url: "/community/"
+#   side: left
 
 - title: "Python知识手册"
   url: "/python-knowledge-handbook/"
+  side: left
+
+- title: "图解Pandas"
+  url: "/tutorials-3-graphical-pandas/"
   side: left
 
 - title: "Python教程"
