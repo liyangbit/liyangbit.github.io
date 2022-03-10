@@ -10,7 +10,6 @@ header:
 permalink: "/tutorials-3-graphical-pandas/"
 ---
 
-
 ## 图解Pandas教程
 
 大家好，我是阳哥。
@@ -19,29 +18,13 @@ permalink: "/tutorials-3-graphical-pandas/"
 
 《图解Pandas》的视频内容可以在微信视频号「Python数据之道」观看：
 
-![](../../images/QR-shipin-PyDataLab.jpeg)
+<div align="center">
+    <img src="../../images/QR-shipin-PyDataLab.jpeg" width="20%">
+</div>
+
+<!-- ![](../../images/QR-shipin-PyDataLab.jpeg) -->
 
 **《图解Pandas》系列已发布的图文汇总如下：**
 
-<!-- <div style="background-color:#E0EAF2"> -->
-
-<!-- {% for entry in site.data.mycategories.entries %}
-{% for mytag in entry.tags %}
-{% if mytag == "tutorials-manimce" %}
-<strong>{% include list-posts-link.html tag=mytag %}</strong>
-{% endif %}
-{% endfor %}
-{% endfor %} -->
-
-
-
-<!-- <ul>
-    {% for post in site.tags.tutorials-manimce %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul> -->
-
 - [图文00-《图解Pandas》内容框架介绍](https://mp.weixin.qq.com/s/gh063BUAM90vFhy6ZLaznw)
 - [图文01-数据结构介绍](https://mp.weixin.qq.com/s/H9kJf9zJU7ys6esr0DBhHg)
-
-<!-- </div> -->
