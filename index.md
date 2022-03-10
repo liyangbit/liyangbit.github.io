@@ -11,7 +11,7 @@ header:
 widget-1:
     title: "图解Pandas"
     url: '/tutorials-3-graphical-pandas/'
-    text: '跟大家以动态图片、视频等方式来讲解 Pandas 的基础知识，方便大家快速的掌握这些知识，相信《图解Pandas》会给大家带来一些不一样的视角。'
+    text: '以动态图片、视频等方式来讲解 Pandas 的基础知识，方便大家快速的掌握这些知识，相信《图解Pandas》会给大家带来一些不一样的视角。'
     image: /images/图解Pandas-web.png
 widget-2:
     title: "Python教程"
