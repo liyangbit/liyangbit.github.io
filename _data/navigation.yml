@@ -39,6 +39,8 @@
     url: "/tutorials/"
   - title: "Python基础教程"
     url: "/tutorials-1-python-basic/"
+  - title: "图解Pandas"
+    url: "/tutorials-3-graphical-pandas/"
   - title: "Manim社区版教程"
     url: "/tutorials-2-manimce/"
 
@@ -55,6 +57,10 @@
   - title: "智联求职实战"
     url: "/projects-zhilian-page/"
 
+
+- title: "图解Pandas"
+  url: "/tutorials-3-graphical-pandas/"
+  side: right
 - title: 文章归档
   url: "/blog/"
   side: right
