@@ -19,10 +19,8 @@ permalink: "/tutorials-3-graphical-pandas/"
 《图解Pandas》的视频内容可以在微信视频号「Python数据之道」观看：
 
 <div align="center">
-    <img src="../../images/QR-shipin-PyDataLab.jpeg" width="30%">
+    <img src="../../images/QR-shipin-PyDataLab.jpeg" width="40%">
 </div>
-
-<!-- ![](../../images/QR-shipin-PyDataLab.jpeg) -->
 
 **《图解Pandas》系列已发布的图文汇总如下：**
 
