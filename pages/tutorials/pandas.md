@@ -24,5 +24,6 @@ permalink: "/tutorials-3-graphical-pandas/"
 
 **《图解Pandas》系列已发布的图文汇总如下：**
 
-- [图文00-《图解Pandas》内容框架介绍](https://mp.weixin.qq.com/s/gh063BUAM90vFhy6ZLaznw)
+- [《图解Pandas》内容框架介绍](https://mp.weixin.qq.com/s/gh063BUAM90vFhy6ZLaznw)
 - [图文01-数据结构介绍](https://mp.weixin.qq.com/s/H9kJf9zJU7ys6esr0DBhHg)
+- [图文02-创建数据对象](https://mp.weixin.qq.com/s/tH8bc20DvhA7i8HDlWv0uQ)
