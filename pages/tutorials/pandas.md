@@ -28,3 +28,4 @@ permalink: "/tutorials-3-graphical-pandas/"
 - [图文01-数据结构介绍](https://mp.weixin.qq.com/s/H9kJf9zJU7ys6esr0DBhHg)
 - [图文02-创建数据对象](https://mp.weixin.qq.com/s/tH8bc20DvhA7i8HDlWv0uQ)
 - [图文03-读取和存储Excel文件](https://mp.weixin.qq.com/s/fmhnE20HOBCG-AGh6_lrxA)
+- [图文04-常见的数据访问](https://mp.weixin.qq.com/s/yyT9okzlbb-f7P9yGeQPQQ)
