@@ -75,6 +75,9 @@ permalink: "/tutorials-3-graphical-pandas/"
 [图文03-读取和存储Excel文件](https://mp.weixin.qq.com/s/tH8bc20DvhA7i8HDlWv0uQ)| 003<br>004
 [图文04-常见的数据访问](https://mp.weixin.qq.com/s/yyT9okzlbb-f7P9yGeQPQQ)| 005
 [图文05-常见的数据运算](https://mp.weixin.qq.com/s/-9aZN6VW8x9Q_SYzz__dSA)|006<br>007<br>008
+[图文06-常见的数学计算](https://mp.weixin.qq.com/s/fN4gc9PyzwN3Y4nyzSgqdw)|009<br>010
+
+
 
 ## 02 部分内容介绍
 
