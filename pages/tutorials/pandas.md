@@ -77,6 +77,7 @@ permalink: "/tutorials-3-graphical-pandas/"
 [图文05-常见的数据运算](https://mp.weixin.qq.com/s/-9aZN6VW8x9Q_SYzz__dSA)|006、007、008
 [图文06-常见的数学计算](https://mp.weixin.qq.com/s/fN4gc9PyzwN3Y4nyzSgqdw)|009、010
 [图文07-常见的数据统计](https://mp.weixin.qq.com/s/6YU7OPzH9RI6K1t4FIv1dA) | 011、012、013、014、015
+[图文08-常见的数据筛选](https://mp.weixin.qq.com/s/0sh236_cQ81ECve4tr-Uiw) | 016 至 028
 
 
 ## 02 部分内容介绍
