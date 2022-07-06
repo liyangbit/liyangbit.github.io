@@ -51,9 +51,11 @@ permalink: "/tutorials-3-graphical-pandas/"
 
 扫描下面的二维码，关注视频号，可以观看《图解Pandas》已发布的所有视频以及及时推送最新的视频：
 
-<div align="center">
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h1lqf1eql6j20p00dwacb.jpg)
+
+<!-- <div align="center">
     <img src="../../images/QR-shipin-PyDataLab.jpeg" width="40%">
-</div>
+</div> -->
 
 <!-- ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h1ajrzuq7gj20u0130q4w.jpg) -->
 
@@ -79,6 +81,12 @@ permalink: "/tutorials-3-graphical-pandas/"
 [图文07-常见的数据统计](https://mp.weixin.qq.com/s/6YU7OPzH9RI6K1t4FIv1dA) | 011、012、013、014、015
 [图文08-常见的数据筛选](https://mp.weixin.qq.com/s/0sh236_cQ81ECve4tr-Uiw) | 016 至 028
 
+**《图解Pandas》的内容框架如下：**
+
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h3x6bvxey2j20u019stdl.jpg)
+
+
+上图中，有图文和视频编号的，是代表已经完成并发布的内容，如“图文06”、“视频026” 等。
 
 ## 02 部分内容介绍
 
