@@ -69,7 +69,7 @@ permalink: "/tutorials-3-graphical-pandas/"
 
 《图解Pandas》系列已发布的图文链接以及对应的视频编号，汇总如下：
 
-图文链接|对应的视频编号
+<!-- 图文链接|对应的视频编号
 :-------|:---------:
 [《图解Pandas》内容框架介绍](https://mp.weixin.qq.com/s/gh063BUAM90vFhy6ZLaznw)| -
 [图文01-数据结构介绍](https://mp.weixin.qq.com/s/H9kJf9zJU7ys6esr0DBhHg)|001
@@ -79,7 +79,20 @@ permalink: "/tutorials-3-graphical-pandas/"
 [图文05-常见的数据运算](https://mp.weixin.qq.com/s/-9aZN6VW8x9Q_SYzz__dSA)|006、007、008
 [图文06-常见的数学计算](https://mp.weixin.qq.com/s/fN4gc9PyzwN3Y4nyzSgqdw)|009、010
 [图文07-常见的数据统计](https://mp.weixin.qq.com/s/6YU7OPzH9RI6K1t4FIv1dA) | 011、012、013、014、015
-[图文08-常见的数据筛选](https://mp.weixin.qq.com/s/0sh236_cQ81ECve4tr-Uiw) | 016 至 028
+[图文08-常见的数据筛选](https://mp.weixin.qq.com/s/0sh236_cQ81ECve4tr-Uiw) | 016 至 028 -->
+
+图文链接|视频号对应编号
+:-------|:---------:
+[《图解Pandas》内容框架介绍](https://mp.weixin.qq.com/s/gh063BUAM90vFhy6ZLaznw)|-
+[图文01-数据结构介绍](https://mp.weixin.qq.com/s/H9kJf9zJU7ys6esr0DBhHg)|001
+[图文02-创建数据对象](https://mp.weixin.qq.com/s/tH8bc20DvhA7i8HDlWv0uQ)| 002
+[图文03-读取和存储Excel文件](https://mp.weixin.qq.com/s/tH8bc20DvhA7i8HDlWv0uQ)| 003、004
+[图文04-常见的数据访问](https://mp.weixin.qq.com/s/yyT9okzlbb-f7P9yGeQPQQ)| 005
+[图文05-常见的数据运算](https://mp.weixin.qq.com/s/-9aZN6VW8x9Q_SYzz__dSA)|006-008
+[图文06-常见的数学计算](https://mp.weixin.qq.com/s/fN4gc9PyzwN3Y4nyzSgqdw) | 009、010
+[图文07-常见的数据统计](https://mp.weixin.qq.com/s/6YU7OPzH9RI6K1t4FIv1dA) | 011-015
+[图文08-常见的数据筛选](https://mp.weixin.qq.com/s/0sh236_cQ81ECve4tr-Uiw) | 016-028
+[图文09-常见的缺失值处理](https://mp.weixin.qq.com/s/lSF9paVzunMTj8lZ3Yu3pw) | 029-034
 
 **《图解Pandas》的内容框架如下：**
 
@@ -138,12 +151,31 @@ DataFrame 与 Series 之间的关联：
 ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h16ydyg350j21c00hkmzz.jpg)
 
 
+### 缺失值数据填充
+
+可以通过字典的方式，对数据框每列填充不同的常数。
+
+字典的 `key` 值对应数据框的列索引名称。
+
+这里，对于缺失值，a列填充数字11，b列填充数字22，c列填充数字33，动态图演示如下：
+
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5uvwi67ddg20nq0dcu08.gif)
+
+### 缺失值删除
+
+`dropna` 函数有一个参数 `subset` 可以设置，`subset` 参数表示的是其他轴方向对应的索引标签。
+
+设置 `axis=1`，此时，`subset` 里的"a" 指的是行索引标签中的 a 行。这里的操作，表示的是将数据框a行中含有缺失值的数据列进行删除操作。因此，结果中删除了a列和b列。动态图演示如下：
+
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5uw9nykqjg20nq0dcu0x.gif)
 
 ## 03 专题汇总
 
 考虑到《图解Pandas》系列内容在不断更新过程中，大家可以通过下面的专题来找到最新发布的内容。
 
-[![](https://tva1.sinaimg.cn/large/e6c9d24egy1h01f6wflmkj20go05kjrh.jpg)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI2NjY5NzI0NA==&action=getalbum&album_id=2293754972943122444#wechat_redirect)
+[![](https://tva1.sinaimg.cn/large/e6c9d24egy1h0iiejjflzj20go05kdhg.jpg)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI2NjY5NzI0NA==&action=getalbum&album_id=2293754972943122444#wechat_redirect)
+
+<!-- [![](https://tva1.sinaimg.cn/large/e6c9d24egy1h01f6wflmkj20go05kjrh.jpg)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI2NjY5NzI0NA==&action=getalbum&album_id=2293754972943122444#wechat_redirect) -->
 
 同时考虑到，以后如果文章数量较多（比如超过50篇文章），可能在专题中也不好快速的找到所需要的内容，我会以文章汇总的形式，将《图解Pandas》系列的文章进行手动汇总，并形成 `图解Pandas汇总` 的专题，最新的汇总文章，可以点击下面专题，找到最新的文章即可。
 
