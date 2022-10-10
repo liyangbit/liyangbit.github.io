@@ -12,28 +12,6 @@ permalink: "/tutorials-3-graphical-pandas/"
 
 ## 图解Pandas教程
 
-<!-- 大家好，我是阳哥。
-
-有不少同学跟我提过，看看能不能出一系列Pandas数据处理的教程，之前一直也没来得及弄。为了大家能够生动、形象的学习 Pandas，阳哥打算制作一系列 **《图解Pandas》** 的内容，跟大家以动态图片、视频等方式来讲解 Pandas 的基础知识，方便大家快速的掌握这些知识，相信《图解Pandas》会给大家带来一些不一样的视角。
-
-《图解Pandas》的视频内容可以在微信视频号「Python数据之道」观看：
-
-<div align="center">
-    <img src="../../images/QR-shipin-PyDataLab.jpeg" width="40%">
-</div>
-
-**《图解Pandas》系列已发布的图文汇总如下：**
-
-- [《图解Pandas》内容框架介绍](https://mp.weixin.qq.com/s/gh063BUAM90vFhy6ZLaznw)
-- [图文01-数据结构介绍](https://mp.weixin.qq.com/s/H9kJf9zJU7ys6esr0DBhHg)
-- [图文02-创建数据对象](https://mp.weixin.qq.com/s/tH8bc20DvhA7i8HDlWv0uQ)
-- [图文03-读取和存储Excel文件](https://mp.weixin.qq.com/s/fmhnE20HOBCG-AGh6_lrxA)
-- [图文04-常见的数据访问](https://mp.weixin.qq.com/s/yyT9okzlbb-f7P9yGeQPQQ)
- -->
-
-
-
-
 
 大家好，我是阳哥。
 
@@ -43,7 +21,6 @@ permalink: "/tutorials-3-graphical-pandas/"
 
 《图解Pandas》的视频内容一般如下：
 
-<!-- ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h1akk6t223j20u00zd422.jpg) -->
 
 <div align="center">
     <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h1akk6t223j20u00zd422.jpg" width="40%">
@@ -53,13 +30,6 @@ permalink: "/tutorials-3-graphical-pandas/"
 
 ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h1lqf1eql6j20p00dwacb.jpg)
 
-<!-- <div align="center">
-    <img src="../../images/QR-shipin-PyDataLab.jpeg" width="40%">
-</div> -->
-
-<!-- ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h1ajrzuq7gj20u0130q4w.jpg) -->
-
-<!-- ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h1ajvrpcjxj20ry0s1q54.jpg) -->
 
 **《图解Pandas》** 系列，是一个不小的工程，预计将会有超过100个视频，现在来说算是一个期货吧，搞不好就是烂尾工程啦，大家的支持就是我持续分享的动力，嘿嘿~~
 
@@ -69,30 +39,20 @@ permalink: "/tutorials-3-graphical-pandas/"
 
 《图解Pandas》系列已发布的图文链接以及对应的视频编号，汇总如下：
 
-<!-- 图文链接|对应的视频编号
-:-------|:---------:
-[《图解Pandas》内容框架介绍](https://mp.weixin.qq.com/s/gh063BUAM90vFhy6ZLaznw)| -
-[图文01-数据结构介绍](https://mp.weixin.qq.com/s/H9kJf9zJU7ys6esr0DBhHg)|001
-[图文02-创建数据对象](https://mp.weixin.qq.com/s/tH8bc20DvhA7i8HDlWv0uQ)| 002
-[图文03-读取和存储Excel文件](https://mp.weixin.qq.com/s/tH8bc20DvhA7i8HDlWv0uQ)| 003、004
-[图文04-常见的数据访问](https://mp.weixin.qq.com/s/yyT9okzlbb-f7P9yGeQPQQ)| 005
-[图文05-常见的数据运算](https://mp.weixin.qq.com/s/-9aZN6VW8x9Q_SYzz__dSA)|006、007、008
-[图文06-常见的数学计算](https://mp.weixin.qq.com/s/fN4gc9PyzwN3Y4nyzSgqdw)|009、010
-[图文07-常见的数据统计](https://mp.weixin.qq.com/s/6YU7OPzH9RI6K1t4FIv1dA) | 011、012、013、014、015
-[图文08-常见的数据筛选](https://mp.weixin.qq.com/s/0sh236_cQ81ECve4tr-Uiw) | 016 至 028 -->
 
 图文链接|视频号对应编号
 :-------|:---------:
 [《图解Pandas》内容框架介绍](https://mp.weixin.qq.com/s/gh063BUAM90vFhy6ZLaznw)|-
 [图文01-数据结构介绍](https://mp.weixin.qq.com/s/H9kJf9zJU7ys6esr0DBhHg)|001
 [图文02-创建数据对象](https://mp.weixin.qq.com/s/tH8bc20DvhA7i8HDlWv0uQ)| 002
-[图文03-读取和存储Excel文件](https://mp.weixin.qq.com/s/tH8bc20DvhA7i8HDlWv0uQ)| 003、004
+[图文03-读取和存储Excel文件](https://mp.weixin.qq.com/s/tH8bc20DvhA7i8HDlWv0uQ)| 003-004
 [图文04-常见的数据访问](https://mp.weixin.qq.com/s/yyT9okzlbb-f7P9yGeQPQQ)| 005
 [图文05-常见的数据运算](https://mp.weixin.qq.com/s/-9aZN6VW8x9Q_SYzz__dSA)|006-008
-[图文06-常见的数学计算](https://mp.weixin.qq.com/s/fN4gc9PyzwN3Y4nyzSgqdw) | 009、010
+[图文06-常见的数学计算](https://mp.weixin.qq.com/s/fN4gc9PyzwN3Y4nyzSgqdw) | 009-010
 [图文07-常见的数据统计](https://mp.weixin.qq.com/s/6YU7OPzH9RI6K1t4FIv1dA) | 011-015
 [图文08-常见的数据筛选](https://mp.weixin.qq.com/s/0sh236_cQ81ECve4tr-Uiw) | 016-028
 [图文09-常见的缺失值处理](https://mp.weixin.qq.com/s/lSF9paVzunMTj8lZ3Yu3pw) | 029-034
+[图文10-数据合并操作](https://mp.weixin.qq.com/s/jK5xLyCe9Q1Q7AyR8nNc5A) | 035-047
 
 **《图解Pandas》的内容框架如下：**
 
@@ -175,7 +135,6 @@ DataFrame 与 Series 之间的关联：
 
 [![](https://tva1.sinaimg.cn/large/e6c9d24egy1h0iiejjflzj20go05kdhg.jpg)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI2NjY5NzI0NA==&action=getalbum&album_id=2293754972943122444#wechat_redirect)
 
-<!-- [![](https://tva1.sinaimg.cn/large/e6c9d24egy1h01f6wflmkj20go05kjrh.jpg)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI2NjY5NzI0NA==&action=getalbum&album_id=2293754972943122444#wechat_redirect) -->
 
 同时考虑到，以后如果文章数量较多（比如超过50篇文章），可能在专题中也不好快速的找到所需要的内容，我会以文章汇总的形式，将《图解Pandas》系列的文章进行手动汇总，并形成 `图解Pandas汇总` 的专题，最新的汇总文章，可以点击下面专题，找到最新的文章即可。
 
